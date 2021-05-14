@@ -8,21 +8,28 @@ const Contact = function() {
       <h1>Contact</h1>
 
       <p>
-        <button >
-      <a target="_blank" href="https://github.com/pauloconnell">       
-        GitHub:
-        https://github.com/pauloconnell
-      </a> 
-        </button>
-         <button >
-      <a target="_blank" href="www.linkedin.com/in/paul-o-connell-604">       
-        Linked In:
-       www.linkedin.com/in/paul-o-connell-604
-      </a> 
-        </button>
-       
+        <a
+          target="_blank"
+          href="https://github.com/pauloconnell"
+          rel="noopener noreferrer"
+        >
+          GitHub: https://github.com/pauloconnell
+        </a>
+        <br/>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/paul-o-connell-604"
+        >
+          Linked In: www.linkedin.com/in/paul-o-connell-604
+        </a>
       </p>
-      <Link to='/about'>About Me</Link><br/>
+      Email Me:
+       <a href="mailto:p_ollie@hotmail.com?Subject=FromProfile"Target="_top">
+        <button>p_ollie@hotmail.com</button>
+      </a><br/><br/>
+      <Link to="/about">About Me</Link>
+      <br />
       <Link to="/">Profile</Link>
     </div>
   );
