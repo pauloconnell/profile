@@ -1,6 +1,7 @@
 const React = require("react");
 const Link = require("react-router-dom").Link;
 const UnorderedList = require("./UnorderedList");
+const styles = require("../app.css");
 
 const dependenciesArray = [
   "express - middleware for the node server",
@@ -9,7 +10,8 @@ const dependenciesArray = [
   "webpack - for bundling all the javascript",
   "webpack-cli - command line support for webpack",
   "jsx-loader - allows webpack to load jsx files",
-  "react-router-dom - handles routing!"
+  "react-router-dom - handles routing!",
+  "css-loader - allows webpack to load css files"
 ];
 
 const componentsMade = [
@@ -22,7 +24,7 @@ const componentsMade = [
 const HelloWorld = function() {
   return (
     <div>
-      <h1>Comming Soon!</h1>
+      <h2>Full Stack Software Developer</h2>
 
       <Link to="/about">About Me</Link>
       <br />
@@ -30,7 +32,9 @@ const HelloWorld = function() {
       <br />
       <Link to="/">Home</Link>
       <br />
-      <Link to="/FullStack">Full Stack Applications</Link>
+      <h1>See My work:</h1>
+      <Link to="/FullStack">Full Stack Applications</Link><br/>
+      <Link to="/DataVisualization">Data Visualization</Link><br/>
       <br />
       <p>
         This is a profile app using React! It uses only a few dependencies,

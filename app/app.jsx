@@ -10,6 +10,7 @@ const Profile = require('./components/Profile');
 const About = require('./components/About');
 const Contact= require('./components/Contact');
 const FullStack= require('./components/FullStack');
+const DataVisualization= require('./components/DataVisualization');
 
 ReactDOM.render((
   <BrowserRouter>
@@ -19,5 +20,6 @@ ReactDOM.render((
       <Route path="/contact" component={Contact}/>
       <Route path="/fullStack" component={FullStack}/>
       <Route path="/contact" component={Contact}/>
+      <Route path="/dataVisualization" component={DataVisualization}/>
     </div>
   </BrowserRouter>), document.getElementById('main'));
