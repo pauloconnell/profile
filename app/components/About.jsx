@@ -7,7 +7,7 @@ const About = function() {
     <div>
       <h1>About</h1>
 
-      <p>This is a starter react app using react-router-dom to add client-side routes!</p>
+      <p>"Interested in working in any/all parts of the stack where I can write clean code and help build our team and products stronger."</p>
 
       <Link to='/Contact'>Contact Me</Link><br/>
       <Link to='/'>Profile</Link>

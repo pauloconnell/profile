@@ -30,8 +30,8 @@ const FullStack = function() {
       <Link to="/">Profile</Link>
       <br />
 
-      <div class="row containProjects">
-        <div class="col-xs-6 project-tile" class="left">
+      <div class="row container">
+        <div class="col-xs-6 project-tile left">
           <a href="https://messageboard-anon.glitch.me/" target="_blank">
             <h1>
               <strong>Full Stack Message Board Web App</strong>
@@ -50,7 +50,7 @@ const FullStack = function() {
             <br />
           </a>
         </div>
-        <div class="col-xs-6 project-tile" class="right">
+        <div class="col-xs-6 project-tile right">
           <a href="https://exercisetrackerapi.glitch.me" target="_blank">
             <h1>
               <strong>
@@ -72,7 +72,7 @@ const FullStack = function() {
       </div>
 
       <div class="row containProjects">
-        <div class="col-xs-6 project-tile" class="left">
+        <div class="col-xs-6 project-tile left">
           <a
             href="https://QA-5-american-british-english-translator.pauloconnell.repl.co"
             target="_blank"
@@ -94,7 +94,7 @@ const FullStack = function() {
             <br />
           </a>
         </div>
-        <div class="col-xs-6 project-tile" class="right">
+        <div class="col-xs-6 project-tile right">
           <a href="https://authentication-pug.glitch.me/" target="_blank">
             <h1>
               <strong>
@@ -116,7 +116,7 @@ const FullStack = function() {
       </div>
 
       <div class="row containProjects">
-        <div class="col-xs-6 project-tile" class="left">
+        <div class="col-xs-6 project-tile left">
           <a
             href="https://qa-4-suduko-solver.pauloconnell.repl.co/"
             target="_blank"
@@ -138,7 +138,7 @@ const FullStack = function() {
             <br />
           </a>
         </div>
-        <div class="col-xs-6 project-tile" class="right">
+        <div class="col-xs-6 project-tile right">
           <a href="https://stock-price-checker-paul.glitch.me/" target="_blank">
             <h1>
               <strong>

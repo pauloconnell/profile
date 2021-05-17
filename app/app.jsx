@@ -6,10 +6,12 @@ const hashHistory = require('react-router-dom').hashHistory;
 
 
 /* Import Components */
-const Profile = require('./components/Profile');
-const About = require('./components/About');
-const Contact= require('./components/Contact');
-const FullStack= require('./components/FullStack');
+const Profile =   require('./components/Profile');
+const About =     require('./components/About');
+const Contact=    require('./components/Contact');
+const FullStack=  require('./components/FullStack');
+const DataVisualization= require('./components/DataVisualization');
+const WebApps= require('./components/WebApps');
 
 ReactDOM.render((
   <BrowserRouter>
@@ -19,5 +21,7 @@ ReactDOM.render((
       <Route path="/contact" component={Contact}/>
       <Route path="/fullStack" component={FullStack}/>
       <Route path="/contact" component={Contact}/>
+      <Route path="/dataVisualization" component={DataVisualization}/>
+      <Route path="/WebApps" component={WebApps} />
     </div>
   </BrowserRouter>), document.getElementById('main'));
