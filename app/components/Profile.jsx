@@ -24,31 +24,33 @@ const componentsMade = [
 const HelloWorld = function() {
   return (
     <div>
-      <h2>Full Stack Software Developer</h2>
+      <center>
+        <h1>Paul O'Connell</h1>
+        <h2>Full Stack Software Developer</h2>
+        <br />
+        <Link to="/about">About Me</Link>
+        <br />
+        <Link to="/Contact">Contact Me</Link>
+        <br />
+        <Link to="/">Home</Link>
+        <br />
+        <h1>See My work:</h1>
+        <Link to="/FullStack">Full Stack Applications</Link>
+        <br />
+        <Link to="/DataVisualization">Data Visualization</Link>
+        <br />
+        <Link to="/WebApps">Web Applications</Link>
+        <br />
+        <br />
+        <p>
+          This is a profile app built by me using React! It uses only a few
+          dependencies, with React including routing:
+        </p>
 
-      <Link to="/about">About Me</Link>
-      <br />
-      <Link to="/Contact">Contact Me</Link>
-      <br />
-      <Link to="/">Home</Link>
-      <br />
-      <h1>See My work:</h1>
-      <Link to="/FullStack">Full Stack Applications</Link><br/>
-      <Link to="/DataVisualization">Data Visualization</Link><br/>
-      <br />
-      <p>
-        This is a profile app using React! It uses only a few dependencies,
-        works with React including routing:
-      </p>
+        <UnorderedList items={dependenciesArray} />
 
-      <UnorderedList items={dependenciesArray} />
-
-      <p>
-        Look in <code>app/components/</code> for {componentsMade.length} example
-        components:
-      </p>
-
-      <UnorderedList items={componentsMade} />
+        <p></p>
+      </center>
     </div>
   );
 };
