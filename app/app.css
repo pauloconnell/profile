@@ -7,10 +7,6 @@ body {
   background-size: cover;
 }
 
-div {
-  width: 100%;
-}
-
 .container {
   font-size: 0.8em;
   min-height: 300px;
@@ -18,7 +14,7 @@ div {
   background: LightGray;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 50px auto 1fr auto;
+  grid-template-rows: auto;
   grid-gap: 10px;
   grid-template-areas:
     "header"
@@ -41,18 +37,37 @@ div {
   grid-area: footer;
 }
 
-.text {
-  color: black;
+.link {
+  font-color: blue;
+  font-size: 1.3em;
+  background: rgba(128, 128, 128, 0.5);
+}
 
+.link:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.text {
+  
   padding: 8px 12px;
   position: static;
   text-align: center;
   text-weight: bold;
-  width: 100%;
+  width: 98%;
   text-shadow: 2px 2px white;
 }
+
 .readable {
-  background: grey;
+  background: rgba(128, 128, 128, 0.5);
+  width: 50%;
+}
+.readable:hover {
+  background: rgba(128, 128, 128, 0.9);
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
 }
 
 #name {
@@ -65,19 +80,17 @@ div {
     grid-template-columns: auto 1fr;
     grid-template-rows: auto 1fr auto;
     grid-template-areas:
-      "advert header"
+      "header"
       "advert content"
-      "advert footer";
+      "footer";
   }
 }
 
 @media (min-width: 400px) {
   .container {
     grid-template-areas:
-      /* Only change code below this line */
       "advert header"
       "advert content"
       "advert footer";
-    /* Only change code above this line */
   }
 }

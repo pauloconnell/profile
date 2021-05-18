@@ -2,34 +2,25 @@ const React = require("react");
 const Link = require("react-router-dom").Link;
 const UnorderedList = require("./UnorderedList");
 
-const dependenciesArray = [
-  "express - middleware for the node server",
-  "react - for generating the views of the app",
-  "react-dom - powers the rendering of elements to the DOM, typically paired with React",
-  "webpack - for bundling all the javascript",
-  "webpack-cli - command line support for webpack",
-  "jsx-loader - allows webpack to load jsx files",
-  "react-router-dom - handles routing!"
-];
-
-const componentsMade = [
-  "Profile- which is the view you are seeing now",
-  'UnorderedList - which takes an array of "items" and returns a <ul> element with <li>, elements of each of those items within it',
-  'About - text content to show when "about" route is accessed'
-];
-
 /* the main page for the index route of this app */
 const WebApps = function() {
   return (
     <div>
       <h1>Web Applications</h1>
-      <Link to="/about">About Me</Link>
-      <br />
-      <Link to="/Contact">Contact Me</Link>
-      <br />
-      <Link to="/">Profile</Link>
-      <br />
-
+      <div className="row">
+        <Link className="col link" to="/about">
+          About Me
+        </Link>
+        <br />
+        <Link className="col link" to="/Contact">
+          Contact Me
+        </Link>
+        <br />
+        <Link className="col link" to="/">
+          Profile
+        </Link>
+        <br />
+      </div>
       <div class="row sectionTitle">Web Applications</div>
       <br />
       <div class="row containProjects">

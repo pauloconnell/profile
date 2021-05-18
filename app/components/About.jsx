@@ -1,20 +1,68 @@
-const React = require('react');
-const Link = require('react-router-dom').Link
+const React = require("react");
+const Link = require("react-router-dom").Link;
 
 /* the main page for the about route of this app */
 const About = function() {
   return (
     <div>
-      <h1 id="name">Paul O'Connell</h1>
+      <center>
+        <h1 className="text" id="name">
+          Paul O'Connell
+        </h1>
+        <div className="row">
+          <Link className="col link" to="/about">
+            About Me
+          </Link>
+          <br />
+          <Link className="col link" to="/contact">
+            Contact Me
+          </Link>
+          <br />
+          <Link className="col link" to="/">
+            Home
+          </Link>
+        </div>
         <h2>Full Stack Software Developer</h2>
-      <h1>About</h1>
 
-      <p class="text">"Interested in working in any/all parts of the stack where I can write clean code and help build our team and products stronger."</p>
+        <br />
 
-      <Link to='/Contact'>Contact Me</Link><br/>
-      <Link to='/'>Profile</Link>
+        <p className="readable">
+          <b>
+            <big>
+              Interested in working in any/all parts of the stack where I can
+              write clean code and help build our team and products stronger."
+            </big>
+          </b>
+        </p>
+        <br />
+        <br />
+        <br />
+
+        <h2 className='readable'>Certified Full Stack Software Developer</h2>
+
+        <li>
+          <h4 className="readable">
+            Responsive Web Design Certification <br />
+            <br />
+            JavaScript Algorithms and Data Structures Certification
+            <br />
+            <br />
+            Front End Development Libraries Certification
+            <br />
+            <br />
+            Data Visualization Certification
+            <br />
+            <br />
+            APIs and MicroServices Certification
+            <br />
+            Quality Assurance Certification
+            <br /> <br />
+            Full Stack Certification: 1800 hours <br />
+          </h4>
+        </li>
+      </center>
     </div>
   );
-}
+};
 
 module.exports = About;

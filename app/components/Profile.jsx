@@ -43,36 +43,57 @@ class Profile extends React.Component {
     return (
       <div>
         <center>
-          <h1 class="text" id="name">
+          <h1 className="text" id="name">
             Paul O'Connell
           </h1>
+          <div className="row">
+            <Link className="col link" to="/about">
+              About Me
+            </Link>
+
+            <Link className="col link" to="/Contact">
+              Contact Me
+            </Link>
+
+            <Link className="col link" to="/">
+              Home
+            </Link>
+          </div>
           <h2>Full Stack Software Developer</h2>
           <br />
-          <Link to="/about">About Me</Link>
+
           <br />
-          <Link to="/Contact">Contact Me</Link>
+          <h1 className="readable text">See My work:</h1>
+          <Link className="link" to="/fullStack">
+            Full Stack Applications
+          </Link>
           <br />
-          <Link to="/">Home</Link>
+          <Link className="link" to="/DataVisualization">
+            Data Visualization
+          </Link>
           <br />
-          <h1 class="text">See My work:</h1>
-          <Link to="/FullStack">Full Stack Applications</Link>
-          <br />
-          <Link to="/DataVisualization">Data Visualization</Link>
-          <br />
-          <Link to="/WebApps">Web Applications</Link>
+          <Link className="link" to="/WebApps">
+            Web Applications
+          </Link>
           <br />
           <br />
-          <p class="text">
-            <button onClick={e => this.handleClick(e)}>about this app</button>
+          <p>
+            <button
+              type="button"
+              className="btn btn-success"
+              onClick={e => this.handleClick(e)}
+            >
+              about this app
+            </button>
 
             {this.state.showThis ? (
-              <div class="readable">
+              <div className="readable">
                 This is a profile app built by me using React! It uses only a
                 few dependencies, with React including routing:
                 <UnorderedList items={dependenciesArray} />
               </div>
             ) : (
-              <div>
+              <div className="text">
                 <br /> `Click button to show details`
               </div>
             )}
