@@ -1,12 +1,96 @@
 body {
   font-family: "Goblin One";
   background-image: url("https://res.cloudinary.com/pollie/image/upload/v1621034051/Million_Ridge_tkchwl.png");
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.left {
+.container {
+  font-size: 0.8em;
+  min-height: 300px;
+  width: 100%;
+  background: LightGray;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  grid-template-areas:
+    "header"
+    "advert"
+    "content"
+    "footer";
+}
+.item2 {
+  background: LightSalmon;
+  grid-area: advert;
+}
+
+.item3 {
+  background: PaleTurquoise;
+  grid-area: content;
+}
+
+.item4 {
+  background: lightpink;
+  grid-area: footer;
+}
+
+.link {
+  font-color: blue;
+  font-size: 1.3em;
+  background: rgba(128, 128, 128, 0.5);
+}
+
+.link:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.text {
   
+  padding: 8px 12px;
+  position: static;
+  text-align: center;
+  text-weight: bold;
+  width: 98%;
+  text-shadow: 2px 2px white;
 }
 
-div {
-  width: 80%;
+.readable {
+  background: rgba(128, 128, 128, 0.5);
+  width: 50%;
+}
+.readable:hover {
+  background: rgba(128, 128, 128, 0.9);
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+#name {
+  background: grey;
+  grid-area: header;
+}
+
+@media (min-width: 300px) {
+  .container {
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+      "header"
+      "advert content"
+      "footer";
+  }
+}
+
+@media (min-width: 400px) {
+  .container {
+    grid-template-areas:
+      "advert header"
+      "advert content"
+      "advert footer";
+  }
 }
