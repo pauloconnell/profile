@@ -22,6 +22,7 @@ const componentsMade = [
 const DataVisualization = function() {
   return (
     <div>
+       <h1 id="name">Paul O'Connell</h1>
       <h1>Data Visualizations using D3</h1>
       <Link to="/about">About Me</Link>
       <br />

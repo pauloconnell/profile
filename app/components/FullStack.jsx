@@ -22,6 +22,7 @@ const componentsMade = [
 const FullStack = function() {
   return (
     <div>
+       <h1 id="name">Paul O'Connell</h1>
       <h1>Full Stack Applications</h1>
       <Link to="/about">About Me</Link>
       <br />
@@ -70,7 +71,7 @@ const FullStack = function() {
           <br />
         </div>
       </div>
-
+      <br />
       <div class="row containProjects">
         <div class="col-xs-6 project-tile left">
           <a
@@ -86,7 +87,7 @@ const FullStack = function() {
             <br />
             <img
               src="https://res.cloudinary.com/pollie/image/upload/v1610564580/translate_yjhf3p.png"
-              alt="D3 Data Visualization"
+              alt="translator app image"
             />
             <br />
             <br />
@@ -94,6 +95,7 @@ const FullStack = function() {
             <br />
           </a>
         </div>
+        <br />
         <div class="col-xs-6 project-tile right">
           <a href="https://authentication-pug.glitch.me/" target="_blank">
             <h1>
@@ -114,7 +116,7 @@ const FullStack = function() {
           <br />
         </div>
       </div>
-
+      <br />
       <div class="row containProjects">
         <div class="col-xs-6 project-tile left">
           <a
@@ -161,7 +163,6 @@ const FullStack = function() {
       </div>
 
       <p></p>
-
     </div>
   );
 };

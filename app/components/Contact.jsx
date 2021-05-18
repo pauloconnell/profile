@@ -5,8 +5,10 @@ const Link = require("react-router-dom").Link;
 const Contact = function() {
   return (
     <div>
+      <h1 id="name">Paul O'Connell</h1>
+      <h2>Full Stack Software Developer</h2>
+      <br />
       <h1>Contact</h1>
-
       <p>
         <a
           target="_blank"
@@ -15,7 +17,7 @@ const Contact = function() {
         >
           GitHub: https://github.com/pauloconnell
         </a>
-        <br/>
+        <br />
         <a
           target="_blank"
           rel="noopener noreferrer"
@@ -25,9 +27,11 @@ const Contact = function() {
         </a>
       </p>
       Email Me:
-       <a href="mailto:p_ollie@hotmail.com?Subject=FromProfile"Target="_top">
+      <a href="mailto:p_ollie@hotmail.com?Subject=FromProfile" Target="_top">
         <button>p_ollie@hotmail.com</button>
-      </a><br/><br/>
+      </a>
+      <br />
+      <br />
       <Link to="/about">About Me</Link>
       <br />
       <Link to="/">Profile</Link>

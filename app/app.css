@@ -1,12 +1,83 @@
 body {
   font-family: "Goblin One";
   background-image: url("https://res.cloudinary.com/pollie/image/upload/v1621034051/Million_Ridge_tkchwl.png");
-}
-
-.left {
-  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 div {
-  width: 80%;
+  width: 100%;
+}
+
+.container {
+  font-size: 0.8em;
+  min-height: 300px;
+  width: 100%;
+  background: LightGray;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px auto 1fr auto;
+  grid-gap: 10px;
+  grid-template-areas:
+    "header"
+    "advert"
+    "content"
+    "footer";
+}
+.item2 {
+  background: LightSalmon;
+  grid-area: advert;
+}
+
+.item3 {
+  background: PaleTurquoise;
+  grid-area: content;
+}
+
+.item4 {
+  background: lightpink;
+  grid-area: footer;
+}
+
+.text {
+  color: black;
+
+  padding: 8px 12px;
+  position: static;
+  text-align: center;
+  text-weight: bold;
+  width: 100%;
+  text-shadow: 2px 2px white;
+}
+.readable {
+  background: grey;
+}
+
+#name {
+  background: grey;
+  grid-area: header;
+}
+
+@media (min-width: 300px) {
+  .container {
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+      "advert header"
+      "advert content"
+      "advert footer";
+  }
+}
+
+@media (min-width: 400px) {
+  .container {
+    grid-template-areas:
+      /* Only change code below this line */
+      "advert header"
+      "advert content"
+      "advert footer";
+    /* Only change code above this line */
+  }
 }
