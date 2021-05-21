@@ -47,15 +47,15 @@ class Profile extends React.Component {
             Paul O'Connell
           </h1>
           <div className="row">
-            <Link className="col link" to="/about">
+            <Link className="col link border" to="/about">
               About Me
             </Link>
 
-            <Link className="col link" to="/Contact">
+            <Link className="col link border" to="/Contact">
               Contact Me
             </Link>
 
-            <Link className="col link" to="/">
+            <Link className="col link border" to="/">
               Home
             </Link>
           </div>
@@ -64,17 +64,24 @@ class Profile extends React.Component {
 
           <br />
           <h1 className="readable text">See My work:</h1>
-          <Link className="link" to="/fullStack">
-            Full Stack Applications
-          </Link>
-          <br />
-          <Link className="link" to="/DataVisualization">
-            Data Visualization
-          </Link>
-          <br />
-          <Link className="link" to="/WebApps">
-            Web Applications
-          </Link>
+          <div className="row">
+            <span className="col-sm-4" id="fullStack">
+              <Link className="link" to="/fullStack">
+                <span class="work" >Full Stack Applications</span>
+              </Link>
+            </span>
+            <span className="col-sm-4" id="d3">
+              <Link className="link" to="/DataVisualization">
+                <span class="work" >Data Visualization</span>
+              </Link>
+            </span>
+
+            <span className="col-sm-4" id="webApps">
+              <Link className="link" to="/WebApps">
+                <span class="work" >Web Applications</span>
+              </Link>
+            </span>
+          </div>
           <br />
           <br />
           <p>

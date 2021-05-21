@@ -8,15 +8,15 @@ const WebApps = function() {
     <div>
       <h1>Web Applications</h1>
       <div className="row">
-        <Link className="col link" to="/about">
+        <Link className="col link border" to="/about">
           About Me
         </Link>
         <br />
-        <Link className="col link" to="/Contact">
+        <Link className="col link border" to="/Contact">
           Contact Me
         </Link>
         <br />
-        <Link className="col link" to="/">
+        <Link className="col link border" to="/">
           Profile
         </Link>
         <br />
