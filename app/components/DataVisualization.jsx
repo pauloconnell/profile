@@ -11,15 +11,15 @@ const DataVisualization = function() {
           Paul O'Connell
         </h1>
         <div className="row">
-          <Link className="col link" to="/about">
+          <Link className="col link border" to="/about">
             About Me
           </Link>
           <br />
-          <Link className="col link" to="/contact">
+          <Link className="col link border" to="/contact">
             Contact Me
           </Link>
           <br />
-          <Link className="col link" to="/">
+          <Link className="col link border" to="/">
             Home
           </Link>
         </div>
