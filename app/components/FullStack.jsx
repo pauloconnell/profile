@@ -24,6 +24,10 @@ const FullStack = function() {
           </Link>
         </div>
         <br />
+        <h2>Full Stack MERN Applications</h2> Deployed in the cloud using:
+        <br />
+        <h3>React, Express, MongoDB, Mongoose, Node.js, APIs, MicroServices</h3>
+        <h4>HTML, JavaScript, Css, Bootstrap, jQuerry, D3, GitHub</h4>
         <div>
           <div className="row">
             <div className="col-xs-6 responsive border">
@@ -32,7 +36,7 @@ const FullStack = function() {
                   <strong>Full Stack Message Board Web App</strong>
                 </h4>
                 <br />
-                
+
                 <br />
                 <img
                   className="responsive"
@@ -70,8 +74,8 @@ const FullStack = function() {
                 <h3>
                   <strong>Full Stack Translate Web App</strong>
                 </h3>
-                <br/>
-                <br/>
+                <br />
+                <br />
                 <img
                   className="responsive"
                   src="https://res.cloudinary.com/pollie/image/upload/v1610564580/translate_yjhf3p.png"
