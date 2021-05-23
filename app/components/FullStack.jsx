@@ -1,7 +1,6 @@
 const React = require("react");
 const Link = require("react-router-dom").Link;
 const UnorderedList = require("./UnorderedList");
-
 /* the main page for the index route of this app */
 const FullStack = function() {
   return (
@@ -20,23 +19,26 @@ const FullStack = function() {
           </Link>
           <br />
           <Link className="col link border" to="/">
-            Profile
+            Home
           </Link>
         </div>
+        <h2>Full Stack Software Developer</h2>
+        <br />
+        <br />
         <br />
         <h2>Full Stack MERN Applications</h2> Deployed in the cloud using:
         <br />
         <h3>React, Express, MongoDB, Mongoose, Node.js, APIs, MicroServices</h3>
-        <h4>HTML, JavaScript, Css, Bootstrap, jQuerry, D3, GitHub</h4>
+        <h4>HTML, JavaScript, Css, Bootstrap, jQuerry, GitHub</h4>
         <div>
+          <br />
+          <br />
           <div className="row">
-            <div className="col-xs-6 responsive border">
+            <div className="col-xs-6 responsive border text container">
               <a href="https://messageboard-anon.glitch.me/" target="_blank">
                 <h4>
                   <strong>Full Stack Message Board Web App</strong>
                 </h4>
-                <br />
-
                 <br />
                 <img
                   className="responsive"
@@ -46,7 +48,7 @@ const FullStack = function() {
                 <br />
               </a>
             </div>
-            <div className="col-xs-6 responsive border">
+            <div className="col-xs-6 responsive border text container">
               <a href="https://exercisetrackerapi.glitch.me" target="_blank">
                 <h4>
                   <strong>
@@ -66,7 +68,7 @@ const FullStack = function() {
           </div>
           <br />
           <div className="row">
-            <div class="col-xs-6 responsive border">
+            <div class="col-xs-6 responsive border text container">
               <a
                 href="https://QA-5-american-british-english-translator.pauloconnell.repl.co"
                 target="_blank"
@@ -85,7 +87,7 @@ const FullStack = function() {
               </a>
             </div>
 
-            <div className="col-xs-6 responsive border">
+            <div className="col-xs-6 responsive border text container">
               <a href="https://authentication-pug.glitch.me/" target="_blank">
                 <h3>
                   <strong>
@@ -105,7 +107,7 @@ const FullStack = function() {
           </div>
           <br />
           <div className="row">
-            <div className="col-xs-6 responsive border ">
+            <div className="col-xs-6 responsive border text container">
               <a
                 href="https://qa-4-suduko-solver.pauloconnell.repl.co/"
                 target="_blank"
@@ -123,7 +125,7 @@ const FullStack = function() {
                 <br />
               </a>
             </div>
-            <div className="col-xs-6 responsive border">
+            <div className="col-xs-6 responsive border text container">
               <a
                 href="https://stock-price-checker-paul.glitch.me/"
                 target="_blank"
