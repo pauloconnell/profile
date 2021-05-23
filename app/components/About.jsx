@@ -18,9 +18,11 @@ const About = function() {
             Contact Me
           </Link>
           <br />
+        
           <Link className="col link border" to="/">
             Home
           </Link>
+        
         </div>
         <h2>Full Stack Software Developer</h2>
 
