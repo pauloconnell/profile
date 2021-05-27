@@ -1,10 +1,12 @@
 body {
   font-family: "Goblin One";
+  background-color: SkyLightBlue;
   background-image: url("https://res.cloudinary.com/pollie/image/upload/v1621034051/Million_Ridge_tkchwl.png");
   /* Center and scale the image nicely */
   background-position: center top;
   background-repeat: no-repeat;
-  background-size: stretch;
+  background-attachment: fixed;
+  background-size: cover;
   font-size: 16px;
 }
 
@@ -14,34 +16,13 @@ body {
 }
 
 .container {
-  font-size: 0.8em;
   min-height: 300px;
   width: 100%;
-  background: LightGray;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
   grid-gap: 10px;
   grid-template-areas:
-    "header"
-    "content"
-    "footer";
-}
-
-.fullStack {
-  background: LightSalmon;
-  grid-area: header;
-}
-
-.d3 {
-  background: PaleTurquoise;
-  grid-area: content;
-}
-
-.webApps {
-  background: lightpink;
-  font-weight: bold;
-  grid-area: footer;
+    "one"
+    "two";
 }
 
 .link {
@@ -57,6 +38,16 @@ body {
 .link:hover {
   background: rgba(255, 255, 255, 0.5);
   font-size: 1.2em;
+}
+
+.pos-one {
+  background: rgba(255, 255, 255, 0.5);
+  grid-area: one;
+}
+
+.pos-two {
+  background: rgba(255, 255, 255, 0.5);
+  grid-area: two;
 }
 
 .text {
@@ -80,48 +71,84 @@ body {
   height: auto;
 }
 
-#name {
-  background: grey;
+#d3 {
+  background: rgba(76, 175, 80, 0.3);
+  grid-area: content;
+}
+
+#fullStack {
+  background: rgba(76, 175, 80, 0.3);
   grid-area: header;
 }
 
-@media (min-width: 300px) {
-  .container {
-    grid-gap: 5px;
+#name {
+  background: grey;
+}
 
+#webApps {
+  background: rgba(76, 175, 80, 0.3);
+  font-weight: bold;
+  grid-area: footer;
+}
+
+@media (max-width: 600px) {
+  .grid {
     grid-template-areas:
       "header"
       "content"
       "footer";
   }
-}
-
-@media (min-width: 400px) {
-  .link{
+  .link {
     font-size: 16px;
   }
-  .container {
-    grid-gap: 8px;
+  .link:hover {
+    background: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 600px) {
+  .grid {
+    grid-gap: 15px;
     grid-template-areas:
       "header"
       "content"
       "footer";
   }
+  .link {
+    font-size: 20px;
+  }
+  .link:hover {
+    background: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+  }
 }
-@media (min-width: 900px) {
+@media (min-width: 768px) {
   .container {
+    grid-template-areas: "one two";
+  }
+  .grid {
     grid-template-areas: "header content footer";
   }
-  .work {
-    font-size: 25px;
+
+  .link {
+    font-size: 30px;
+  }
+  .link:hover {
+    background: rgba(255, 255, 255, 0.5);
+    font-size: 30px;
   }
 }
 
-@media (min-width: 1200px) {
-  .container {
+@media (min-width: 992px) {
+  .grid {
     grid-template-areas: "header content footer";
   }
-  .work {
-    font-size: 29px;
+  .link {
+    font-size: 40px;
+  }
+  .link:hover {
+    background: rgba(255, 255, 255, 0.5);
+    font-size: 40px;
   }
 }

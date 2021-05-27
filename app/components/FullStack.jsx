@@ -28,13 +28,17 @@ const FullStack = function() {
         <br />
         <h2>Full Stack MERN Applications</h2> Deployed in the cloud using:
         <br />
-        <h3>React, Express, MongoDB, Mongoose, Node.js, APIs, MicroServices</h3>
-        <h4>HTML, JavaScript, Css, Bootstrap, jQuerry, GitHub</h4>
+        <h3 class="readable">
+          React, Express, MongoDB, Mongoose, Node.js, APIs, MicroServices
+        </h3>
+        <h4 class="readable">
+          HTML, JavaScript, Css, Bootstrap, jQuerry, GitHub
+        </h4>
         <div>
           <br />
           <br />
-          <div className="row">
-            <div className="col-xs-6 responsive border text container">
+          <div className="row container">
+            <div className="responsive border text pos-one">
               <a href="https://messageboard-anon.glitch.me/" target="_blank">
                 <h4>
                   <strong>Full Stack Message Board Web App</strong>
@@ -48,7 +52,7 @@ const FullStack = function() {
                 <br />
               </a>
             </div>
-            <div className="col-xs-6 responsive border text container">
+            <div className="responsive border text pos-two">
               <a href="https://exercisetrackerapi.glitch.me" target="_blank">
                 <h4>
                   <strong>
@@ -67,8 +71,8 @@ const FullStack = function() {
             </div>
           </div>
           <br />
-          <div className="row">
-            <div class="col-xs-6 responsive border text container">
+          <div className="row container">
+            <div class="responsive border text pos-one">
               <a
                 href="https://QA-5-american-british-english-translator.pauloconnell.repl.co"
                 target="_blank"
@@ -87,7 +91,7 @@ const FullStack = function() {
               </a>
             </div>
 
-            <div className="col-xs-6 responsive border text container">
+            <div className="responsive border text pos-two">
               <a href="https://authentication-pug.glitch.me/" target="_blank">
                 <h3>
                   <strong>
@@ -106,8 +110,8 @@ const FullStack = function() {
             </div>
           </div>
           <br />
-          <div className="row">
-            <div className="col-xs-6 responsive border text container">
+          <div className="row container">
+            <div className="responsive border text pos-one">
               <a
                 href="https://qa-4-suduko-solver.pauloconnell.repl.co/"
                 target="_blank"
@@ -125,7 +129,7 @@ const FullStack = function() {
                 <br />
               </a>
             </div>
-            <div className="col-xs-6 responsive border text container">
+            <div className="responsive border text pos-two">
               <a
                 href="https://stock-price-checker-paul.glitch.me/"
                 target="_blank"

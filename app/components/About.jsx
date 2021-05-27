@@ -9,7 +9,7 @@ const About = function() {
         <h1 className="text" id="name">
           Paul O'Connell
         </h1>
-        <div className="row ">
+        <div className="row">
           <Link className="col link border" to="/about">
             About Me
           </Link>
@@ -18,16 +18,12 @@ const About = function() {
             Contact Me
           </Link>
           <br />
-        
           <Link className="col link border" to="/">
             Home
           </Link>
-        
         </div>
         <h2>Full Stack Software Developer</h2>
-
         <br />
-
         <p className="readable">
           <b>
             <big>
