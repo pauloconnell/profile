@@ -24,46 +24,44 @@ const DataVisualization = function() {
         </div>
         <h2>Full Stack Software Developer</h2>
         <br />
-
+        <div className="title readable">
+          API driven data displayed in browser using D3 library on SVG canvas
+        </div>
+        <br />
         <br />
 
-        <div class="resposive">
-          <a
-            href="https://d3-challenge-4.pauloconnell.repl.co/"
-            target="_blank"
-          >
-            <h4>
-              <strong>Data Visualization with D3</strong>
-            </h4>
+        <a href="https://d3-challenge-4.pauloconnell.repl.co/" target="_blank">
+          <div className="link border title">
+            <strong>Data Visualization Population stats</strong>
+
             <img
               class="responsive"
               src="https://res.cloudinary.com/pollie/image/upload/v1598897252/d3_US_Education_cq6fpz.png"
               alt="D3 Data Visualization"
             />
-            <br />
-            <br />
-            <br />
-            <br />
-          </a>
-        </div>
+          </div>
+        </a>
+        <br />
+        <br />
+        <br />
+        <br />
 
-        <div class="responsive">
-          <a href="https://d3-Challenge-3.pauloconnell.repl.co" target="_blank">
-            <h4>
-              <strong>Data Visualization with D3</strong>
-            </h4>
+        <a href="https://d3-Challenge-3.pauloconnell.repl.co" target="_blank">
+          <div className="title link border">
+            <strong>Data Visualization Global Temperature History </strong>
+
             <br />
             <img
               class="responsive"
               src="https://res.cloudinary.com/pollie/image/upload/v1598905005/d3_global_warming_250years_reknwq.png"
               alt="D3 Data Visualization"
             />
-            <br />
-            <br />
-            <br />
-            <br />
-          </a>
-        </div>
+          </div>
+        </a>
+        <br />
+        <br />
+        <br />
+        <br />
 
         <p></p>
       </center>
