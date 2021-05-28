@@ -24,7 +24,7 @@ const Contact = function() {
         </div>
         <h2>Full Stack Software Developer</h2>
         <br />
-        <h1>Contact</h1>
+        <div className="title">Contact</div>
         <p>
           <a
             target="_blank"

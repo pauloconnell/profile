@@ -36,7 +36,9 @@ const About = function() {
         <br />
         <br />
 
-        <h2 className='readable'>Certified Full Stack Software Developer</h2>
+        <div className="title readable">
+          Certified Full Stack Software Developer
+        </div>
 
         <li>
           <h4 className="readable">

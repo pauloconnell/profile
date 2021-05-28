@@ -17,12 +17,20 @@ body {
 
 .container {
   min-height: 300px;
-  width: 100%;
   display: grid;
   grid-gap: 10px;
   grid-template-areas:
-    "one"
-    "two";
+    "left"
+    "right";
+}
+
+.grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas:
+    "top"
+    "content"
+    "bottom";
 }
 
 .link {
@@ -37,17 +45,16 @@ body {
 
 .link:hover {
   background: rgba(255, 255, 255, 0.5);
-  font-size: 1.2em;
 }
 
 .pos-one {
   background: rgba(255, 255, 255, 0.5);
-  grid-area: one;
+  grid-area: left;
 }
 
 .pos-two {
   background: rgba(255, 255, 255, 0.5);
-  grid-area: two;
+  grid-area: right;
 }
 
 .text {
@@ -58,9 +65,13 @@ body {
   text-shadow: 2px 2px white;
 }
 
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .readable {
   background: rgba(128, 128, 128, 0.5);
-  width: inherit;
 }
 .readable:hover {
   background: rgba(128, 128, 128, 0.9);
@@ -78,7 +89,7 @@ body {
 
 #fullStack {
   background: rgba(76, 175, 80, 0.3);
-  grid-area: header;
+  grid-area: top;
 }
 
 #name {
@@ -88,47 +99,41 @@ body {
 #webApps {
   background: rgba(76, 175, 80, 0.3);
   font-weight: bold;
-  grid-area: footer;
+  grid-area: bottom;
 }
 
 @media (max-width: 600px) {
-  .grid {
-    grid-template-areas:
-      "header"
-      "content"
-      "footer";
-  }
   .link {
-    font-size: 16px;
+    font-size: 20px;
   }
   .link:hover {
     background: rgba(255, 255, 255, 0.5);
-    font-size: 16px;
   }
 }
 
 @media (min-width: 600px) {
   .grid {
-    grid-gap: 15px;
+    grid-gap: 10px;
     grid-template-areas:
-      "header"
+      "top"
       "content"
-      "footer";
+      "bottom";
   }
   .link {
     font-size: 20px;
   }
   .link:hover {
     background: rgba(255, 255, 255, 0.5);
-    font-size: 20px;
   }
 }
 @media (min-width: 768px) {
   .container {
-    grid-template-areas: "one two";
+    grid-template-columns: 50% 50%;
+  
   }
   .grid {
-    grid-template-areas: "header content footer";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "top content bottom";
   }
 
   .link {
@@ -136,19 +141,17 @@ body {
   }
   .link:hover {
     background: rgba(255, 255, 255, 0.5);
-    font-size: 30px;
   }
 }
 
 @media (min-width: 992px) {
   .grid {
-    grid-template-areas: "header content footer";
+    grid-template-areas: "top content bottom";
   }
   .link {
     font-size: 40px;
   }
   .link:hover {
     background: rgba(255, 255, 255, 0.5);
-    font-size: 40px;
   }
 }

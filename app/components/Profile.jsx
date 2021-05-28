@@ -62,44 +62,60 @@ class Profile extends React.Component {
           <br />
 
           <br />
-          <h1 className="readable text">See My work:</h1>
+          <span className="title readable text">See My work:</span>
+          <br />
+          <br />
           <div className="grid">
-            <span className="col link" id="fullStack">
-              <Link className="link" to="/fullStack">
-                <span class="work">Full Stack Applications</span>
-              </Link>
-            </span>
-
-            <Link className="col link" id="d3" to="/DataVisualization">
-              <span class="work">Data Visualization</span>
+            <Link
+              style={{ display: "inline-block" }}
+              className="link"
+              id="fullStack"
+              to="/fullStack"
+            >
+              <span>Full Stack Applications</span>
             </Link>
 
-            <Link className="col link" id="webApps" to="/WebApps">
-              <span class="work">Web Applications</span>
+            <Link
+              style={{ display: "inline-block" }}
+              className="link"
+              id="d3"
+              to="/DataVisualization"
+            >
+              <span>Data Visualization</span>
+            </Link>
+
+            <Link
+              style={{ display: "inline-block" }}
+              className="link"
+              id="webApps"
+              to="/WebApps"
+            >
+              <span>Web Applications</span>
             </Link>
           </div>
           <br />
           <br />
           <p>
-            <button
-              type="button"
-              className="btn btn-success"
-              onClick={e => this.handleClick(e)}
-            >
-              about this app
-            </button>
+            <span className="readable">
+              <button
+                type="button"
+                className="btn btn-success"
+                onClick={e => this.handleClick(e)}
+              >
+                about this app
+              </button><br/>
 
-            {this.state.showThis ? (
-              <div className="readable">
-                This is a profile app built by me using React! It uses only a
-                few dependencies, with React including routing:
-                <UnorderedList items={dependenciesArray} />
-              </div>
-            ) : (
-              <div className="text">
-                <br /> `Click button to show details`
-              </div>
-            )}
+              {this.state.showThis ? (
+                <span className="text readable">
+                  This is a profile app built by me using React! It uses only a
+                  few dependencies, with React including routing:
+                  <UnorderedList items={dependenciesArray} />
+                </span>
+              ) : (
+                
+                <span className="text">`Click button to show details`</span>
+              )}
+            </span>
           </p>
 
           <p></p>
