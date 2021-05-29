@@ -39,11 +39,17 @@ const FullStack = function() {
         <br />
         <br />
         <div className="container">
-          <a href="https://messageboard-anon.glitch.me/" target="_blank">
-            <div className="border pos-one link">
+          <a
+            className="pos-one link"
+            href="https://messageboard-anon.glitch.me/"
+            target="_blank"
+          >
+            <div className="border">
               <span className="title text">
                 <strong>Full Stack Message Board Web App</strong>
               </span>
+              <br />
+              <br />
               <br />
               <img
                 className="responsive"
@@ -54,12 +60,16 @@ const FullStack = function() {
             </div>
           </a>
 
-          <a href="https://exercisetrackerapi.glitch.me" target="_blank">
-            <div className="border pos-two link">
+          <a
+            className="pos-two link"
+            href="https://exercisetrackerapi.glitch.me"
+            target="_blank"
+          >
+            <div className="border">
               <span className="title text">
                 <strong>
-                  <u>Full Stack Application</u>
-                  <br /> Using MongoDB database
+                  Exercise Tracker App using
+                  <br /> MongoDB database
                   <br />
                 </strong>
               </span>
@@ -75,13 +85,15 @@ const FullStack = function() {
         <br />
         <div className="container">
           <a
+            className="pos-one link"
             href="https://QA-5-american-british-english-translator.pauloconnell.repl.co"
             target="_blank"
           >
-            <div class="responsive border text pos-one link">
-              <span className="title">
-                <strong>Slang Translation Full Stack</strong>
+            <div class="responsive border">
+              <span className="title title">
+                <strong>Slang Translation App</strong>
               </span>
+              <br />
               <br />
               <br />
               <img
@@ -93,12 +105,15 @@ const FullStack = function() {
             </div>
           </a>
 
-          <a href="https://authentication-pug.glitch.me/" target="_blank">
-            <div className="responsive border text pos-two link">
-              <span className="title">
+          <a
+            className="pos-two link"
+            href="https://authentication-pug.glitch.me/"
+            target="_blank"
+          >
+            <div className="responsive border ">
+              <span className="title text">
                 <strong>
-                  <u></u>
-                  <br /> Encrypted Authentication Using Passport and MongoDB
+                  Encrypted Authentication Using Passport and MongoDB
                   <br />
                 </strong>
               </span>
@@ -115,15 +130,17 @@ const FullStack = function() {
         <br />
         <div className="container">
           <a
+            className="pos-one link"
             href="https://qa-4-suduko-solver.pauloconnell.repl.co/"
             target="_blank"
           >
-            <div className="responsive border text pos-one link">
-              <h3>
-                <strong>Full Stack Suduko Solver Game</strong>
-              </h3>
-              <br />
-              <br />
+            <div className="responsive border ">
+              <span className="title text">
+                <strong>Suduko Solver Game</strong>
+                <br />
+                Solves board using recursion
+              </span>
+
               <img
                 className="responsive"
                 src="https://res.cloudinary.com/pollie/image/upload/v1610747577/suduko_e2wjgi.png"
@@ -133,14 +150,16 @@ const FullStack = function() {
             </div>
           </a>
 
-          <a href="https://stock-price-checker-paul.glitch.me/" target="_blank">
-            <div className="responsive border text pos-two link">
-              <h3>
-                <strong>
-                  <u>Full Stack Application</u>
-                  <br /> API Stock Price Checker
-                </strong>
-              </h3>
+          <a
+            className="pos-two link"
+            href="https://stock-price-checker-paul.glitch.me/"
+            target="_blank"
+          >
+            <div className="responsive border">
+              <span className="title text">
+                <strong>API Stock Price Checker</strong>
+              </span>
+              <br />
               <img
                 className="responsive"
                 src="https://res.cloudinary.com/pollie/image/upload/v1610734887/StockPriceChecker_h0yedt.png"

@@ -24,9 +24,10 @@ const Contact = function() {
         </div>
         <h2>Full Stack Software Developer</h2>
         <br />
-        <div className="title">Contact</div>
+        <div className="title">Contact Me:</div>
         <p>
           <a
+            className="readable link"
             target="_blank"
             href="https://github.com/pauloconnell"
             rel="noopener noreferrer"
@@ -35,17 +36,22 @@ const Contact = function() {
           </a>
           <br />
           <a
+            className="readable link"
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.linkedin.com/in/paul-o-connell-604"
           >
             Linked In: www.linkedin.com/in/paul-o-connell-604
           </a>
+          <br />
+          <a
+            className="readable link"
+            href="mailto:p_ollie@hotmail.com?Subject=FromProfile"
+            target="_blank"
+          >
+            Click here to Email Me: p_ollie@hotmail.com
+          </a>
         </p>
-        Email Me:
-        <a href="mailto:p_ollie@hotmail.com?Subject=FromProfile" Target="_top">
-          <button>p_ollie@hotmail.com</button>
-        </a>
         <br />
         <br />
         <Link className="link" to="/about">

@@ -62,10 +62,10 @@ class Profile extends React.Component {
           <br />
 
           <br />
-          <span className="title readable text">See My work:</span>
+          <span className="title readable text">See My work: </span>
           <br />
           <br />
-          <div className="grid">
+          <span className="grid">
             <Link
               style={{ display: "inline-block" }}
               className="link"
@@ -92,7 +92,8 @@ class Profile extends React.Component {
             >
               <span>Web Applications</span>
             </Link>
-          </div>
+          </span>
+
           <br />
           <br />
           <p>
@@ -103,7 +104,8 @@ class Profile extends React.Component {
                 onClick={e => this.handleClick(e)}
               >
                 about this app
-              </button><br/>
+              </button>
+              <br />
 
               {this.state.showThis ? (
                 <span className="text readable">
@@ -112,13 +114,10 @@ class Profile extends React.Component {
                   <UnorderedList items={dependenciesArray} />
                 </span>
               ) : (
-                
                 <span className="text">`Click button to show details`</span>
               )}
             </span>
           </p>
-
-          <p></p>
         </center>
       </div>
     );
