@@ -40,26 +40,31 @@ const About = function() {
           Certified Full Stack Software Developer
         </div>
 
-        <li>
-          <h4 className="readable">
-            Responsive Web Design Certification <br />
-            <br />
-            JavaScript Algorithms and Data Structures Certification
+        <h4 className="readable">
+          <u>FULLSTACK MERN CERTIFICATION INCLUDES:</u>
+          <ol>
             <br />
             <br />
-            Front End Development Libraries Certification
+            <li>
+              Responsive Web Design Certification <br />
+            </li>
+            <br />
+            <li>JavaScript Algorithms and Data Structures Certification</li>
             <br />
             <br />
-            Data Visualization Certification
+            <li>Front End Development Libraries Certification</li>
             <br />
             <br />
-            APIs and MicroServices Certification
+            <li>Data Visualization Certification</li>
             <br />
-            Quality Assurance Certification
+            <br />
+            <li>APIs and MicroServices Certification</li>
+            <br />
+            <li>Quality Assurance Certification</li>
             <br /> <br />
-            Full Stack Certification: 1800 hours <br />
-          </h4>
-        </li>
+          </ol>
+          Full Stack Certification: 1800 hours <br />
+        </h4>
       </center>
     </div>
   );

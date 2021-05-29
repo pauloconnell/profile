@@ -5,64 +5,93 @@ const UnorderedList = require("./UnorderedList");
 const WebApps = function() {
   return (
     <div>
-      <h1>Web Applications</h1>
-      <div className="row">
-        <Link className="col link border" to="/about">
-          About Me
-        </Link>
-        <br />
-        <Link className="col link border" to="/Contact">
-          Contact Me
-        </Link>
-        <br />
-        <Link className="col link border" to="/">
-          Profile
-        </Link>
-        <br />
-      </div>
-      <div class="row sectionTitle">Web Applications</div>
-      <br />
-      <div class="row containProjects">
-        <div class="col-xs-6 project-tile" class="right">
-          <a href="https://codepen.io/p_ollie/full/qJjVgR" target="_blank">
-            <h1>
-              <strong>
-                <u>Test Center</u>
-                <br /> Product Knowledge App
-                <br />
-              </strong>
-            </h1>
-            <img src="https://res.cloudinary.com/pollie/image/upload/v1610401628/Test_Center_ue5srv.png" />
-          </a>
+      <center>
+        <h1 className="text" id="name">
+          Paul O'Connell
+        </h1>
+        <div className="row">
+          <Link className="col link border" to="/about">
+            About Me
+          </Link>
           <br />
+          <Link className="col link border" to="/contact">
+            Contact Me
+          </Link>
           <br />
+          <Link className="col link border" to="/">
+            Home
+          </Link>
         </div>
+        <h2 className="readable">Full Stack Software Developer</h2>
+        <br />
 
-        <div class="col-xs-6 project-tile" class="right">
-          <a href="https://codepen.io/p_ollie/full/RLrxPr" target="_blank">
-            <h1>
-              <strong>
-                <u>API Quote Generator</u>
-                <br /> Social Media Posting
-                <br />
-              </strong>
-            </h1>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+        <span className="readable title">Web Applications</span>
+        <br />
+        <br />
+        <br />
+        <div className="container">
+          <a
+            className="pos-one link"
+            href="https://codepen.io/p_ollie/full/qJjVgR"
+            target="_blank"
+          >
+            <div className="border">
+              <span className="title text">
+                <strong>
+                  <u>Test Center</u>
+                  <br /> Product Knowledge App
+                  <br />
+                </strong>
+              </span>
+            </div>
             <img
-              src="https://res.cloudinary.com/pollie/image/upload/v1598905735/API_quote_machien_cmbxot.png"
-              alt="API Quote Generator"
+              class="responsive"
+              src="https://res.cloudinary.com/pollie/image/upload/v1610401628/Test_Center_ue5srv.png"
             />
           </a>
           <br />
           <br />
-        </div>
-      </div>
 
-      <p></p>
+          <a
+            className="pos-two link"
+            href="https://codepen.io/p_ollie/full/RLrxPr"
+            target="_blank"
+          >
+            <div className="border">
+              <span className="title text">
+                <strong>
+                  <u>API Quote Generator</u>
+                  <br /> Social Media Posting
+                  <br />
+                  <br />
+                </strong>
+              </span>
+            </div>
+            <br />
+
+            <img
+              class="responsive"
+              src="https://res.cloudinary.com/pollie/image/upload/v1598905735/API_quote_machien_cmbxot.png"
+              alt="API Quote Generator"
+            />
+          </a>
+        </div>
+        <br />
+        <br />
+        <div className="row">
+          <Link className="col link border" to="/about">
+            About Me
+          </Link>
+          <br />
+          <Link className="col link border" to="/contact">
+            Contact Me
+          </Link>
+          <br />
+          <Link className="col link border" to="/">
+            Home
+          </Link>
+        </div>
+      </center>
     </div>
   );
 };

@@ -24,9 +24,9 @@ const DataVisualization = function() {
         </div>
         <h2>Full Stack Software Developer</h2>
         <br />
-        <div className="title readable">
+        <span className="title readable">
           API driven data displayed in browser using D3 library on SVG canvas
-        </div>
+        </span>
         <br />
         <br />
 
@@ -62,7 +62,19 @@ const DataVisualization = function() {
         <br />
         <br />
         <br />
-
+        <div className="row">
+          <Link className="col link border" to="/about">
+            About Me
+          </Link>
+          <br />
+          <Link className="col link border" to="/contact">
+            Contact Me
+          </Link>
+          <br />
+          <Link className="col link border" to="/">
+            Home
+          </Link>
+        </div>
         <p></p>
       </center>
     </div>
