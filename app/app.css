@@ -8,11 +8,21 @@ body {
   background-attachment: fixed;
   background-size: cover;
   font-size: 16px;
+  font-size: 4vw;
 }
 
 .border {
   border: 2px solid white;
   border-radius: 5px;
+}
+.containD3 {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas:
+    "left"
+    "right";
+  min-height: 300px;
+  width: 95%;
 }
 
 .container {
@@ -57,6 +67,11 @@ body {
   grid-area: right;
 }
 
+.small {
+  font-size: 20px;
+  color: black;
+}
+
 .text {
   padding: 8px 12px;
   text-align: center;
@@ -72,6 +87,7 @@ body {
 
 .readable {
   background: rgba(128, 128, 128, 0.5);
+  font-weight: bold;
 }
 .readable:hover {
   background: rgba(128, 128, 128, 0.9);

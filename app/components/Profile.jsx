@@ -65,7 +65,7 @@ class Profile extends React.Component {
           <span className="title readable text">See My work: </span>
           <br />
           <br />
-          <span className="grid">
+          <div className="grid">
             <Link
               style={{ display: "inline-block" }}
               className="link"
@@ -92,32 +92,31 @@ class Profile extends React.Component {
             >
               <span>Web Applications</span>
             </Link>
+          </div>
+
+          <br />
+          <br />
+          <span>
+            <button
+              type="button"
+              className="btn btn-success"
+              onClick={e => this.handleClick(e)}
+            >
+              about this app
+            </button>
+            <br />
+
+            {this.state.showThis ? (
+              <div className="readable">
+                This profile app was built by Paul O'Connell using React on a
+                cloud server <br />
+                It uses a few dependencies, including React router and:
+                <UnorderedList items={dependenciesArray} />
+              </div>
+            ) : (
+              <span className="">`Click button to show details`</span>
+            )}
           </span>
-
-          <br />
-          <br />
-          <p>
-            <span className="readable">
-              <button
-                type="button"
-                className="btn btn-success"
-                onClick={e => this.handleClick(e)}
-              >
-                about this app
-              </button>
-              <br />
-
-              {this.state.showThis ? (
-                <span className="text readable">
-                  This is a profile app built by me using React! It uses only a
-                  few dependencies, with React including routing:
-                  <UnorderedList items={dependenciesArray} />
-                </span>
-              ) : (
-                <span className="text">`Click button to show details`</span>
-              )}
-            </span>
-          </p>
         </center>
       </div>
     );

@@ -24,10 +24,10 @@ const About = function() {
         </div>
         <h2>Full Stack Software Developer</h2>
         <br />
-        <p className="readable">
+        <p>
           <b>
-            <big>
-              Interested in working in any/all parts of the stack where I can
+            <big className="readable">
+              "Interested in working in any or all parts of the stack where I can
               write clean code and help build our team and products stronger."
             </big>
           </b>
@@ -36,9 +36,9 @@ const About = function() {
         <br />
         <br />
 
-        <div className="title readable">
+        <span className="title readable">
           Certified Full Stack Software Developer
-        </div>
+        </span>
 
         <h4 className="readable">
           <u>FULLSTACK MERN CERTIFICATION INCLUDES:</u>
