@@ -47,7 +47,7 @@ body {
 
 .link {
   font-color: DodgerBlue;
-  text-shadow: 2px 2px white;
+  text-shadow: 1px 1px white;
   font-size: 25px;
   background: rgba(12, 12, 12, 0.5);
   border: 2px solid black;

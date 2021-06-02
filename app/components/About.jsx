@@ -27,9 +27,8 @@ const About = function() {
         <p>
           <b>
             <span className="readable big">
-              "Interested in working in any or all parts of the stack where I
-              can write clean code and help build our team and products
-              stronger."
+              "Interested in working in Front End and/or Back End where I can
+              write clean code and help build our team and products stronger."
             </span>
           </b>
         </p>
