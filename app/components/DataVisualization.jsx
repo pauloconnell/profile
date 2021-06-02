@@ -31,9 +31,9 @@ const DataVisualization = function() {
         </span>
         <br />
         <br />
-         <br />
-          <br />
-          <br />
+        <br />
+        <br />
+        <br />
         <div className="container">
           <a
             className="link pos-one"
@@ -42,7 +42,9 @@ const DataVisualization = function() {
           >
             <div className="border">
               <span className="title text">
-                <strong>Data Visualization Population stats</strong>
+                <strong>
+                  Data Visualization: Population Education by Location
+                </strong>
               </span>
 
               <img
@@ -61,7 +63,7 @@ const DataVisualization = function() {
           >
             <div className="border">
               <span className="title text">
-                <strong>Data Visualization Doping in Biking</strong>
+                <strong>Data Visualization: Doping in Biking</strong>
               </span>
 
               <img
@@ -82,7 +84,7 @@ const DataVisualization = function() {
           >
             <div className="border">
               <span className="title text">
-                <strong>Data Visualization Global Temperature History </strong>
+                <strong>Data Visualization: Global Temperature History </strong>
               </span>
               <br />
               <img
@@ -92,7 +94,7 @@ const DataVisualization = function() {
               />
             </div>
           </a>
-         
+
           <br />
           <a
             className="link pos-two"

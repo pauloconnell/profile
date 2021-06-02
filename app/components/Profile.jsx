@@ -108,8 +108,8 @@ class Profile extends React.Component {
 
             {this.state.showThis ? (
               <div className="readable">
-                This profile app was built by Paul O'Connell using React on a
-                cloud server <br />
+                This profile app was built by Paul O'Connell using React and
+                node.js <br />
                 It uses a few dependencies, including React router and:
                 <UnorderedList items={dependenciesArray} />
               </div>

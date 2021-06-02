@@ -10,7 +10,9 @@ body {
   font-size: 16px;
   font-size: 4vw;
 }
-
+.big {
+  font-size: 20px;
+}
 .border {
   border: 2px solid white;
   border-radius: 5px;

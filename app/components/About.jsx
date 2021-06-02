@@ -26,10 +26,11 @@ const About = function() {
         <br />
         <p>
           <b>
-            <big className="readable">
-              "Interested in working in any or all parts of the stack where I can
-              write clean code and help build our team and products stronger."
-            </big>
+            <span className="readable big">
+              "Interested in working in any or all parts of the stack where I
+              can write clean code and help build our team and products
+              stronger."
+            </span>
           </b>
         </p>
         <br />
@@ -42,7 +43,10 @@ const About = function() {
 
         <h4 className="readable">
           <u>FULLSTACK MERN CERTIFICATION INCLUDES:</u>
-          <ol>
+        </h4>
+
+        <span className="readable">
+          <ol className="readable">
             <br />
             <br />
             <li>
@@ -64,7 +68,7 @@ const About = function() {
             <br /> <br />
           </ol>
           Full Stack Certification: 1800 hours <br />
-        </h4>
+        </span>
       </center>
     </div>
   );
