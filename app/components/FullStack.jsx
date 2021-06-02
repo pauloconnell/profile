@@ -89,8 +89,8 @@ const FullStack = function() {
               <span className="small">
                 <small>
                   This app creates an API to Querry database results for users
-                  results. The app creates unique userId for each user to
-                  log exercises and track on the database via API Querries.
+                  results. The app creates unique userId for each user to log
+                  exercises and track on the database via API Querries.
                 </small>
               </span>
             </div>
@@ -116,7 +116,10 @@ const FullStack = function() {
                 alt="translator app image"
               />
               <span className="small">
-                <small>This app uses testing with Mocha</small>
+                <small>
+                  This app converts from British spelling/slang to US and
+                  Vise-Versa
+                </small>
               </span>
               <br />
             </div>
@@ -139,7 +142,12 @@ const FullStack = function() {
                 src="https://res.cloudinary.com/pollie/image/upload/v1610815824/Authenticate-Pug_awfw7d.png"
                 alt="Full Stack Web App"
               />
-
+              <span className="small">
+                <small>
+                  This app encrypts login details, stores users details on
+                  database, and allows secure login with Passport.js
+                </small>
+              </span>
               <br />
             </div>
           </a>
@@ -162,7 +170,10 @@ const FullStack = function() {
                 src="https://res.cloudinary.com/pollie/image/upload/v1610747577/suduko_e2wjgi.png"
                 alt="Full Stack Suduko Solver"
               />
-              <span className="small">This app implements suduko logic and solves any board using recursion</span>
+              <span className="small">
+                This app implements suduko logic and solves any board using
+                recursion
+              </span>
               <br />
             </div>
           </a>
@@ -184,7 +195,8 @@ const FullStack = function() {
               />
               <span className="small">
                 Takes user input, hits API to get stock price, hits Database to
-                store likes for each stock from unique IP addresses, and shows comparision of likes.
+                store likes for each stock from unique IP addresses, and shows
+                comparision of likes.
               </span>
               <br />
               <br />

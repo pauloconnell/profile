@@ -54,25 +54,22 @@ const WebApps = function() {
 
           <a
             className="pos-two link"
-            href="https://codepen.io/p_ollie/full/RLrxPr"
+            href="https://codepen.io/p_ollie/full/VMVeQw"
             target="_blank"
           >
             <div className="border">
               <span className="title text">
                 <strong>
-                  <u>API Quote Generator</u>
-                  <br /> Social Media Posting
+                  Wiki Search API
                   <br />
                   <br />
                 </strong>
               </span>
             </div>
-            <br />
-
             <img
               className="responsive"
-              src="https://res.cloudinary.com/pollie/image/upload/v1598905735/API_quote_machien_cmbxot.png"
-              alt="API Quote Generator"
+              src="https://res.cloudinary.com/pollie/image/upload/v1598909611/Wiki_search_avfb5n.png"
+              alt="wiki search"
             />
           </a>
         </div>
@@ -146,22 +143,25 @@ const WebApps = function() {
 
           <a
             className="pos-two link"
-            href="https://codepen.io/p_ollie/full/VMVeQw"
+            href="https://codepen.io/p_ollie/full/RLrxPr"
             target="_blank"
           >
             <div className="border">
               <span className="title text">
                 <strong>
-                  Wiki Search API
+                  <u>API Quote Generator</u>
+                  <br /> Social Media Posting
                   <br />
                   <br />
                 </strong>
               </span>
             </div>
+            <br />
+
             <img
               className="responsive"
-              src="https://res.cloudinary.com/pollie/image/upload/v1598909611/Wiki_search_avfb5n.png"
-              alt="wiki search"
+              src="https://res.cloudinary.com/pollie/image/upload/v1598905735/API_quote_machien_cmbxot.png"
+              alt="API Quote Generator"
             />
           </a>
         </div>
