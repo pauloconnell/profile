@@ -35,7 +35,6 @@ const About = function() {
         <br />
         <br />
         <br />
-
         <span className="title readable">
           Certified Full Stack Software Developer
         </span>
@@ -43,11 +42,11 @@ const About = function() {
         <span className="readable big">
           <u>FULLSTACK MERN CERTIFICATION INCLUDES:</u>
         </span>
+        <br /> <br />
+        <br />
         <br />
         <span className="readable">
-          <ol className="">
-            <br />
-            <br />
+          <ol className="readable">
             <li>
               <span className="readable">
                 Responsive Web Design Certification <br />
@@ -87,6 +86,20 @@ const About = function() {
           Full Stack Certification: 1800 hours <br />
         </span>
       </center>
+      <br /> <br /> <br /> <br /> <br />
+      <div className="row">
+        <Link className="col link border" to="/about">
+          About Me
+        </Link>
+        <br />
+        <Link className="col link border" to="/contact">
+          Contact Me
+        </Link>
+        <br />
+        <Link className="col link border" to="/">
+          Home
+        </Link>
+      </div>
     </div>
   );
 };
