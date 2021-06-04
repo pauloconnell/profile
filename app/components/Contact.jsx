@@ -32,8 +32,10 @@ const Contact = function() {
             href="https://github.com/pauloconnell"
             rel="noopener noreferrer"
           >
-            GitHub: https://github.com/pauloconnell
+            GitHub: <br />
+            https://github.com/pauloconnell
           </a>
+          <br />
           <br />
           <a
             className="readable link"
@@ -41,8 +43,10 @@ const Contact = function() {
             rel="noopener noreferrer"
             href="https://www.linkedin.com/in/paul-o-connell-604"
           >
-            Linked In: www.linkedin.com/in/paul-o-connell-604
+            Linked In: <br />
+            www.linkedin.com/in/paul-o-connell-604
           </a>
+          <br />
           <br />
           <a
             className="readable link"
