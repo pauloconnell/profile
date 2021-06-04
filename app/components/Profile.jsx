@@ -72,7 +72,10 @@ class Profile extends React.Component {
               id="fullStack"
               to="/fullStack"
             >
-              <span>Full Stack Applications</span>
+              <span>
+                Full Stack <br />
+                Applications
+              </span>
             </Link>
 
             <Link
@@ -81,7 +84,10 @@ class Profile extends React.Component {
               id="d3"
               to="/DataVisualization"
             >
-              <span>Data Visualization</span>
+              <span>
+                Data <br />
+                Visualization
+              </span>
             </Link>
 
             <Link
@@ -90,7 +96,10 @@ class Profile extends React.Component {
               id="webApps"
               to="/WebApps"
             >
-              <span>Web Applications</span>
+              <span>
+                Web <br />
+                Applications
+              </span>
             </Link>
           </div>
 

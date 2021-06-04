@@ -10,6 +10,11 @@ body {
   font-size: 16px;
   font-size: 4vw;
 }
+
+img {
+  border-radius: 5px;
+}
+
 .big {
   font-size: 20px;
 }

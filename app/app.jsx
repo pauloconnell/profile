@@ -3,7 +3,7 @@ const ReactDOM = require("react-dom");
 const Route = require("react-router-dom").Route;
 const BrowserRouter = require("react-router-dom").BrowserRouter;
 const hashHistory = require("react-router-dom").hashHistory;
-require ('bootstrap/dist/css/bootstrap.min.css');
+require("bootstrap/dist/css/bootstrap.min.css");
 
 /* Import Components */
 const Profile = require("./components/Profile");
@@ -20,7 +20,6 @@ ReactDOM.render(
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
       <Route path="/fullStack" component={FullStack} />
-      <Route path="/contact" component={Contact} />
       <Route path="/dataVisualization" component={DataVisualization} />
       <Route path="/WebApps" component={WebApps} />
     </div>
