@@ -14,6 +14,7 @@ const dependenciesArray = [
 ];
 
 const componentsMade = [
+  "Delete- this will be deleted...but kindof good idea to render all components veiwable 'onclick' on one page...",
   "Profile- which is the view you are seeing now",
   'UnorderedList - which takes an array of "items" and returns a <ul> element with <li>, elements of each of those items within it',
   'About - text content to show when "about" route is accessed'
@@ -42,25 +43,6 @@ class Profile extends React.Component {
     return (
       <div>
         <center>
-          <h1 className="text" id="name">
-            Paul O'Connell
-          </h1>
-          <div className="row">
-            <Link className="col link border" to="/about">
-              About Me
-            </Link>
-
-            <Link className="col link border" to="/Contact">
-              Contact Me
-            </Link>
-
-            <Link className="col link border" to="/">
-              Home
-            </Link>
-          </div>
-          <h2>Full Stack Software Developer</h2>
-          <br />
-
           <br />
           <span className="title readable text">See My work: </span>
           <br />

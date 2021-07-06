@@ -6,25 +6,7 @@ const Contact = function() {
   return (
     <div>
       <center>
-        <h1 className="text" id="name">
-          Paul O'Connell
-        </h1>
-        <div className="row">
-          <Link className="col link border" to="/about">
-            About Me
-          </Link>
-          <br />
-          <Link className="col link border" to="/contact">
-            Contact Me
-          </Link>
-          <br />
-          <Link className="col link border" to="/">
-            Home
-          </Link>
-        </div>
-        <h2>Full Stack Software Developer</h2>
-        <br />
-        <div className="title">Contact Me:</div>
+        <div className="title text readable">Contact Me:</div>
         <p>
           <div className="border">
             <a

@@ -6,6 +6,7 @@ const hashHistory = require("react-router-dom").hashHistory;
 require("bootstrap/dist/css/bootstrap.min.css");
 
 /* Import Components */
+const Header = require("./components/Header");
 const Profile = require("./components/Profile");
 const About = require("./components/About");
 const Contact = require("./components/Contact");
@@ -16,6 +17,7 @@ const WebApps = require("./components/WebApps");
 ReactDOM.render(
   <BrowserRouter>
     <div>
+      <Header />
       <Route exact path="/" component={Profile} />
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />

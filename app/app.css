@@ -42,6 +42,10 @@ img {
     "bottom";
 }
 
+.inlineBlock {
+  display:inline-block;
+}
+
 .link {
   font-color: DodgerBlue;
   text-shadow: 1px 1px white;
