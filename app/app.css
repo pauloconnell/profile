@@ -19,17 +19,9 @@ img {
   font-size: 20px;
 }
 .border {
-  border: 2px solid white;
+  border: 3px solid white;
   border-radius: 5px;
-}
-.containD3 {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-areas:
-    "left"
-    "right";
-  min-height: 300px;
-  width: 95%;
+  display: inline-block;
 }
 
 .container {
@@ -48,6 +40,10 @@ img {
     "top"
     "content"
     "bottom";
+}
+
+.inlineBlock {
+  display:inline-block;
 }
 
 .link {
@@ -85,6 +81,7 @@ img {
   text-weight: bold;
   width: 100%;
   text-shadow: 2px 2px white;
+  line-height: 1.6;
 }
 
 .title {

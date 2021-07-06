@@ -6,27 +6,50 @@ const WebApps = function() {
   return (
     <div>
       <center>
-        <h1 className="text" id="name">
-          Paul O'Connell
-        </h1>
-        <div className="row">
-          <Link className="col link border" to="/about">
-            About Me
+        <div className="grid">
+          <Link
+            style={{ display: "inline-block" }}
+            className="link"
+            id="fullStack"
+            to="/fullStack"
+          >
+            <span>
+              Full Stack <br />
+              Applications
+            </span>
           </Link>
-          <br />
-          <Link className="col link border" to="/contact">
-            Contact Me
+
+          <Link
+            style={{ display: "inline-block" }}
+            className="link"
+            id="d3"
+            to="/DataVisualization"
+          >
+            <span>
+              Data <br />
+              Visualization
+            </span>
           </Link>
-          <br />
-          <Link className="col link border" to="/">
-            Home
+
+          <Link
+            style={{ display: "inline-block" }}
+            className="link"
+            id="webApps"
+            to="/WebApps"
+          >
+            <span>
+              Web <br />
+              Applications
+            </span>
           </Link>
         </div>
-        <h2 className="readable">Full Stack Software Developer</h2>
+        <br/><br/>
+        <h2>
+          <span className="readable text title">Web Applications</span>
+        </h2>
+        <h3 className="readable text"> Modern responsive custom Web Applications I have built using javaScript and React ect, deployed in the cloud.</h3>
         <br />
 
-        <span className="readable title">Web Applications</span>
-        <br />
         <br />
         <br />
         <div className="container">

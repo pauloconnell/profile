@@ -6,33 +6,56 @@ const FullStack = function() {
   return (
     <div>
       <center>
-        <h1 className="text" id="name">
-          Paul O'Connell
-        </h1>
-        <div className="row">
-          <Link className="col link border" to="/about">
-            About Me
+        <div className="grid">
+          <Link
+            style={{ display: "inline-block" }}
+            className="link"
+            id="fullStack"
+            to="/fullStack"
+          >
+            <span>
+              Full Stack <br />
+              Applications
+            </span>
           </Link>
-          <br />
-          <Link className="col link border" to="/contact">
-            Contact Me
+
+          <Link
+            style={{ display: "inline-block" }}
+            className="link"
+            id="d3"
+            to="/DataVisualization"
+          >
+            <span>
+              Data <br />
+              Visualization
+            </span>
           </Link>
-          <br />
-          <Link className="col link border" to="/">
-            Home
+
+          <Link
+            style={{ display: "inline-block" }}
+            className="link"
+            id="webApps"
+            to="/WebApps"
+          >
+            <span>
+              Web <br />
+              Applications
+            </span>
           </Link>
         </div>
-        <h2>Full Stack Software Developer</h2>
-        <br />
         <br />
         <br />
         <div className="text">
-          <h2>Full Stack MERN Applications</h2> Deployed in the cloud using:
+          <h2>
+            <span className="readable">Full Stack MERN Applications</span>
+          </h2>
           <br />
           <h3 class="readable">
+            Deployed in the cloud using:
+            <br />
             React, Express, MongoDB, Mongoose, Node.js, APIs, MicroServices
           </h3>
-          <h4 class="readable">
+          <h4 class="readable inlineBlock">
             HTML, JavaScript, Css, Bootstrap, jQuerry, GitHub
           </h4>
         </div>

@@ -6,29 +6,55 @@ const DataVisualization = function() {
   return (
     <div>
       <center>
-        <h1 className="text" id="name">
-          Paul O'Connell
-        </h1>
-        <div className="row">
-          <Link className="col link border" to="/about">
-            About Me
+        <div className="grid">
+          <Link
+            style={{ display: "inline-block" }}
+            className="link"
+            id="fullStack"
+            to="/fullStack"
+          >
+            <span>
+              Full Stack <br />
+              Applications
+            </span>
           </Link>
-          <br />
-          <Link className="col link border" to="/contact">
-            Contact Me
+
+          <Link
+            style={{ display: "inline-block" }}
+            className="link"
+            id="d3"
+            to="/DataVisualization"
+          >
+            <span>
+              Data <br />
+              Visualization
+            </span>
           </Link>
-          <br />
-          <Link className="col link border" to="/">
-            Home
+
+          <Link
+            style={{ display: "inline-block" }}
+            className="link"
+            id="webApps"
+            to="/WebApps"
+          >
+            <span>
+              Web <br />
+              Applications
+            </span>
           </Link>
         </div>
+        <hr></hr>
 
-        <h2>Full Stack Software Developer</h2>
-        <br />
-
-        <span className="title readable">
-          API driven data displayed in browser using D3 library on SVG canvas
-        </span>
+        <h2>
+          {" "}
+          <span className="title text readable">Data Visualization D3</span>
+        </h2>
+        <h3>
+          <span className="text readable">
+            API driven data displayed in browser using D3 library on SVG canvas
+          </span>
+        </h3>
+        <hr></hr>
         <br />
         <br />
         <br />
