@@ -3,7 +3,7 @@ body {
   background-color: SkyLightBlue;
   background-image: url("https://res.cloudinary.com/pollie/image/upload/v1621034051/Million_Ridge_tkchwl.png");
   /* Center and scale the image nicely */
-  background-position: center top;
+  background-position: right;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -24,6 +24,11 @@ img {
   display: inline-block;
 }
 
+.center {
+  margin: auto;
+  width: auto;
+}
+
 .container {
   min-height: 300px;
   display: grid;
@@ -34,16 +39,17 @@ img {
 }
 
 .grid {
+ 
   display: grid;
   grid-gap: 10px;
   grid-template-areas:
     "top"
-    "content"
+    "middle"
     "bottom";
 }
 
 .inlineBlock {
-  display:inline-block;
+  display: inline-block;
 }
 
 .link {
@@ -54,10 +60,12 @@ img {
   border: 2px solid black;
   border-radius: 5px;
   font-weight: bold;
+  margin: 2px;
 }
 
 .link:hover {
-  background: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  background: grey;
 }
 
 .pos-one {
@@ -89,9 +97,14 @@ img {
   font-weight: bold;
 }
 
+.textAlign {
+  text-align: center;
+}
+
 .readable {
   background: rgba(128, 128, 128, 0.5);
   font-weight: bold;
+  border-radius: 5px;
 }
 .readable:hover {
   background: rgba(128, 128, 128, 0.9);
@@ -102,14 +115,25 @@ img {
   height: auto;
 }
 
+.width {
+  min-width: 150px;
+  max-width: 250px;
+}
+
 #d3 {
-  background: rgba(76, 175, 80, 0.3);
-  grid-area: content;
+  
+  grid-area: middle;
+}
+#d3.hover {
+  
 }
 
 #fullStack {
-  background: rgba(76, 175, 80, 0.3);
+ 
   grid-area: top;
+}
+#fullStack.hover {
+   background: grey;
 }
 
 #name {
@@ -117,33 +141,31 @@ img {
 }
 
 #webApps {
-  background: rgba(76, 175, 80, 0.3);
+ 
   font-weight: bold;
   grid-area: bottom;
+}
+#webApps.hover {
+   background: grey;
 }
 
 @media (max-width: 485px) {
   .link {
     font-size: 20px;
   }
-  .link:hover {
-    background: rgba(255, 255, 255, 0.5);
-  }
+  
 }
 
-@media (min-width: 600px) {
+@media (max-width: 600px) {
   .grid {
     grid-gap: 10px;
     grid-template-areas:
       "top"
-      "content"
+      "middle"
       "bottom";
   }
   .link {
     font-size: 20px;
-  }
-  .link:hover {
-    background: rgba(255, 255, 255, 0.5);
   }
 }
 @media (min-width: 768px) {
@@ -153,25 +175,17 @@ img {
   }
   .grid {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "top content bottom";
+    grid-template-areas: "top middle bottom";
   }
 
   .link {
     font-size: 30px;
   }
-  .link:hover {
-    background: rgba(255, 255, 255, 0.5);
-  }
 }
 
 @media (min-width: 992px) {
-  .grid {
-    grid-template-areas: "top content bottom";
-  }
+ 
   .link {
     font-size: 40px;
-  }
-  .link:hover {
-    background: rgba(255, 255, 255, 0.5);
   }
 }

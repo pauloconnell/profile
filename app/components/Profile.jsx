@@ -17,7 +17,7 @@ const componentsMade = [
   "Delete- this will be deleted...but kindof good idea to render all components veiwable 'onclick' on one page...",
   "Profile- which is the view you are seeing now",
   'UnorderedList - which takes an array of "items" and returns a <ul> element with <li>, elements of each of those items within it',
-  'About - text content to show when "about" route is accessed'
+  "About -About Me"
 ];
 
 /* the main page for the index route of this app */
@@ -42,31 +42,25 @@ class Profile extends React.Component {
   render() {
     return (
       <div>
-        <center>
-          <br />
-          <span className="title readable text">See My work: </span>
-          <br />
-          <br />
-          <div className="grid">
-            <Link
-              style={{ display: "inline-block" }}
-              className="link"
-              id="fullStack"
-              to="/fullStack"
-            >
-              <span>
+        <br />
+        <div className="textAlign">
+          <span className="title readable text inlineBlock width">
+            See My work:{" "}
+          </span>
+        </div>
+        <br />
+        <br />
+        <div className="textAlign">
+          <div className="grid inlineBlock">
+            <Link className="link width inlineBlock" id="fullStack" to="/fullStack">
+              <span className="center">
                 Full Stack <br />
                 Applications
               </span>
             </Link>
 
-            <Link
-              style={{ display: "inline-block" }}
-              className="link"
-              id="d3"
-              to="/DataVisualization"
-            >
-              <span>
+            <Link className="link width inlineBlock" id="d3" to="/DataVisualization">
+              <span className="center">
                 Data <br />
                 Visualization
               </span>
@@ -74,20 +68,22 @@ class Profile extends React.Component {
 
             <Link
               style={{ display: "inline-block" }}
-              className="link"
+              className="link width"
               id="webApps"
               to="/WebApps"
             >
-              <span>
+              <span className="center">
                 Web <br />
                 Applications
               </span>
             </Link>
           </div>
+        </div>
 
-          <br />
-          <br />
-          <span>
+        <br />
+        <br />
+        <div className="textAlign">
+          <span className="inlineBlock">
             <button
               type="button"
               className="btn btn-success"
@@ -108,7 +104,7 @@ class Profile extends React.Component {
               <span className="">`Click button to show details`</span>
             )}
           </span>
-        </center>
+        </div>
       </div>
     );
   }
