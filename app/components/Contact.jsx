@@ -1,5 +1,6 @@
 const React = require("react");
 const Link = require("react-router-dom").Link;
+const Footer = require("./Footer");
 
 /* the main page for the about route of this app */
 const Contact = function() {
@@ -8,9 +9,9 @@ const Contact = function() {
       <center>
         <div className="title text readable">Contact Me:</div>
         <p>
-          <div className="border">
+          <div>
             <a
-              className="readable link border"
+              className="readable link border inlineBlock"
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.linkedin.com/in/paul-o-connell-604"
@@ -23,9 +24,9 @@ const Contact = function() {
           </div>
           <br />
           <br />
-          <div className="border">
+          <div>
             <a
-              className="readable link border"
+              className="readable link border inlineBlock"
               target="_blank"
               href="https://github.com/pauloconnell"
               rel="noopener noreferrer"
@@ -38,9 +39,9 @@ const Contact = function() {
           </div>
           <br />
           <br />
-          <div className="border">
+          <div>
             <a
-              className="readable link border"
+              className="readable link border inlineBlock"
               href="mailto:p_ollie@hotmail.com?Subject=FromProfile"
               target="_blank"
               title="p_ollie@hotmail.com"
@@ -52,19 +53,7 @@ const Contact = function() {
         <br />
         <br />
         <br />
-        <div className="row">
-          <Link className="col link border" to="/about">
-            About Me
-          </Link>
-          <br />
-          <Link className="col link border" to="/contact">
-            Contact Me
-          </Link>
-          <br />
-          <Link className="col link border" to="/">
-            Home
-          </Link>
-        </div>
+        <Footer />
       </center>
     </div>
   );

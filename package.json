@@ -20,7 +20,8 @@
     "webpack-cli": "^3.3.0",
     "css-loader": "^5.2.4",
     "style-loader": "^2.0.0",
-    "bootstrap": "^5.0.0"
+    "bootstrap": "^5.0.0",
+    "react-tooltip": "^4.2.20"
   },
   "engines": {
     "node": "8.x"
