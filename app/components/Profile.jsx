@@ -43,23 +43,34 @@ class Profile extends React.Component {
     return (
       <div>
         <br />
-        <div className="textAlign">
-          <span className="title readable text inlineBlock width">
-            See My work:{" "}
-          </span>
+        <div className="textAlign ">
+          <div className="title readable text inlineBlock width">
+            See My work-{" "}
+            <br/>
+            <span className="">Click any of the options below:</span>
+            
+          </div>
         </div>
         <br />
         <br />
-        <div className="textAlign">
-          <div className="grid inlineBlock">
-            <Link className="link width inlineBlock" id="fullStack" to="/fullStack">
+        <div className="textAlign ">
+          <div className="gridContainer inlineBlock">
+            <Link
+              className="link width inlineBlock"
+              id="fullStack"
+              to="/fullStack"
+            >
               <span className="center">
                 Full Stack <br />
                 Applications
               </span>
             </Link>
 
-            <Link className="link width inlineBlock" id="d3" to="/DataVisualization">
+            <Link
+              className="link width inlineBlock"
+              id="d3"
+              to="/DataVisualization"
+            >
               <span className="center">
                 Data <br />
                 Visualization
@@ -101,7 +112,7 @@ class Profile extends React.Component {
                 <UnorderedList items={dependenciesArray} />
               </div>
             ) : (
-              <span className="">`Click button to show details`</span>
+              <span className="readable">`Click button to show details`</span>
             )}
           </span>
         </div>

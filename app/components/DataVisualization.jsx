@@ -6,42 +6,42 @@ const DataVisualization = function() {
   return (
     <div>
       <center>
-        <div className="grid">
-          <Link
-            style={{ display: "inline-block" }}
-            className="link"
-            id="fullStack"
-            to="/fullStack"
-          >
-            <span>
-              Full Stack <br />
-              Applications
-            </span>
-          </Link>
+        <div className="textAlign">
+          <div className="gridContainer inlineBlock">
+            <Link
+              className="link width inlineBlock"
+              id="fullStack"
+              to="/fullStack"
+            >
+              <span className="center">
+                Full Stack <br />
+                Applications
+              </span>
+            </Link>
 
-          <Link
-            style={{ display: "inline-block" }}
-            className="link"
-            id="d3"
-            to="/DataVisualization"
-          >
-            <span>
-              Data <br />
-              Visualization
-            </span>
-          </Link>
+            <Link
+              className="link width inlineBlock"
+              id="d3"
+              to="/DataVisualization"
+            >
+              <span className="center">
+                Data <br />
+                Visualization
+              </span>
+            </Link>
 
-          <Link
-            style={{ display: "inline-block" }}
-            className="link"
-            id="webApps"
-            to="/WebApps"
-          >
-            <span>
-              Web <br />
-              Applications
-            </span>
-          </Link>
+            <Link
+              style={{ display: "inline-block" }}
+              className="link width"
+              id="webApps"
+              to="/WebApps"
+            >
+              <span className="center">
+                Web <br />
+                Applications
+              </span>
+            </Link>
+          </div>
         </div>
         <hr></hr>
 
