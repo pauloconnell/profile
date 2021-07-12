@@ -1,15 +1,14 @@
 const React = require("react");
 const Link = require("react-router-dom").Link;
-const Footer = require("./Footer");
 
 /* the main page for the about route of this app */
 const About = function() {
   return (
     <div>
-      <center>
+      <div class="textAlign">
         <p>
           <b>
-            <span className="readable big">
+            <span className="readable big inlineBlock">
               "Interested in working in Front End and/or Back End where I can
               write clean code and help build our team and products stronger."
             </span>
@@ -18,7 +17,7 @@ const About = function() {
         <br />
         <br />
         <br />
-        <span className="title readable">
+        <span className="title readable inlineBlock">
           Certified Full Stack Software Developer
         </span>
         <br />
@@ -28,7 +27,7 @@ const About = function() {
         <br /> <br />
         <br />
         <br />
-        <span className="readable">
+        <div className="width80 readable center">
           <ol className="readable">
             <li>
               <span className="readable">
@@ -67,11 +66,14 @@ const About = function() {
             <br /> <br />
           </ol>
           Full Stack Certification: 1800 hours <br />
-        </span>
+        </div>
         <br />
         <br />
-        <Footer />
-      </center>
+        <br />
+        <br />
+        <br />
+        <br />
+      </div>
     </div>
   );
 };

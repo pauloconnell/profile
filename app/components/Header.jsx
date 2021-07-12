@@ -22,28 +22,26 @@ class Header extends React.Component {
 
   render() {
     return (
-      <div>
-        <center>
-          <h1 className="text" id="name">
-            Paul O'Connell
-          </h1>
-          <div className="row">
-            <Link className="col link border" to="/about">
-              About Me
-            </Link>
+      <div className="textAlign">
+        <h1 className="text" id="name">
+          Paul O'Connell
+        </h1>
+        <div className="row">
+          <Link className="col link border" to="/about">
+            About Me
+          </Link>
 
-            <Link className="col link border" to="/Contact">
-              Contact Me
-            </Link>
+          <Link className="col link border" to="/Contact">
+            Contact Me
+          </Link>
 
-            <Link className="col link border" to="/">
-              Home
-            </Link>
-          </div>
-          <h2 className="readable">Full Stack Software Developer</h2>
-          <br />
-          <br />{" "}
-        </center>
+          <Link className="col link border" to="/">
+            Home
+          </Link>
+        </div>
+        <h2 className="readable">Full Stack Software Developer</h2>
+        <br />
+        <br />{" "}
       </div>
     );
   }
