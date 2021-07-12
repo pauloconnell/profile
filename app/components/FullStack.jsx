@@ -1,6 +1,7 @@
 const React = require("react");
 const Link = require("react-router-dom").Link;
 const UnorderedList = require("./UnorderedList");
+const Footer = require("./Footer");
 /* the main page for the index route of this app */
 const FullStack = function() {
   return (
@@ -50,11 +51,11 @@ const FullStack = function() {
             <span className="readable">Full Stack MERN Applications</span>
           </h2>
           <br />
-          <h3 class="readable">
+          <h3 class="readable inlineBlock">
             Deployed in the cloud using:
             <br />
             React, Express, MongoDB, Mongoose, Node.js, APIs, MicroServices
-          </h3>
+          </h3><br/>
           <h4 class="readable inlineBlock">
             HTML, JavaScript, Css, Bootstrap, jQuerry, GitHub
           </h4>
@@ -227,19 +228,7 @@ const FullStack = function() {
           </a>
           <br />
         </div>
-        <div className="row">
-          <Link className="col link border" to="/about">
-            About Me
-          </Link>
-          <br />
-          <Link className="col link border" to="/contact">
-            Contact Me
-          </Link>
-          <br />
-          <Link className="col link border" to="/">
-            Home
-          </Link>
-        </div>
+        <Footer />
       </center>
     </div>
   );

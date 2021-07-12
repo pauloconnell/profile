@@ -10,7 +10,7 @@ React app with class/Stateless Functional Components being rendered via React Ro
 
 Using bootstrap CSS
 
-
+-Footer is optionally rendered on each page based
 
 
 Structure:

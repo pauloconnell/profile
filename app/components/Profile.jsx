@@ -47,7 +47,7 @@ class Profile extends React.Component {
         <br />
         <div className="textAlign ">
           <div className="title readable text inlineBlock width">
-            See My work- <br />
+            See My work: <br />
             <span data-tip="hello world">Click any of the options below:</span>
     
           </div>

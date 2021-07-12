@@ -1,15 +1,15 @@
 const React = require("react");
 const Link = require("react-router-dom").Link;
-const Footer = require("./Footer");
+
 
 /* the main page for the about route of this app */
 const Contact = function() {
   return (
     <div>
-      <center>
-        <div className="title text readable">Contact Me:</div>
+      <div className="textAlign">
+        <span className="title text readable">Contact Me:</span>
         <p>
-          <div>
+          <div className="inlineBlock">
             <a
               className="readable link border inlineBlock"
               target="_blank"
@@ -53,8 +53,11 @@ const Contact = function() {
         <br />
         <br />
         <br />
-        <Footer />
-      </center>
+        <br />
+        <br />
+        <br />
+ 
+      </div>
     </div>
   );
 };

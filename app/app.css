@@ -113,8 +113,11 @@ img {
 }
 
 .width {
-  min-width: 150px;
-  max-width: 250px;
+  width: auto;
+}
+
+.width80 {
+  width: 90%;
 }
 
 #d3 {
@@ -180,10 +183,16 @@ img {
   .link {
     font-size: 30px;
   }
+  .width80 {
+    width: 80%;
+  }
 }
 
 @media (min-width: 992px) {
   .link {
     font-size: 40px;
+  }
+  .width80 {
+    width: 70%;
   }
 }

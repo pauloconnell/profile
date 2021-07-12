@@ -23,21 +23,19 @@ class Footer extends React.Component {
   render() {
     return (
       <div>
-        <center>
-          <div className="row">
-            <Link className="col link border" to="/about">
-              About Me
-            </Link>
-            <br />
-            <Link className="col link border" to="/contact">
-              Contact Me
-            </Link>
-            <br />
-            <Link className="col link border" to="/">
-              Home
-            </Link>
-          </div>
-        </center>
+        <div className="row center">
+          <Link className="col link border" to="/about">
+            About Me
+          </Link>
+          <br />
+          <Link className="col link border" to="/contact">
+            Contact Me
+          </Link>
+          <br />
+          <Link className="col link border" to="/">
+            Home
+          </Link>
+        </div>
       </div>
     );
   }
