@@ -46,6 +46,10 @@ img {
     "bottom bottom";
 }
 
+.hidden {
+  display: hidden;
+}
+
 .inlineBlock {
   display: inline-block;
 }
@@ -76,6 +80,21 @@ img {
   grid-area: right;
 }
 
+.readable {
+  background: rgba(128, 128, 128, 0.5);
+  font-weight: bold;
+  border-radius: 6px;
+}
+.readable:hover 
+ {
+  background: rgba(128, 128, 128, 0.9);
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
 .small {
   font-size: 20px;
   color: black;
@@ -97,19 +116,6 @@ img {
 
 .textAlign {
   text-align: center;
-}
-.readable {
-  background: rgba(128, 128, 128, 0.5);
-  font-weight: bold;
-  border-radius: 6px;
-}
-.readable:hover {
-  background: rgba(128, 128, 128, 0.9);
-}
-
-.responsive {
-  width: 100%;
-  height: auto;
 }
 
 .width {
@@ -144,18 +150,6 @@ img {
 }
 #webApps.hover {
   background: grey;
-}
-
-@media (max-width: 485px) {
-  .link {
-    font-size: 20px;
-  }
-  .grid {
-    grid-template-areas:
-      "top"
-      "middle"
-      "bottom";
-  }
 }
 
 @media (max-width: 600px) {
