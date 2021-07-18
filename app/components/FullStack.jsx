@@ -55,7 +55,8 @@ const FullStack = function() {
             Deployed in the cloud using:
             <br />
             React, Express, MongoDB, Mongoose, Node.js, APIs, MicroServices
-          </h3><br/>
+          </h3>
+          <br />
           <h4 class="readable inlineBlock">
             HTML, JavaScript, Css, Bootstrap, jQuerry, GitHub
           </h4>
@@ -73,21 +74,18 @@ const FullStack = function() {
                 <strong>Anonymous Message Board Web App</strong>
               </span>
               <br />
-
+              <span className="small">
+                This App allows anonymous users to set password protected
+                content on database 'boards'
+              </span>
               <br />
+            
               <br />
               <img
                 className="responsive"
                 src="https://res.cloudinary.com/pollie/image/upload/v1610571643/messageBoard_km9wul.png"
                 alt="Full Stack Message Board"
               />
-              <span className="small">
-                <small>
-                  This App allows anonymous users to set password protected
-                  content on database 'boards'
-                </small>
-              </span>
-              <br />
             </div>
           </a>
 
@@ -105,11 +103,6 @@ const FullStack = function() {
               </span>
 
               <br />
-              <img
-                className="responsive"
-                src="https://res.cloudinary.com/pollie/image/upload/v1606166908/xTracker_nm1gfn.png"
-                alt="Full Stack Web App"
-              />
               <span className="small">
                 <small>
                   This app creates an API to Querry database results for users
@@ -117,6 +110,11 @@ const FullStack = function() {
                   exercises and track on the database via API Querries.
                 </small>
               </span>
+              <img
+                className="responsive"
+                src="https://res.cloudinary.com/pollie/image/upload/v1606166908/xTracker_nm1gfn.png"
+                alt="Full Stack Web App"
+              />
             </div>
           </a>
         </div>
@@ -132,13 +130,6 @@ const FullStack = function() {
                 <strong>Slang Translation App</strong>
               </span>
               <br />
-
-              <br />
-              <img
-                className="responsive"
-                src="https://res.cloudinary.com/pollie/image/upload/v1610564580/translate_yjhf3p.png"
-                alt="translator app image"
-              />
               <span className="small">
                 <small>
                   This app converts from British spelling/slang to US and
@@ -146,6 +137,13 @@ const FullStack = function() {
                 </small>
               </span>
               <br />
+              <br />
+              <br />
+              <img
+                className="responsive"
+                src="https://res.cloudinary.com/pollie/image/upload/v1610564580/translate_yjhf3p.png"
+                alt="translator app image"
+              />
             </div>
           </a>
 
@@ -161,17 +159,19 @@ const FullStack = function() {
                   <br />
                 </strong>
               </span>
-              <img
-                className="responsive"
-                src="https://res.cloudinary.com/pollie/image/upload/v1610815824/Authenticate-Pug_awfw7d.png"
-                alt="Full Stack Web App"
-              />
+              <br />
               <span className="small">
                 <small>
                   This app encrypts login details, stores users details on
                   database, and allows secure login with Passport.js
                 </small>
               </span>
+              <img
+                className="responsive"
+                src="https://res.cloudinary.com/pollie/image/upload/v1610815824/Authenticate-Pug_awfw7d.png"
+                alt="Full Stack Web App"
+              />
+
               <br />
             </div>
           </a>
@@ -188,17 +188,18 @@ const FullStack = function() {
                 <strong>Suduko Solver Game</strong>
                 <br />
               </span>
-
-              <img
-                className="responsive"
-                src="https://res.cloudinary.com/pollie/image/upload/v1610747577/suduko_e2wjgi.png"
-                alt="Full Stack Suduko Solver"
-              />
+              <br />
               <span className="small">
                 This app implements suduko logic and solves any board using
                 recursion
               </span>
               <br />
+              <br />
+              <img
+                className="responsive"
+                src="https://res.cloudinary.com/pollie/image/upload/v1610747577/suduko_e2wjgi.png"
+                alt="Full Stack Suduko Solver"
+              />
             </div>
           </a>
 
@@ -212,16 +213,18 @@ const FullStack = function() {
                 <strong>API Stock Price Checker</strong>
               </span>
               <br />
-              <img
-                className="responsive"
-                src="https://res.cloudinary.com/pollie/image/upload/v1610734887/StockPriceChecker_h0yedt.png"
-                alt="Full Stack Web App"
-              />
               <span className="small">
                 Takes user input, hits API to get stock price, hits Database to
                 store likes for each stock from unique IP addresses, and shows
                 comparision of likes.
               </span>
+              <br />
+              <img
+                className="responsive"
+                src="https://res.cloudinary.com/pollie/image/upload/v1610734887/StockPriceChecker_h0yedt.png"
+                alt="Full Stack Web App"
+              />
+
               <br />
               <br />
             </div>
