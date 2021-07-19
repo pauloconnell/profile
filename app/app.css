@@ -18,9 +18,14 @@ img {
 .big {
   font-size: 20px;
 }
+
 .border {
   border: 3px solid white;
   border-radius: 5px;
+}
+
+.bottom {
+  grid-area: bottom;
 }
 
 .center {
@@ -31,7 +36,8 @@ img {
 .container {
   min-height: 300px;
   display: grid;
-  grid-gap: 10px;
+  grid-column-gap: 6%;
+  grid-row-gap: 6px;
   grid-template-areas:
     "left"
     "right";
@@ -39,11 +45,11 @@ img {
 
 .gridContainer {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 6%;
   grid-template-areas:
-    "top top"
-    "middle middle"
-    "bottom bottom";
+    "top"
+    "middle"
+    "bottom";
 }
 
 .hidden {
@@ -57,7 +63,7 @@ img {
 .link {
   font-color: DodgerBlue;
   text-shadow: 1px 1px white;
-  font-size: 25px;
+  font-size: 4vw;
   background: rgba(12, 12, 12, 0.5);
   border: 2px solid black;
   border-radius: 5px;
@@ -67,7 +73,11 @@ img {
 
 .link:hover {
   color: rgba(255, 255, 255, 0.5);
-  background: grey;
+  background: rgb(133, 202, 93);
+}
+
+.middle {
+  grid-area: middle;
 }
 
 .pos-one {
@@ -95,7 +105,7 @@ img {
 }
 
 .small {
-  font-size: 14px;
+  font-size: 16px;
   color: black;
 }
 
@@ -116,6 +126,9 @@ img {
 .textAlign {
   text-align: center;
 }
+.top {
+  grid-area: top;
+}
 
 .width {
   width: auto;
@@ -126,17 +139,9 @@ img {
 }
 
 #d3 {
-  grid-area: middle;
-}
-#d3.hover {
-  background: grey;
 }
 
 #fullStack {
-  grid-area: top;
-}
-#fullStack.hover {
-  background: grey;
 }
 
 #name {
@@ -144,27 +149,11 @@ img {
 }
 
 #webApps {
-  font-weight: bold;
-  grid-area: bottom;
-}
-#webApps.hover {
-  background: grey;
 }
 
 @media (max-width: 600px) {
-  .grid {
-    grid-gap: 10px;
-    grid-template-areas:
-      "top"
-      "middle"
-      "bottom";
-  }
-  .link {
-    font-size: 20px;
-  }
-
   span.small {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 @media (min-width: 601px) {
@@ -172,13 +161,8 @@ img {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "left right";
   }
-  .grid {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "top middle bottom";
-  }
-
-  .link {
-    font-size: 30px;
+  .gridContainer {
+    grid-template-columns: top middle bottom;
   }
 
   span.small {

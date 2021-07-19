@@ -65,8 +65,8 @@ const WebApps = function() {
           href="https://codepen.io/p_ollie/full/qJjVgR"
           target="_blank"
         >
-          <div className="border">
-            <span className="title text">
+          <div className="border text-align">
+            <span className="title inlineBlock text">
               <strong>
                 <u>Test Center</u>
                 <br /> Product Knowledge App
@@ -87,8 +87,8 @@ const WebApps = function() {
           href="https://codepen.io/p_ollie/full/VMVeQw"
           target="_blank"
         >
-          <div className="border">
-            <span className="title text">
+          <div className="border text-align">
+            <span className="title text inlineBlock">
               <strong>
                 Wiki Search API
                 <br />
@@ -103,7 +103,6 @@ const WebApps = function() {
           />
         </a>
       </div>
-      <br />
 
       <div className="container">
         <a
@@ -111,8 +110,8 @@ const WebApps = function() {
           href="https://codepen.io/p_ollie/full/QqGGXB"
           target="_blank"
         >
-          <div className="border">
-            <span className="title text">
+          <div className="border text-align">
+            <span className="title text inlineBlock">
               <strong>
                 API Local Weather Detector
                 <br />
@@ -132,8 +131,8 @@ const WebApps = function() {
           href="https://codepen.io/p_ollie/full/ZEzNJWo"
           target="_blank"
         >
-          <div className="border">
-            <span className="title text">
+          <div className="border text-align">
+            <span className="title text inlineBlock">
               <strong>
                 React Drum Machine
                 <br />
@@ -155,8 +154,8 @@ const WebApps = function() {
           href="https://cdpn.io/p_ollie/debug/xyRRyq/yPAJjKXXWKQA"
           target="_blank"
         >
-          <div className="border">
-            <span className="title text">
+          <div className="border text-align">
+            <span className="title text inlineBlock">
               <strong>
                 Tic Tac Toe with AI Player
                 <br />
@@ -176,17 +175,14 @@ const WebApps = function() {
           href="https://codepen.io/p_ollie/full/RLrxPr"
           target="_blank"
         >
-          <div className="border">
-            <span className="title text">
+          <div className="border text-align">
+            <span className="title text inlineBlock">
               <strong>
                 <u>API Quote Generator</u>
-                <br /> Social Media Posting
-                <br />
-                <br />
               </strong>
+              <br />
             </span>
           </div>
-          <br />
 
           <img
             className="responsive"
@@ -195,7 +191,7 @@ const WebApps = function() {
           />
         </a>
       </div>
-
+      <br />
       <br />
       <Footer />
     </div>

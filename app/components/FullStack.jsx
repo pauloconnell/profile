@@ -79,7 +79,7 @@ const FullStack = function() {
                 content on database 'boards'
               </span>
               <br />
-            
+
               <br />
               <img
                 className="responsive"
@@ -186,14 +186,13 @@ const FullStack = function() {
             <div className="border">
               <span className="title text">
                 <strong>Suduko Solver Game</strong>
-                <br />
               </span>
               <br />
               <span className="small">
                 This app implements suduko logic and solves any board using
                 recursion
               </span>
-              <br />
+
               <br />
               <img
                 className="responsive"
@@ -224,9 +223,6 @@ const FullStack = function() {
                 src="https://res.cloudinary.com/pollie/image/upload/v1610734887/StockPriceChecker_h0yedt.png"
                 alt="Full Stack Web App"
               />
-
-              <br />
-              <br />
             </div>
           </a>
           <br />
