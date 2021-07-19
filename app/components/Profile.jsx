@@ -49,26 +49,26 @@ class Profile extends React.Component {
           <div className="title readable text inlineBlock width">
             See My work: <br />
             <span className="hidden">Click any of the options below:</span>
-    
           </div>
         </div>
         <br />
         <br />
         <div className="textAlign ">
           <div className="gridContainer inlineBlock">
+            <span>
+              <Link
+                className="link width inlineBlock top"
+                id="fullStack"
+                to="/fullStack"
+              >
+                <span className="center">
+                  Full Stack <br />
+                  Applications
+                </span>
+              </Link>
+            </span>
             <Link
-              className="link width inlineBlock"
-              id="fullStack"
-              to="/fullStack"
-            >
-              <span className="center">
-                Full Stack <br />
-                Applications
-              </span>
-            </Link>
-
-            <Link
-              className="link width inlineBlock"
+              className="link width inlineBlock middle"
               id="d3"
               to="/DataVisualization"
             >
@@ -79,8 +79,7 @@ class Profile extends React.Component {
             </Link>
 
             <Link
-              style={{ display: "inline-block" }}
-              className="link width"
+              className="link width inlineBlock bottom"
               id="webApps"
               to="/WebApps"
             >
