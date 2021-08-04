@@ -27,7 +27,7 @@ const About = function() {
         <br /> <br />
         <br />
         <br />
-        <div className="width80 readable center">
+        <div className="center inlineBlock">
           <ol className="readable">
             <li>
               <span className="readable">
@@ -65,7 +65,8 @@ const About = function() {
             </li>
             <br /> <br />
           </ol>
-          Full Stack Certification: 1800 hours <br />
+          <span className="readable">Full Stack Certification: 1800 hours</span>
+          <br />
         </div>
         <br />
         <br />

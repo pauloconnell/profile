@@ -135,7 +135,7 @@ img {
 }
 
 .width80 {
-  width: 90%;
+ 
 }
 
 #d3 {
@@ -170,7 +170,6 @@ img {
   }
 
   .width80 {
-    width: 80%;
   }
 }
 
@@ -183,6 +182,5 @@ img {
     font-size: 18px;
   }
   .width80 {
-    width: 70%;
   }
 }
