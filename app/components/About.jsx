@@ -17,57 +17,120 @@ const About = function() {
         <br />
         <br />
         <br />
-        <span className="title readable inlineBlock">
-          Certified Full Stack Software Developer
-        </span>
+        <span className="title readable inlineBlock"></span>
         <br />
-        <span className="readable big">
-          <u>FULLSTACK MERN CERTIFICATION INCLUDES:</u>
-        </span>
+        <br />
+        <div className="readable big">
+          <u>FULLSTACK MERN CERTIFICATION:</u>
+          <br />
+          The MERN Stack is: MongoDB, Express(server) React, Node.js <br />
+          1800 Hours Certification awarded after completion of 6 Certifications:
+          <br />
+          <code>
+            Quality Assurance and Information Security Certification <br />
+            Data Visualization with D3 Certification <br />
+            APIs and MicroServices Certification <br />
+            JavaScript Algorithms and Data Structures Certification <br />
+            Front End Development Libraries Certification <br />
+            Responsive Web Design Certification
+          </code>
+          <br />
+        </div>
         <br /> <br />
         <br />
         <br />
-        <div className="center inlineBlock">
+        <span className="center">
           <ol className="readable">
-            <li>
-              <span className="readable">
-                Responsive Web Design Certification <br />
-              </span>
-            </li>
             <br />
             <li>
               <span className="readable">
-                JavaScript Algorithms and Data Structures Certification
+                <span className="big">Responsive Web Design Certification</span>
+                <br />
+                <code>
+                  HTML5, CSS, Applied Visual Design, Applied Accessibility,
+                  Responsive Web Design Principles, CSS FlexBox, CSS Grid, and
+                  e-forms
+                </code>
+                <hr></hr>
               </span>
             </li>
-            <br />
-            <br />
+
             <li>
               <span className="readable">
-                Front End Development Libraries Certification
+                <span className="big">
+                  JavaScript Algorithms and Data Structures Certification
+                </span>
+                <br />
+                <code>
+                  JavaScript data structures are explored. Then creating
+                  algorithms to manipulate strings, factorialize numbers, and
+                  solve problems. Also touches on OOP and FP(functional
+                  programming).
+                </code>
+                <hr></hr>
               </span>
             </li>
-            <br />
-            <br />
-            <li>
-              <span className="readable">Data Visualization Certification</span>
-            </li>
-            <br />
-            <br />
             <li>
               <span className="readable">
-                APIs and MicroServices Certification
+                <span className="big">
+                  Front End Development Libraries Certification
+                </span>
+                <br />
+                <code>
+                  Bootstrap, jQuery Sass, React and Redux. Building modern
+                  responsive component based web applications capable of scaling
+                  up.
+                </code>
+                <hr></hr>
               </span>
             </li>
-            <br />
             <li>
-              <span className="readable">Quality Assurance Certification</span>
+              <span className="readable">
+                <span className="big">Data Visualization Certification</span>
+                <br />
+                <code>
+                  Using data to create different charts, graphs, hover elements,
+                  and other ingredients to create dynamic and attractive data
+                  visualizations.
+                </code>
+                <hr></hr>
+              </span>
             </li>
-            <br /> <br />
+
+            <li>
+              <span className="readable">
+                <span className="big">
+                  APIs and MicroServices Certification
+                </span>
+                <br />
+                <code>
+                  Back end with Node.js and npm (Node Package Manager). Also
+                  building web applications with the Express framework, build
+                  APIs and microservices with MongoDB and the Mongoose library.
+                </code>
+                <hr></hr>
+              </span>
+            </li>
+
+            <li>
+              <span className="readable">
+                <span className="big">Quality Assurance Certification</span>
+                <br />
+                <code>
+                  Advanced Node.js, Authentication with Passport, Social
+                  Authentication, Template Engine allows server-side variable
+                  rendering with Pug, and T Testing with Chai.
+                </code>
+              </span>
+              <hr></hr>
+            </li>
           </ol>
-          <span className="readable">Full Stack Certification: 1800 hours</span>
           <br />
-        </div>
+          <span className="readable title">
+            Full Stack Certification: 1800 hours
+          </span>
+          <br />
+        </span>
         <br />
         <br />
         <br />

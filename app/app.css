@@ -9,6 +9,7 @@ body {
   background-size: cover;
   font-size: 16px;
   font-size: 4vw;
+  color: black;
 }
 
 img {
@@ -135,7 +136,6 @@ img {
 }
 
 .width80 {
- 
 }
 
 #d3 {
