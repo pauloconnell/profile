@@ -8,8 +8,8 @@ const About = function() {
       <div class="textAlign">
         <p>
           <b>
-            <span className="readable big inlineBlock">
-              "Interested in working in Front End and/or Back End where I can
+            <span className="readable big quote inlineBlock">
+              "Interested in all aspects of Software Development, seeking employment where I can
               write clean code and help build our team and products stronger."
             </span>
           </b>
@@ -20,7 +20,7 @@ const About = function() {
         <span className="title readable inlineBlock"></span>
         <br />
         <br />
-        <div className="readable big">
+        <span className="readEasy big inlineBlock">
           <u>FULLSTACK MERN CERTIFICATION:</u>
           <br />
           The MERN Stack is: MongoDB, Express(server) React, Node.js <br />
@@ -35,12 +35,12 @@ const About = function() {
             Responsive Web Design Certification
           </code>
           <br />
-        </div>
+        </span>
         <br /> <br />
         <br />
         <br />
         <span className="center">
-          <ol className="readable">
+          <ol className="readEasy inlineBlock">
             <br />
             <li>
               <span className="readable">

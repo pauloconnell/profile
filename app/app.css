@@ -91,10 +91,19 @@ img {
   grid-area: right;
 }
 
-.readable {
-  background: rgba(128, 128, 128, 0.5);
+.quote {
+  background: rgba(255, 255, 255, 0.5);
+}
+.readEasy {
+  background: black;
+  color: white;
   font-weight: bold;
-  border-radius: 6px;
+  border-radius: 5px;
+}
+
+.readable {
+  background: rgba(128, 128, 128, 0.3);
+  border-radius: 5px;
 }
 .readable:hover {
   background: rgba(128, 128, 128, 0.9);
