@@ -47,10 +47,10 @@ const DataVisualization = function() {
 
         <h2>
           {" "}
-          <span className="title text readable">Data Visualization D3</span>
+          <span className="title readEasy">Data Visualization D3</span>
         </h2>
         <h3>
-          <span className="text readable">
+          <span className="readEasy">
             API driven data displayed in browser using D3 library on SVG canvas
           </span>
         </h3>

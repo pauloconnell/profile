@@ -44,20 +44,19 @@ const FullStack = function() {
             </Link>
           </div>
         </div>
-        <br />
-        <br />
-        <div className="text">
+        <hr></hr>
+        <div className="readable">
           <h2>
-            <span className="readable">Full Stack MERN Applications</span>
+            <span className="readEasy title">Full Stack MERN Applications</span>
           </h2>
           <br />
-          <h3 class="readable inlineBlock">
+          <h3 class="readEasy inlineBlock">
             Deployed in the cloud using:
             <br />
             React, Express, MongoDB, Mongoose, Node.js, APIs, MicroServices
           </h3>
           <br />
-          <h4 class="readable inlineBlock">
+          <h4 class="readEasy inlineBlock">
             HTML, JavaScript, Css, Bootstrap, jQuerry, GitHub
           </h4>
         </div>

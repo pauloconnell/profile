@@ -43,14 +43,13 @@ const WebApps = function() {
           </Link>
         </div>
       </div>
-      <br />
-      <br />
+      <hr></hr>
       <h2 className="textAlign">
-        <span className="readable text title">Web Applications</span>
+        <span className="readEasy title">Web Applications</span>
       </h2>
-      <h3 className="text ">
+      <h3 className="textAlign">
         {" "}
-        <span className="readable">
+        <span className="readEasy">
           Modern responsive custom Web Applications I have built using
           javaScript and React ect, deployed in the cloud.
         </span>
