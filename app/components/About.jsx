@@ -9,8 +9,9 @@ const About = function() {
         <p>
           <b>
             <span className="readable big quote inlineBlock">
-              "Interested in all aspects of Software Development, seeking employment where I can
-              write clean code and help build our team and products stronger."
+              "Interested in all aspects of Software Development, seeking
+              employment where I can write clean code and help build our team
+              and products stronger."
             </span>
           </b>
         </p>
@@ -40,7 +41,7 @@ const About = function() {
         <br />
         <br />
         <span className="center">
-          <ol className="readEasy inlineBlock">
+          <ul className="readEasy inlineBlock">
             <br />
             <li>
               <span className="readable">
@@ -51,6 +52,10 @@ const About = function() {
                   Responsive Web Design Principles, CSS FlexBox, CSS Grid, and
                   e-forms
                 </code>
+                <br />
+                <a href="https://www.freecodecamp.org/certification/fccd9e19c59/responsive-web-design">
+                  Link to view this Certificate
+                </a>
                 <hr></hr>
               </span>
             </li>
@@ -67,6 +72,10 @@ const About = function() {
                   solve problems. Also touches on OOP and FP(functional
                   programming).
                 </code>
+                <br />
+                <a href="https://www.freecodecamp.org/certification/fccd9e19c59/javascript-algorithms-and-data-structures">
+                  View Certificate
+                </a>
                 <hr></hr>
               </span>
             </li>
@@ -81,6 +90,10 @@ const About = function() {
                   responsive component based web applications capable of scaling
                   up.
                 </code>
+                <br />
+                <a href="https://www.freecodecamp.org/certification/fccd9e19c59/front-end-libraries">
+                  View Certificate
+                </a>
                 <hr></hr>
               </span>
             </li>
@@ -93,6 +106,10 @@ const About = function() {
                   and other ingredients to create dynamic and attractive data
                   visualizations.
                 </code>
+                <br />
+                <a href="https://www.freecodecamp.org/certification/fccd9e19c59/data-visualization">
+                  View Certificate
+                </a>
                 <hr></hr>
               </span>
             </li>
@@ -108,6 +125,10 @@ const About = function() {
                   building web applications with the Express framework, build
                   APIs and microservices with MongoDB and the Mongoose library.
                 </code>
+                <br />
+                <a href="https://www.freecodecamp.org/certification/fccd9e19c59/apis-and-microservices">
+                  View Certificate
+                </a>
                 <hr></hr>
               </span>
             </li>
@@ -122,9 +143,22 @@ const About = function() {
                   rendering with Pug, and T Testing with Chai.
                 </code>
               </span>
+              <br />
+              <a
+                className="margin"
+                href="https://www.freecodecamp.org/certification/fccd9e19c59/quality-assurance-v7"
+              >
+                View Certificate
+              </a>
+              <a
+                className="margin"
+                href="https://www.freecodecamp.org/certification/fccd9e19c59/information-security-and-quality-assurance"
+              >
+                View Certificate
+              </a>
               <hr></hr>
             </li>
-          </ol>
+          </ul>
           <br />
           <span className="readable title">
             Full Stack Certification: 1800 hours
