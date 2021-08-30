@@ -45,7 +45,7 @@ const FullStack = function() {
           </div>
         </div>
         <hr></hr>
-        <div className="readable">
+        <div className="">
           <h2>
             <span className="readEasy title">Full Stack MERN Applications</span>
           </h2>
