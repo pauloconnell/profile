@@ -7,7 +7,7 @@ const ReactTooltip = require("react-tooltip");
 const dependenciesArray = [
   "express - middleware for the node server",
   "react - for generating the views of the app",
-  "react-dom - powers the rendering of elements to the DOM, typically paired with React",
+  "react-dom - powers the rendering of elements to the DOM, with React",
   "webpack - for bundling all the javascript",
   "webpack-cli - command line support for webpack",
   "jsx-loader - allows webpack to load jsx files",
@@ -46,10 +46,12 @@ class Profile extends React.Component {
       <div>
         <br />
         <div className="textAlign ">
-          <div className="title readable text inlineBlock width">
+          <p
+            title="Click any of the options below:"
+            className="title readable text inlineBlock width"
+          >
             See My work: <br />
-            <span className="hidden">Click any of the options below:</span>
-          </div>
+          </p>
         </div>
         <br />
         <br />
@@ -61,7 +63,10 @@ class Profile extends React.Component {
                 id="fullStack"
                 to="/fullStack"
               >
-                <span className="center">
+                <span
+                  title="These applications use Express Server and MongoDB Database"
+                  className="center"
+                >
                   Full Stack <br />
                   Applications
                 </span>
@@ -72,7 +77,10 @@ class Profile extends React.Component {
               id="d3"
               to="/DataVisualization"
             >
-              <span className="center">
+              <span
+                className="center"
+                title="Data Visualization using D3 JavaScript Library"
+              >
                 Data <br />
                 Visualization
               </span>

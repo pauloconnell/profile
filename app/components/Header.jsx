@@ -40,7 +40,7 @@ class Header extends React.Component {
           </Link>
         </div>
         <h2 className="textAlign">
-          <span className="readable">Full Stack Software Developer</span>
+          <span className="readEasy">Full Stack Software Developer</span>
         </h2>
         <br />
         <br />{" "}

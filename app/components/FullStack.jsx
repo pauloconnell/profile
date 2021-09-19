@@ -68,18 +68,17 @@ const FullStack = function() {
             href="https://messageboard-anon.glitch.me/"
             target="_blank"
           >
-            <div className="border">
+            <div
+              className="border"
+              title="This App allows anonymous users to set password protected content on database 'boards'"
+            >
               <span className="title text">
                 <strong>Anonymous Message Board Web App</strong>
               </span>
-              <br />
-              <span className="small">
-                This App allows anonymous users to set password protected
-                content on database 'boards'
-              </span>
+
+              <span className="small"></span>
               <br />
 
-              <br />
               <img
                 className="responsive"
                 src="https://res.cloudinary.com/pollie/image/upload/v1610571643/messageBoard_km9wul.png"
@@ -93,21 +92,18 @@ const FullStack = function() {
             href="https://exercisetrackerapi.glitch.me"
             target="_blank"
           >
-            <div className="border">
+            <div
+              className="border"
+              title="This app creates an API to Querry database results for users
+                  results. The app creates unique userId for each user to log
+                  exercises and track on the database via API Querries."
+            >
               <span className="title text">
-                <strong>
-                  Exercise Tracker App using
-                  <br /> MongoDB database
-                </strong>
+                <strong>Exercise Tracker App</strong>
               </span>
 
-              <br />
               <span className="small">
-                <small>
-                  This app creates an API to Querry database results for users
-                  results. The app creates unique userId for each user to log
-                  exercises and track on the database via API Querries.
-                </small>
+                <small></small>
               </span>
               <img
                 className="responsive"
@@ -124,20 +120,18 @@ const FullStack = function() {
             href="https://QA-5-american-british-english-translator.pauloconnell.repl.co"
             target="_blank"
           >
-            <div class="border">
+            <div
+              class="border"
+              title="This app converts from British spelling/slang to US and Vise-Versa"
+            >
               <span className="title text">
                 <strong>Slang Translation App</strong>
               </span>
               <br />
               <span className="small">
-                <small>
-                  This app converts from British spelling/slang to US and
-                  Vise-Versa
-                </small>
+                <small></small>
               </span>
-              <br />
-              <br />
-              <br />
+
               <img
                 className="responsive"
                 src="https://res.cloudinary.com/pollie/image/upload/v1610564580/translate_yjhf3p.png"
@@ -151,19 +145,19 @@ const FullStack = function() {
             href="https://authentication-pug.glitch.me/"
             target="_blank"
           >
-            <div className="border ">
+            <div
+              className="border"
+              title="This app encrypts login details, stores users details on
+                  database, and allows secure login with Passport.js"
+            >
               <span className="title text">
                 <strong>
                   Encrypted Authentication Using Passport and MongoDB
-                  <br />
                 </strong>
               </span>
-              <br />
+
               <span className="small">
-                <small>
-                  This app encrypts login details, stores users details on
-                  database, and allows secure login with Passport.js
-                </small>
+                <small></small>
               </span>
               <img
                 className="responsive"
@@ -182,17 +176,16 @@ const FullStack = function() {
             href="https://qa-4-suduko-solver.pauloconnell.repl.co/"
             target="_blank"
           >
-            <div className="border">
+            <div
+              className="border"
+              title="This app implements suduko logic and solves any board using recursion"
+            >
               <span className="title text">
                 <strong>Suduko Solver Game</strong>
               </span>
-              <br />
-              <span className="small">
-                This app implements suduko logic and solves any board using
-                recursion
-              </span>
 
-              <br />
+              <span className="small"></span>
+
               <img
                 className="responsive"
                 src="https://res.cloudinary.com/pollie/image/upload/v1610747577/suduko_e2wjgi.png"
@@ -206,17 +199,16 @@ const FullStack = function() {
             href="https://stock-price-checker-paul.glitch.me/"
             target="_blank"
           >
-            <div className="border">
+            <div
+              className="border"
+              title="Takes user input, hits API to get stock price, hits Database to store likes for each stock from unique IP addresses, and shows comparision of likes."
+            >
               <span className="title text">
                 <strong>API Stock Price Checker</strong>
               </span>
-              <br />
-              <span className="small">
-                Takes user input, hits API to get stock price, hits Database to
-                store likes for each stock from unique IP addresses, and shows
-                comparision of likes.
-              </span>
-              <br />
+
+              <span className="small"></span>
+
               <img
                 className="responsive"
                 src="https://res.cloudinary.com/pollie/image/upload/v1610734887/StockPriceChecker_h0yedt.png"

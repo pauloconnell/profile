@@ -50,8 +50,8 @@ const WebApps = function() {
       <h3 className="textAlign">
         {" "}
         <span className="readEasy">
-          Modern responsive custom Web Applications I have built using
-          javaScript and React ect, deployed in the cloud.
+          Modern responsive custom Web Applications built using javaScript and
+          React ect, deployed in the cloud.
         </span>
       </h3>
       <br />
@@ -61,6 +61,7 @@ const WebApps = function() {
       <div className="container">
         <a
           className="pos-one link"
+          title="Delivers specific information for every item on sales floor and organizes similar models to increase sales conversions"
           href="https://codepen.io/p_ollie/full/qJjVgR"
           target="_blank"
         >
@@ -78,8 +79,51 @@ const WebApps = function() {
             src="https://res.cloudinary.com/pollie/image/upload/v1610401628/Test_Center_ue5srv.png"
           />
         </a>
-        <br />
-        <br />
+
+        <a
+          className="pos-two link"
+          href="https://ianbunburydogschool.glitch.me"
+          target="_blank"
+        >
+          <div className="border text-align">
+            <span className="title inlineBlock text">
+              <strong>
+                <u>
+                  {" "}
+                  Ian Bunbury
+                  <br />
+                  Dog Training
+                </u>
+              </strong>
+            </span>
+
+            <img
+              className="responsive"
+              src="https://res.cloudinary.com/pollie/image/upload/v1615410052/profileBunbury_pcfb8t.png"
+              alt="Ian Bunbury Dog School"
+            />
+          </div>
+        </a>
+      </div>
+
+      <div className="container">
+        <a
+          className="pos-one link"
+          title="Profile developed with pure HTML and CSS"
+          href="https://codepen.io/p_ollie/full/ayJXyZ"
+          target="_blank"
+        >
+          <div className="border text-align">
+            <span className="title text inlineBlock">
+              <strong>Web Developer Profile </strong>
+            </span>
+          </div>
+          <img
+            className="responsive"
+            src="https://res.cloudinary.com/pollie/image/upload/v1631908054/profile_v31u4b.png"
+            alt="Web Developer"
+          />
+        </a>
 
         <a
           className="pos-two link"
@@ -89,7 +133,7 @@ const WebApps = function() {
           <div className="border text-align">
             <span className="title text inlineBlock">
               <strong>
-                Wiki Search API
+                Wiki Search via API
                 <br />
                 <br />
               </strong>
@@ -106,6 +150,7 @@ const WebApps = function() {
       <div className="container">
         <a
           className="pos-one link"
+          title="Detects GeoLocation then hits weather forcast API to display weather in your area"
           href="https://codepen.io/p_ollie/full/QqGGXB"
           target="_blank"
         >
