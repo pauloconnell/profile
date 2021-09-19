@@ -8,7 +8,7 @@ const About = function() {
       <div class="textAlign">
         <p>
           <b>
-            <span className="readable big quote inlineBlock">
+            <span className="readable big quote inlineBlock width90">
               "Interested in all aspects of Software Development, seeking
               employment where I can write clean code and help build our team
               and products stronger."
@@ -21,30 +21,33 @@ const About = function() {
         <span className="title readable inlineBlock"></span>
         <br />
         <br />
-        <span className="readEasy big inlineBlock">
-          <u>FULLSTACK MERN CERTIFICATION:</u>
+        <span className="readEasy big inlineBlock lineHeight width80">
+          <u className="title">FULLSTACK MERN CERTIFICATION:</u>
           <br />
-          The MERN Stack is: MongoDB, Express(server) React, Node.js <br />
-          1800 Hours Certification awarded after completion of 6 Certifications:
           <br />
-          <code>
-            Quality Assurance and Information Security Certification <br />
-            Data Visualization with D3 Certification <br />
-            APIs and MicroServices Certification <br />
-            JavaScript Algorithms and Data Structures Certification <br />
-            Front End Development Libraries Certification <br />
-            Responsive Web Design Certification
-          </code>
+          The MERN Stack is: MongoDB, Express(server) React, Node.js 1800 Hours
+          Certification awarded after completion of 6 Certifications:
+          <br />
+          <ul className="displayLeft">
+            <code>
+              <li>Quality Assurance and Information Security Certification </li>
+              <li>Data Visualization with D3 Certification </li>
+              <li>APIs and MicroServices Certification </li>
+              <li>JavaScript Algorithms and Data Structures Certification </li>
+              <li>Front End Development Libraries Certification </li>
+              <li>Responsive Web Design Certification</li>
+            </code>
+          </ul>
           <br />
         </span>
         <br /> <br />
         <br />
         <br />
-        <span className="center">
+        <span className="center width80">
           <ul className="readEasy inlineBlock">
             <br />
             <li>
-              <span className="readable">
+              <span className="">
                 <span className="big">Responsive Web Design Certification</span>
                 <br />
                 <code>
@@ -56,12 +59,13 @@ const About = function() {
                 <a href="https://www.freecodecamp.org/certification/fccd9e19c59/responsive-web-design">
                   Link to view this Certificate
                 </a>
-                <hr></hr>
               </span>
             </li>
-
+            <br />
+            <hr></hr>
+            <br />
             <li>
-              <span className="readable">
+              <span className="">
                 <span className="big">
                   JavaScript Algorithms and Data Structures Certification
                 </span>
@@ -80,7 +84,7 @@ const About = function() {
               </span>
             </li>
             <li>
-              <span className="readable">
+              <span className="">
                 <span className="big">
                   Front End Development Libraries Certification
                 </span>
@@ -98,7 +102,7 @@ const About = function() {
               </span>
             </li>
             <li>
-              <span className="readable">
+              <span className="">
                 <span className="big">Data Visualization Certification</span>
                 <br />
                 <code>
@@ -115,7 +119,7 @@ const About = function() {
             </li>
 
             <li>
-              <span className="readable">
+              <span className="">
                 <span className="big">
                   APIs and MicroServices Certification
                 </span>
@@ -134,7 +138,7 @@ const About = function() {
             </li>
 
             <li>
-              <span className="readable">
+              <span className="">
                 <span className="big">Quality Assurance Certification</span>
                 <br />
                 <code>
@@ -160,7 +164,7 @@ const About = function() {
             </li>
           </ul>
           <br />
-          <span className="readable title">
+          <span className="readEasy title">
             Full Stack Certification: 1800 hours
           </span>
           <br />
