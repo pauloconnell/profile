@@ -132,13 +132,10 @@ const WebApps = function() {
         >
           <div className="border text-align">
             <span className="title text inlineBlock">
-              <strong>
-                Wiki Search via API
-                <br />
-                <br />
-              </strong>
+              <strong>Wiki Search via API</strong>
             </span>
           </div>
+          <br/>
           <img
             className="responsive"
             src="https://res.cloudinary.com/pollie/image/upload/v1598909611/Wiki_search_avfb5n.png"
@@ -156,11 +153,7 @@ const WebApps = function() {
         >
           <div className="border text-align">
             <span className="title text inlineBlock">
-              <strong>
-                API Local Weather Detector
-                <br />
-                <br />
-              </strong>
+              <strong>API Local Weather Detector</strong>
             </span>
           </div>
           <img
@@ -177,11 +170,7 @@ const WebApps = function() {
         >
           <div className="border text-align">
             <span className="title text inlineBlock">
-              <strong>
-                React Drum Machine
-                <br />
-                <br />
-              </strong>
+              <strong>React Drum Machine</strong>
             </span>
           </div>
           <img
@@ -200,11 +189,7 @@ const WebApps = function() {
         >
           <div className="border text-align">
             <span className="title text inlineBlock">
-              <strong>
-                Tic Tac Toe with AI Player
-                <br />
-                <br />
-              </strong>
+              <strong>Tic Tac Toe with AI Player</strong>
             </span>
           </div>
           <img
@@ -227,7 +212,7 @@ const WebApps = function() {
               <br />
             </span>
           </div>
-
+  <br/>
           <img
             className="responsive"
             src="https://res.cloudinary.com/pollie/image/upload/v1598905735/API_quote_machien_cmbxot.png"
