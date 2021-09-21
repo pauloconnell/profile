@@ -8,7 +8,7 @@ const About = function() {
       <div class="textAlign">
         <p>
           <b>
-            <span className="readable big quote inlineBlock width90">
+            <span className="readable big quote inlineBlock wordSpace textShadow width90">
               "Interested in all aspects of Software Development, seeking
               employment where I can write clean code and help build our team
               and products stronger."
@@ -47,6 +47,7 @@ const About = function() {
               <span className="">
                 <span className="big">Responsive Web Design Certification</span>
                 <br />
+                <br></br>
                 <code>
                   HTML5, CSS, Applied Visual Design, Applied Accessibility,
                   Responsive Web Design Principles, CSS FlexBox, CSS Grid, and
@@ -67,6 +68,7 @@ const About = function() {
                   JavaScript Algorithms and Data Structures Certification
                 </span>
                 <br />
+                <br />
                 <code>
                   JavaScript data structures are explored. Then creating
                   algorithms to manipulate strings, factorialize numbers, and
@@ -85,6 +87,7 @@ const About = function() {
                 <span className="big">
                   Front End Development Libraries Certification
                 </span>
+                <br />
                 <br />
                 <code>
                   Bootstrap, jQuery Sass, React and Redux. Building modern
@@ -144,6 +147,7 @@ const About = function() {
                   rendering with Pug, and T Testing with Chai.
                 </code>
               </span>
+              <br />
               <br />
               <a
                 className="margin"

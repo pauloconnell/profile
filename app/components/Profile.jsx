@@ -48,12 +48,15 @@ class Profile extends React.Component {
         <div className="textAlign ">
           <span className="inlineBlock width80 readEasy wordSpace">
             Dedicated, efficient Full Stack developer, skilled in all aspects of
-            software development, client relations, team work and management.
-            Focused on designing, implementing and testing software using both
-            front-end and back-end technologies to develop and deploy scaleable
-            cloud based modern web applications, API's, databases, and web
-            sites.
+            software development, client relations, collaboration, and team
+            management.
+            <br />
+            Focused on developing and testing software using both front-end and
+            back-end technologies to deploy scaleable cloud based modern web
+            applications, API's, databases, and web sites.
           </span>
+          <br />
+          <br />
           <br />
           <p
             title="Click any of the options below:"
