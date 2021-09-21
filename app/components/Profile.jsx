@@ -46,6 +46,15 @@ class Profile extends React.Component {
       <div>
         <br />
         <div className="textAlign ">
+          <span className="inlineBlock width80 readEasy wordSpace">
+            Dedicated, efficient Full Stack developer, skilled in all aspects of
+            software development, client relations, team work and management.
+            Focused on designing, implementing and testing software using both
+            front-end and back-end technologies to develop and deploy scaleable
+            cloud based modern web applications, API's, databases, and web
+            sites.
+          </span>
+          <br />
           <p
             title="Click any of the options below:"
             className="title readable text inlineBlock width"
@@ -57,36 +66,32 @@ class Profile extends React.Component {
         <br />
         <div className="textAlign ">
           <div className="gridContainer inlineBlock">
-            <span>
+            <span title="These applications use Express Server and MongoDB Database">
               <Link
                 className="link width inlineBlock top"
                 id="fullStack"
                 to="/fullStack"
               >
-                <span
-                  title="These applications use Express Server and MongoDB Database"
-                  className="center"
-                >
+                <span className="center">
                   Full Stack <br />
                   Applications
                 </span>
               </Link>
             </span>
             <Link
+              title="Data Visualization using javaScript D3 Library"
               className="link width inlineBlock middle"
               id="d3"
               to="/DataVisualization"
             >
-              <span
-                className="center"
-                title="Data Visualization using D3 JavaScript Library"
-              >
+              <span className="center">
                 Data <br />
                 Visualization
               </span>
             </Link>
 
             <Link
+              title="Front End Web Applications"
               className="link width inlineBlock bottom"
               id="webApps"
               to="/WebApps"
