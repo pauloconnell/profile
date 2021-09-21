@@ -51,7 +51,7 @@ const WebApps = function() {
         {" "}
         <span className="readEasy">
           Modern responsive custom Web Applications built using javaScript and
-          React ect, deployed in the cloud.
+          React, deployed in the cloud.
         </span>
       </h3>
       <br />
