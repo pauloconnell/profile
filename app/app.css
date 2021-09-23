@@ -77,8 +77,8 @@ ul {
 }
 
 .link:hover {
-  color: rgba(255, 255, 255, 0.5);
-  background: rgb(133, 202, 93);
+  color: rgba(69, 75, 27, 0.9);
+  background: DodgerBlue;
 }
 
 .lineHeight {
@@ -171,7 +171,7 @@ ul {
 }
 
 .wordSpace {
-  word-spacing: 0.5em;
+  word-spacing: 0.1em;
   line-height: 1.3;
 }
 
