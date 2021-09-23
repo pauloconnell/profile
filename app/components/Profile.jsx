@@ -46,7 +46,7 @@ class Profile extends React.Component {
       <div>
         <br />
         <div className="textAlign ">
-          <span className="inlineBlock width80 readEasy wordSpace">
+          <span className="inlineBlock width80 readEasy lineHeight wordSpace">
             Dedicated, efficient Full Stack developer, skilled in all aspects of
             software development, client relations, collaboration, and team
             management.
@@ -57,6 +57,15 @@ class Profile extends React.Component {
           </span>
           <br />
           <br />
+          <p title="" className="title readable text inlineBlock width80">
+            Certified M.E.R.N. Software Developer: <br />
+            <div className="wordSpace">
+              {" "}
+              MongoDB, Mongoose, DataBases deployed on AWS, Express Server,
+              React, Node, HTML, CSS, bootstrap, JavaScript, jQuerry, D3,
+              Passport, OAuth
+            </div>
+          </p>
           <br />
           <p
             title="Click any of the options below:"
@@ -112,6 +121,7 @@ class Profile extends React.Component {
         <div className="textAlign">
           <span className="inlineBlock">
             <button
+              title="Click button to show details"
               type="button"
               className="btn btn-success"
               onClick={e => this.handleClick(e)}

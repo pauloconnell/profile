@@ -22,7 +22,7 @@ const About = function() {
         <br />
         <br />
         <span className="readEasy big inlineBlock lineHeight width80">
-          <u className="title">FULLSTACK MERN CERTIFICATION:</u>
+          <u className="title">FULLSTACK M.E.R.N. CERTIFICATION:</u>
           <br />
           <br />
           The MERN Stack is: MongoDB, Express(server) React, Node.js 1800 Hours
