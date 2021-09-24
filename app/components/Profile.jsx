@@ -47,13 +47,13 @@ class Profile extends React.Component {
         <br />
         <div className="textAlign ">
           <span className="inlineBlock width80 readEasy lineHeight wordSpace">
-            Dedicated, efficient Full Stack developer, skilled in all aspects of
-            software development, client relations, collaboration, and team
-            management.
-            <br />
-            Focused on developing and testing software using both front-end and
-            back-end technologies to deploy scaleable cloud based modern web
-            applications, API's, databases, and web sites.
+            <i>
+              <q>
+                Interested in all aspects of Software Development, seeking
+                employment where I can write clean code and help build our team
+                and products stronger.
+              </q>
+            </i>
           </span>
           <br />
           <br />
@@ -62,8 +62,8 @@ class Profile extends React.Component {
             <div className="wordSpace">
               {" "}
               MongoDB, Mongoose, DataBases deployed on AWS, Express Server,
-              React, Node, HTML, CSS, bootstrap, JavaScript, jQuerry, D3,
-              Passport, OAuth
+              React, Node, HTML, CSS, Bootstrap, JavaScript, jQuerry, D3,
+              Passport, OAuth, Pug(Jade), previously learned C++ and Java EE.
             </div>
           </p>
           <br />

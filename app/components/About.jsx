@@ -9,9 +9,13 @@ const About = function() {
         <p>
           <b>
             <span className="readable big quote inlineBlock wordSpace textShadow width90">
-              "Interested in all aspects of Software Development, seeking
-              employment where I can write clean code and help build our team
-              and products stronger."
+              Dedicated, efficient, Full Stack Software Developer, skilled in
+              all aspects of software development, client relations,
+              collaboration, and team management.
+              <br />
+              Focused on developing and testing software using both front-end
+              and back-end technologies to deploy scaleable cloud based modern
+              web applications, API's, databases, and web sites.
             </span>
           </b>
         </p>
@@ -144,7 +148,7 @@ const About = function() {
                 <code>
                   Advanced Node.js, Authentication with Passport, Social
                   Authentication, Template Engine allows server-side variable
-                  rendering with Pug, and T Testing with Chai.
+                  rendering with Pug, and Testing with Chai.
                 </code>
               </span>
               <br />
