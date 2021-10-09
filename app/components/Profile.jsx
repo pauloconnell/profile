@@ -45,31 +45,32 @@ class Profile extends React.Component {
     return (
       <div>
         <br />
-        <div className="textAlign ">
-          <span className="inlineBlock width80 readEasy lineHeight wordSpace">
+        <div className="textAlign">
+          <div className="width80 readEasy wordSpace text-align">
             <i>
-              <q>
+              <q className="inlineBlock lineHeight">
                 Interested in all aspects of Software Development, seeking
                 employment where I can write clean code and help build our team
                 and products stronger.
               </q>
             </i>
-          </span>
+          </div>
           <br />
           <br />
-          <p title="" className="title readable text inlineBlock width80">
-            Certified M.E.R.N. Software Developer: <br />
+          <p className="title readable text inlineBlock width80">
+            Certified M.E.R.N. Full Stack Software Developer <br />
             <div className="wordSpace">
-              {" "}
-              MongoDB, Mongoose, DataBases deployed on AWS, Express Server,
-              React, Node, HTML, CSS, Bootstrap, JavaScript, jQuerry, D3,
-              Passport, OAuth, Pug(Jade), previously learned C++ and Java EE.
+              <small>
+                MongoDB, Mongoose, DataBases deployed on AWS, Express Server,
+                React, Node, HTML, CSS, Bootstrap, JavaScript, jQuerry, D3,
+                Passport, OAuth, Pug(Jade), previously learned C++ and Java EE.
+              </small>
             </div>
           </p>
           <br />
           <p
             title="Click any of the options below:"
-            className="title readable text inlineBlock width"
+            className="title readable text inlineBlock width marginTop"
           >
             See My work: <br />
           </p>
