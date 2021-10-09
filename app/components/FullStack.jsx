@@ -53,7 +53,7 @@ const FullStack = function() {
           <h3 class="readEasy inlineBlock">
             Deployed in the cloud using:
             <br />
-            React, Express, MongoDB, Mongoose, Node.js, APIs, MicroServices
+            React, Express, MongoDB, Mongoose, Node.js, API MicroServices
           </h3>
           <br />
           <h4 class="readEasy inlineBlock">

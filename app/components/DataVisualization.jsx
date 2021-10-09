@@ -54,7 +54,7 @@ const DataVisualization = function() {
             API driven data displayed in browser using D3 library on SVG canvas
           </span>
         </h3>
-        <hr></hr>
+        
         <br />
         <br />
         <br />
