@@ -4,7 +4,7 @@
 
 React app with class/Stateless Functional Components being rendered via React Router
 
-Using bootstrap CSS
+Using some bootstrap, but mostly just CSS
 
 -Footer is optionally rendered on each page based
 

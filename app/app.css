@@ -12,12 +12,26 @@ body {
   color: black;
 }
 
+code {
+  margin-bottom: 15px;
+  margin-top:15px;
+  display: block;
+}
+
 img {
   border-radius: 5px;
 }
 
+ul.readEasy li {
+  margin-bottom: 15px;
+}
 ul {
-  padding-left: 0pt;
+  padding-left: 0px;
+  list-style: upper-roman;
+  list-style-position: inside;
+}
+div.space {
+  margin-top: 10px;
 }
 
 .big {
@@ -82,16 +96,23 @@ ul {
 }
 
 .lineHeight {
-  line-height: 1.3;
+  line-height: 140%;
 }
 .margin {
   margin: 10px;
+}
+
+.marginTop {
+  margin-top: 20px;
 }
 
 .middle {
   grid-area: middle;
 }
 
+.minWidth {
+  min-width: 320px;
+}
 .pos-one {
   background: rgba(255, 255, 255, 0.5);
   grid-area: left;
@@ -110,8 +131,8 @@ ul {
   color: white;
   font-weight: bold;
   border-radius: 5px;
-  padding: 1px 6px;
-  line-height: 1.1;
+  padding: 5px 6px;
+  line-height: 1.1em;
 }
 
 .readable {
@@ -129,12 +150,12 @@ ul {
 }
 
 .small {
-  font-size: 16px;
+  font-size: 0.8em;
   color: black;
 }
 
 .text {
-  padding: 8px 12px;
+  padding: 15px 12px;
   text-align: center;
   text-weight: bold;
   width: 100%;
@@ -150,6 +171,10 @@ ul {
 .textAlign {
   text-align: center;
 }
+.textAlignLeft {
+  text-align: left;
+}
+
 .textShadow {
   text-shadow: 2px 2px 5px white;
 }
@@ -164,6 +189,7 @@ ul {
 
 .width80 {
   width: 80%;
+  margin: auto;
 }
 
 .width90 {
@@ -186,7 +212,7 @@ ul {
   text-shadow: 3px 3px 5px white;
   font-variant: small-caps;
   font-wieght: bold;
-  text-size: 1.2em;
+  font-size: 3.2em;
 }
 
 #webApps {
