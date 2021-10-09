@@ -48,7 +48,7 @@ const WebApps = function() {
         <span className="readEasy title">Web Applications</span>
       </h2>
       <h3 className="textAlign">
-        {" "}
+        
         <span className="readEasy">
           Modern responsive custom Web Applications built using javaScript and
           React, deployed in the cloud.

@@ -8,13 +8,12 @@ body {
   background-attachment: fixed;
   background-size: cover;
   font-size: 16px;
-  font-size: 4vw;
   color: black;
 }
 
 code {
   margin-bottom: 15px;
-  margin-top:15px;
+  margin-top: 15px;
   display: block;
 }
 
@@ -31,7 +30,7 @@ ul {
   list-style-position: inside;
 }
 div.space {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .big {
@@ -72,7 +71,7 @@ div.space {
 }
 
 .hidden {
-  display: hidden;
+  display: none;
 }
 
 .inlineBlock {
@@ -113,6 +112,10 @@ div.space {
 .minWidth {
   min-width: 320px;
 }
+
+.noShadow {
+  text-shadow: none;
+}
 .pos-one {
   background: rgba(255, 255, 255, 0.5);
   grid-area: left;
@@ -123,20 +126,18 @@ div.space {
   grid-area: right;
 }
 
-.quote {
-  background: rgba(255, 255, 255, 0.5);
-}
 .readEasy {
   background: black;
   color: white;
   font-weight: bold;
   border-radius: 5px;
   padding: 5px 6px;
-  line-height: 1.1em;
+  line-height: 1.5em;
 }
 
 .readable {
   background: rgba(128, 128, 128, 0.3);
+  color: black;
   border-radius: 5px;
   padding: 6px;
 }
@@ -183,6 +184,10 @@ div.space {
   grid-area: top;
 }
 
+.vertSpace {
+  margin-bottom: 20px;
+}
+
 .width {
   width: auto;
 }
@@ -194,6 +199,7 @@ div.space {
 
 .width90 {
   width: 90%;
+  margin: auto;
 }
 
 .wordSpace {

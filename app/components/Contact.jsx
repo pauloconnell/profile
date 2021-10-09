@@ -6,11 +6,13 @@ const Contact = function() {
   return (
     <div>
       <div className="textAlign">
-        <span className="title text readable">Contact Me:</span>
+        <div className="vertSpace">
+          <span className="title text readable">Contact Me:</span>
+        </div>
         <p>
-          <div className="inlineBlock">
+          <div className="space vertSpace">
             <a
-              className="link border inlineBlock"
+              className="link border"
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.linkedin.com/in/paul-o-connell-604"
@@ -25,7 +27,7 @@ const Contact = function() {
           <br />
           <div>
             <a
-              className="link border inlineBlock"
+              className="link border vertSpace"
               target="_blank"
               href="https://github.com/pauloconnell"
               rel="noopener noreferrer"
@@ -38,9 +40,9 @@ const Contact = function() {
           </div>
           <br />
           <br />
-          <div>
+          <div className="vertSpace">
             <a
-              className="link border inlineBlock"
+              className="link border readEasy noShadow"
               href="mailto:p_ollie@hotmail.com?Subject=FromProfile"
               target="_blank"
               title="p_ollie@hotmail.com"
