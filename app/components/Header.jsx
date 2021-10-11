@@ -26,7 +26,7 @@ class Header extends React.Component {
         <h1 className="text" id="name">
           Paul O'Connell
         </h1>
-        <div className="row">
+        <div className="row sticky">
           <Link className="col link border" to="/about">
             About Me
           </Link>
