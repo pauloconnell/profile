@@ -48,7 +48,7 @@ class Profile extends React.Component {
         <div className="textAlign">
           <div className="width80 readEasy wordSpace text-align">
             <i>
-              <q className="inlineBlock lineHeight">
+              <q className="lineHeight wordSpace">
                 Interested in all aspects of Software Development, seeking
                 employment where I can write clean code and help build our team
                 and products stronger.

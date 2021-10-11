@@ -155,6 +155,7 @@ div.space {
   color: black;
 }
 
+
 .text {
   padding: 15px 12px;
   text-align: center;
@@ -203,7 +204,7 @@ div.space {
 }
 
 .wordSpace {
-  word-spacing: 0.1em;
+  word-spacing: 0.2em;
   font-size: 1.2em;
 }
 

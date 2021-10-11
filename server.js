@@ -3,6 +3,7 @@
 // init project
 var express = require('express');
 var app = express();
+var port = process.env.PORT || 3000;
 
 // http://expressjs.com/en/starter/static-files.html
 app.use(express.static('public'));
