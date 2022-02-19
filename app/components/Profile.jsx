@@ -12,14 +12,14 @@ const dependenciesArray = [
   "webpack-cli - command line support for webpack",
   "jsx-loader - allows webpack to load jsx files",
   "react-router-dom - handles routing!",
-  "css-loader - allows webpack to load css files"
+  "css-loader - allows webpack to load css files",
 ];
 
 const componentsMade = [
   "Delete- this will be deleted...but kindof good idea to render all components veiwable 'onclick' on one page...",
   "Profile- which is the view you are seeing now",
   'UnorderedList - which takes an array of "items" and returns a <ul> element with <li>, elements of each of those items within it',
-  "About -About Me"
+  "About -About Me",
 ];
 
 /* the main page for the index route of this app */
@@ -29,14 +29,14 @@ class Profile extends React.Component {
     super(props);
 
     this.state = {
-      showThis: false
+      showThis: false,
     };
     this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick() {
     this.setState({
-      showThis: !this.state.showThis
+      showThis: !this.state.showThis,
     });
     console.log("handled ", this.state.showThis);
   }
@@ -48,31 +48,37 @@ class Profile extends React.Component {
         <div className="textAlign">
           <div className="width80 readEasy wordSpace text-align">
             <i>
-              <q className="lineHeight wordSpace">
-                Interested in all aspects of Software Development, seeking
-                employment where I can write clean code and help build our team
-                and products stronger.
-              </q>
+              <span className="lineHeight wordSpace">
+                Keen problem solver interested in all aspects of Software
+                Development, currently working full time as Senior Front End
+                Developer for a start up that could become really huge!!! <br />
+                I write clean code and enjoy helping build quality software.
+              </span>
             </i>
           </div>
           <br />
           <br />
-          <p className="title readable text inlineBlock width80">
-            Certified M.E.R.N. Full Stack Software Developer <br />
+          <div className="readable width80">
+            <p className="title inlineBlock text">
+              Certified M.E.R.N. Full Stack Software Developer
+            </p>
+            Tech Stack:
             <div className="wordSpace">
-              <small>
+              <div className="small readable inlineBlock">
                 MongoDB, Mongoose, DataBases deployed on AWS, Express Server,
                 React, Node, HTML, CSS, Bootstrap, JavaScript, jQuerry, D3,
                 Passport, OAuth, Pug(Jade), previously learned C++ and Java EE.
-              </small>
+                Currently coding Razor pages with C# with the back end team
+                working on .Net with Azure and SQL.
+              </div>
             </div>
-          </p>
-          <br />
+          </div>
+
           <p
             title="Click any of the options below:"
             className="title readable text inlineBlock width marginTop"
           >
-            See My work: <br />
+            See My work:
           </p>
         </div>
         <br />
@@ -125,7 +131,7 @@ class Profile extends React.Component {
               title="Click button to show details"
               type="button"
               className="btn btn-success"
-              onClick={e => this.handleClick(e)}
+              onClick={(e) => this.handleClick(e)}
             >
               about this app
             </button>
