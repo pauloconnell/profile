@@ -32,6 +32,8 @@ class Profile extends React.Component {
       showThis: false,
     };
     this.handleClick = this.handleClick.bind(this);
+    this.handleHoverIn = this.handleHoverIn.bind(this);
+    this.handleHoverOut = this.handleHoverOut.bind(this);
   }
 
   handleClick() {
@@ -39,6 +41,16 @@ class Profile extends React.Component {
       showThis: !this.state.showThis,
     });
     console.log("handled ", this.state.showThis);
+  }
+
+  handleHoverIn() {
+    document.getElementById("showOnHover").classList.delete("hidden");
+    document.getElementById("showOnHover").classList.add("show");
+  }
+
+  handleHoverOut() {
+    document.getElementById("showOnHover").classList.delete("show");
+    document.getElementById("showOnHover").classList.add("hidden");
   }
 
   render() {
@@ -62,14 +74,21 @@ class Profile extends React.Component {
             <p className="title inlineBlock text">
               Certified M.E.R.N. Full Stack Software Developer
             </p>
-            Tech Stack:
-            <div className="wordSpace">
-              <div className="small readable inlineBlock">
-                MongoDB, Mongoose, DataBases deployed on AWS, Express Server,
-                React, Node, HTML, CSS, Bootstrap, JavaScript, jQuerry, D3,
-                Passport, OAuth, Pug(Jade), previously learned C++ and Java EE.
-                Currently coding Razor pages with C# with the back end team
-                working on .Net with Azure and SQL.
+            <div
+              id="showOnHover"
+              className=""
+              
+              
+            >
+              Tech Stack:
+              <div className="wordSpace">
+                <div className="small readable inlineBlock">
+                  MongoDB, Mongoose, DataBases deployed on AWS, Express Server,
+                  React, Node, HTML, CSS, Bootstrap, JavaScript, jQuerry, D3,
+                  Passport, OAuth, Pug(Jade), previously learned C++ and Java
+                  EE. Currently coding Razor pages with C# with the back end
+                  team working on .Net with Azure and SQL.
+                </div>
               </div>
             </div>
           </div>
