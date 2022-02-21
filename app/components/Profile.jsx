@@ -30,8 +30,11 @@ class Profile extends React.Component {
 
     this.state = {
       showThis: false,
+      hovering: false,
     };
     this.handleClick = this.handleClick.bind(this);
+    this.handleHoverIn = this.handleHoverIn.bind(this);
+    this.handleHoverOut = this.handleHoverOut.bind(this);
   }
 
   handleClick() {
@@ -41,7 +44,24 @@ class Profile extends React.Component {
     console.log("handled ", this.state.showThis);
   }
 
+  handleHoverIn() {
+    this.setState({
+      hovering: true,
+    });
+    //document.getElementById("showOnHover").classList.delete("hidden");
+    //document.getElementById("showOnHover").classList.add("show");
+  }
+
+  handleHoverOut() {
+    this.setState({
+      hovering: false,
+    });
+    // document.getElementById("showOnHover").classList.delete("show");
+    // document.getElementById("showOnHover").classList.add("hidden");
+  }
+
   render() {
+    const { hovering } = this.state;
     return (
       <div>
         <br />
@@ -62,14 +82,26 @@ class Profile extends React.Component {
             <p className="title inlineBlock text">
               Certified M.E.R.N. Full Stack Software Developer
             </p>
-            Tech Stack:
-            <div className="wordSpace">
-              <div className="small readable inlineBlock">
-                MongoDB, Mongoose, DataBases deployed on AWS, Express Server,
-                React, Node, HTML, CSS, Bootstrap, JavaScript, jQuerry, D3,
-                Passport, OAuth, Pug(Jade), previously learned C++ and Java EE.
-                Currently coding Razor pages with C# with the back end team
-                working on .Net with Azure and SQL.
+            <div
+              onMouseEnter={this.handleHoverIn}
+              onMouseLeave={this.handleHoverOut}
+              style={{ minHeight: "10px" }}
+            >
+              <div
+                id="showOnHover"
+                className=""
+                style={{ display: hovering ? "block" : "none" }}
+              >
+                Tech Stack:
+                <div className="wordSpace">
+                  <div className="small readable inlineBlock">
+                    React, HTML, CSS, Bootstrap, JavaScript, Node,MongoDB,
+                    Mongoose, DataBases deployed on AWS, Express Server,
+                    jQuerry, D3, Passport, OAuth, Pug(Jade), previously learned
+                    C++ and Java EE. <br /> Currently coding Razor pages with C#
+                    with the back end team working on .Net with Azure and SQL.
+                  </div>
+                </div>
               </div>
             </div>
           </div>
