@@ -90,7 +90,7 @@ class Profile extends React.Component {
               <div
                 id="showOnHover"
                 className=""
-                style={{ display: hovering ? "block" : "none" }}
+                style={{ display: hovering ? "block" : "none"  }}
               >
                 Tech Stack:
                 <div className="wordSpace">
