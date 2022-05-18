@@ -2,7 +2,7 @@ const React = require("react");
 const Link = require("react-router-dom").Link;
 
 /* the main page for the about route of this app */
-const About = function() {
+const About = function () {
   return (
     <div class="textAlign">
       <p>
@@ -17,13 +17,7 @@ const About = function() {
           </b>
         </div>
       </p>
-      <br />
-      <br />
-      <br />
-    
-      <br />
-      <br />
-      <div className="readEasy big lineHeight width80">
+      <div className="readEasy big lineHeight width80 mx-auto my-5 p-4">
         <u className="title">FULLSTACK M.E.R.N. CERTIFICATION:</u>
         <br />
         <br />
