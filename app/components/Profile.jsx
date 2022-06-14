@@ -66,19 +66,19 @@ class Profile extends React.Component {
       <div>
         <br />
         <div className="textAlign">
-          <div className="width80 readEasy wordSpace text-align">
+          <div className="width80 readEasy wordSpace text-align m-auto">
             <i>
-              <span className="lineHeight wordSpace">
+              <div className="lineHeight wordSpace ">
                 Keen problem solver interested in all aspects of Software
                 Development, currently working full time as Senior Front End
                 Developer for a start up that could become really huge!!! <br />
                 I write clean code and enjoy helping build quality software.
-              </span>
+              </div>
             </i>
           </div>
           <br />
           <br />
-          <div className="readable width80">
+          <div className="readable width80 m-auto">
             <p className="title inlineBlock text">
               Certified M.E.R.N. Full Stack Software Developer
             </p>
