@@ -6,27 +6,12 @@ const styles = require("../app.css");
 class Header extends React.Component {
   constructor(props) {
     super(props);
-
-    this.state = {
-      showThis: false,
-    };
-    this.handleClick = this.handleClick.bind(this);
-  }
-
-  handleClick() {
-    this.setState({
-      showThis: !this.state.showThis,
-    });
-    console.log("handled ", this.state.showThis);
   }
 
   render() {
     return (
-      <div className="textAlign">
-        <h1 className="text" id="name">
-          Paul O'Connell
-        </h1>
-        <div className="row sticky">
+      <div className="textAlign mt-3">
+        <div className="row flexContainer sticky-top">
           <Link className="col link border" to="/about">
             About Me
           </Link>
@@ -39,13 +24,17 @@ class Header extends React.Component {
             Home
           </Link>
         </div>
-        <h2 >
+        <h1 className="text" id="name">
+          Paul O'Connell
+        </h1>
+
+        <h2>
           <span className="readEasy">Full Stack Software Developer</span>
         </h2>
-        
+
         {/* <!--
              
-               updating links to use bootstrap navBar 
+               potential future update:  links use bootstrap navBar 
             
         <nav
           className="navbar navbar-expand-lg navbar-light bg-light "

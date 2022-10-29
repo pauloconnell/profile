@@ -13,6 +13,7 @@ const dependenciesArray = [
   "jsx-loader - allows webpack to load jsx files",
   "react-router-dom - handles routing!",
   "css-loader - allows webpack to load css files",
+  "bootstrap 5 - classic CSS library",
 ];
 
 const componentsMade = [
@@ -63,43 +64,46 @@ class Profile extends React.Component {
   render() {
     const { hovering } = this.state;
     return (
-      <div className="textAlign">
-        
-        <div className="d-flex justify-content-center">
+      <div className="textAlign my-3">
+        <div className="">
           <div className="width90 readEasy wordSpace m-auto my-3 ">
             <i>
               <div className="lineHeight wordSpace ">
                 Keen problem solver interested in all aspects of Software
-                Development, currently working full time as Senior Front End
-                Developer for a start up that could become really huge!!! <br />
+                Development,<br/> currently working full time as Senior Front End
+                Developer for a start up that could become huge!!! <br />
                 I write clean code and enjoy helping build quality software.
               </div>
             </i>
           </div>
-          
-          <div className="readable width90 m-auto">
+
+          <div className="readable width90 m-auto my-3 marginTop">
             <p className="title inlineBlock text">
               Certified M.E.R.N. Full Stack Software Developer
             </p>
-            <div
-              onMouseEnter={this.handleHoverIn}
-              onMouseLeave={this.handleHoverOut}
-              style={{ minHeight: "10px" }}
-            >
-              <div
-                id="showOnHover"
-                className=""
+          </div>
+          <div
+            onMouseEnter={this.handleHoverIn}
+            onMouseLeave={this.handleHoverOut}
+            style={{ minHeight: "10px" }}
+          >
+            {/* old hover method:  
                 style={{ display: hovering ? "block" : "none"  }}
-              >
-                Tech Stack:
-                <div className="wordSpace">
-                  <div className="small readable inlineBlock">
-                    React, HTML, CSS, Bootstrap, JavaScript, Node,MongoDB,
-                    Mongoose, DataBases deployed on AWS, Express Server,
-                    jQuerry, D3, Passport, OAuth, Pug(Jade), previously learned
-                    C++ and Java EE. <br /> Currently coding Razor pages with C#
-                    with the back end team working on .Net with Azure and SQL.
-                  </div>
+               */}
+            <div id="showOnHover" className=" width90 fade-in-info">
+            
+              <div className="wordSpace" style={{maxHeight: "300px", overflow:"auto"}}>
+                <div className="small readable inlineBlock">
+                  Tech Stack:<br/>
+                <br/>
+                  
+                  React, HTML, CSS, Bootstrap, JavaScript, Node,MongoDB,
+                  Mongoose, DataBases deployed on AWS, Express Server, jQuerry,
+                  D3, Passport, OAuth, Pug(Jade), previously learned C++ and
+                  Java EE. <br /> built 2 sided eComerse site coding Razor pages 
+                  with C#, using Azure Devops, and Postman to test/ build API connections 
+                  the back end team working on .Net with Azure and SQL.<br/>
+                  <br/> Currently in final stages of building out web App in JavaScript Vue3 with Nuxt 3 and Pinia state management.
                 </div>
               </div>
             </div>

@@ -1,5 +1,5 @@
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 
   background-color: SkyLightBlue;
   background-image: url("https://res.cloudinary.com/pollie/image/upload/v1621034051/Million_Ridge_tkchwl.png");
@@ -62,6 +62,20 @@ div.space {
     "right";
 }
 
+.fade-in-info {
+  opacity: 0%;
+}
+
+.fade-in-info:hover {
+  opacity: 100%;
+  transition: opacity 1s;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
 .gridContainer {
   display: grid;
   grid-gap: 6%;
@@ -72,7 +86,7 @@ div.space {
 }
 
 .hidden {
-   visibility: hidden;
+  visibility: hidden;
 }
 
 .inlineBlock {
@@ -82,7 +96,7 @@ div.space {
 .link {
   color: DodgerBlue;
   text-shadow: 1px 1px 3px white;
-  font-size: 17px;
+  font-size: 24px;
   background: rgba(12, 12, 12, 0.5);
   border: 2px solid black;
   border-radius: 5px;
@@ -157,7 +171,7 @@ div.space {
 }
 
 .show {
-   visibility: visible;
+  visibility: visible;
 }
 
 .text {
@@ -200,20 +214,20 @@ div.space {
 .width80 {
   min-width: 80%;
   max-width: 980px;
-  
 }
 
 .width90 {
-  width: 90%;
-  margin: auto;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1100px;
+  min-width: 315px;
 }
 
 .wordSpace {
   word-spacing: 0.2em;
   font-size: 1.2em;
 }
-
-
 
 #name {
   background: DodgerBlue;
@@ -248,7 +262,7 @@ div.space {
 
 @media (min-width: 992px) {
   .link {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   span.small {
