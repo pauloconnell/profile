@@ -32,19 +32,39 @@ class Profile extends React.Component {
     this.state = {
       showThis: false,
       hovering: false,
+      highlightFE: false,
+      highlightBE: false,
     };
     this.handleClick = this.handleClick.bind(this);
     this.handleHoverIn = this.handleHoverIn.bind(this);
     this.handleHoverOut = this.handleHoverOut.bind(this);
+    this.handleHoverFE = this.handleHoverFE.bind(this);
+    this.handleHoverBE = this.handleHoverBE.bind(this);
   }
 
   handleClick() {
     this.setState({
       showThis: !this.state.showThis,
     });
-    console.log("handled ", this.state.showThis);
+    console.log("handled click ", this.state.showThis);
   }
 
+  handleHoverFE() {
+    this.setState(
+      {
+        highlightFE: !this.state.highlightFE,
+      },
+      () => console.log("handled FE", this.state.highlightFE)
+    );
+  }
+  handleHoverBE() {
+    this.setState(
+      {
+        highlightBE: !this.state.highlightBE,
+      },
+      () => console.log("handled BE", this.state.highlightBE)
+    );
+  }
   handleHoverIn() {
     this.setState({
       hovering: true,
@@ -57,6 +77,7 @@ class Profile extends React.Component {
     this.setState({
       hovering: false,
     });
+
     // document.getElementById("showOnHover").classList.delete("show");
     // document.getElementById("showOnHover").classList.add("hidden");
   }
@@ -70,9 +91,10 @@ class Profile extends React.Component {
             <i>
               <div className="lineHeight wordSpace ">
                 Keen problem solver interested in all aspects of Software
-                Development,<br/> currently working full time as Senior Front End
-                Developer for a start up that could become huge!!! <br />
-                I write clean code and enjoy helping build quality software.
+                Development,
+                <br /> currently working full time as Senior Front End Developer
+                for a start up that could become huge!!! <br />I write clean
+                code and enjoy helping build quality software.
               </div>
             </i>
           </div>
@@ -91,19 +113,50 @@ class Profile extends React.Component {
                 style={{ display: hovering ? "block" : "none"  }}
                */}
             <div id="showOnHover" className=" width90 fade-in-info">
-            
-              <div className="wordSpace" style={{maxHeight: "300px", overflow:"auto"}}>
-                <div className="small readable inlineBlock">
-                  Tech Stack:<br/>
-                <br/>
-                  
-                  React, HTML, CSS, Bootstrap, JavaScript, Node,MongoDB,
-                  Mongoose, DataBases deployed on AWS, Express Server, jQuerry,
-                  D3, Passport, OAuth, Pug(Jade), previously learned C++ and
-                  Java EE. <br /> built 2 sided eComerse site coding Razor pages 
-                  with C#, using Azure Devops, and Postman to test/ build API connections 
-                  the back end team working on .Net with Azure and SQL.<br/>
-                  <br/> Currently in final stages of building out web App in JavaScript Vue3 with Nuxt 3 and Pinia state management.
+              <div
+                className="wordSpace"
+                style={{ maxHeight: "300px", overflow: "auto" }}
+              >
+                <div className="small readable">
+                  Tech Stack:
+                  <div class="row">
+                    <div
+                      class="col-6"
+                      onMouseEnter={this.handleHoverFE}
+                      onMouseLeave={this.handleHoverFE}
+                      style={{ color: this.highlightFE ? "blue" : "black" }}
+                    >
+                      FrontEnd
+                    </div>
+                    <div
+                      class="col-6"
+                      onMouseEnter={this.handleHoverBE}
+                      onMouseLeave={this.handleHoverBE}
+                      style={{ color: this.highlightBE ? "blue" : "black" }}
+                    >
+                      BackEnd
+                    </div>
+                  </div>
+                  <br />
+                  <span style={{ color: this.highlightFE ? "blue" : "black" }}>
+                    React, HTML, CSS, Bootstrap, JavaScript,
+                  </span>
+                  <span style={{ color: this.highlightBE ? "blue" : "black" }}>
+                    Node,MongoDB, Mongoose, DataBases deployed on AWS, Express
+                    Server, jQuerry, D3, Passport, OAuth, Pug(Jade),
+                  </span>{" "}
+                  previously learned C++ and Java EE. <br />
+                  <span style={{ color: this.highlightFE ? "blue" : "black" }}>
+                    Built 2 sided eComerse site coding Razor pages with C#,
+                    using Azure Devops, and Postman to test/ build API
+                    connections
+                  </span>
+                  <span style={{ color: this.highlightBE ? "blue" : "black" }}>
+                    the back end team working on .Net with Azure and SQL.
+                  </span>
+                  <br />
+                  <br /> Currently in final stages of building out web App in
+                  JavaScript Vue3 with Nuxt 3 and Pinia state management.
                 </div>
               </div>
             </div>
