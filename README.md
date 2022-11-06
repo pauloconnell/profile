@@ -19,3 +19,7 @@ I've added styles in /components/app.css and css loaders packages for webpack to
 
 Note:
 The homepage background photo was me on the best day of the season for me this year.
+
+
+
+NEXT: Implement state to change color of frontend vs backend technologies inside of onHover
