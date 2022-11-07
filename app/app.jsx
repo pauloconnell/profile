@@ -3,7 +3,7 @@ const ReactDOM = require("react-dom");
 const Route = require("react-router-dom").Route;
 const BrowserRouter = require("react-router-dom").BrowserRouter;
 const hashHistory = require("react-router-dom").hashHistory;
-
+const bootstrap = require("bootstrap/dist/css/bootstrap.css");
 
 /* Import Components */
 const Header = require("./components/Header");
@@ -13,9 +13,6 @@ const Contact = require("./components/Contact");
 const FullStack = require("./components/FullStack");
 const DataVisualization = require("./components/DataVisualization");
 const WebApps = require("./components/WebApps");
-
-
-
 
 ReactDOM.render(
   <BrowserRouter>
