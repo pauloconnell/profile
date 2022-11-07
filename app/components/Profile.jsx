@@ -117,46 +117,95 @@ class Profile extends React.Component {
                 className="wordSpace"
                 style={{ maxHeight: "300px", overflow: "auto" }}
               >
-                <div className="small readable">
-                  Tech Stack:
-                  <div class="row">
-                    <div
-                      class="col-6"
+                <div className="small readable container-fluid">
+                  <div className="row ">
+                    <div className="text-center fs-2">Tech Stack:</div>
+                  </div>
+                  <div className="row">
+                    <span
+                      className="col fs-3"
                       onMouseEnter={this.handleHoverFE}
                       onMouseLeave={this.handleHoverFE}
-                      style={{ color: this.highlightFE ? "blue" : "black" }}
+                      style={{
+                        color: this.state.highlightFE ? "blue" : "black",
+                      }}
                     >
                       FrontEnd
-                    </div>
-                    <div
-                      class="col-6"
+                    </span>
+                    <span
+                      className="col fs-3"
                       onMouseEnter={this.handleHoverBE}
                       onMouseLeave={this.handleHoverBE}
-                      style={{ color: this.highlightBE ? "blue" : "black" }}
+                      style={{
+                        color: this.state.highlightBE ? "purple" : "black",
+                      }}
                     >
                       BackEnd
-                    </div>
+                    </span>
                   </div>
                   <br />
-                  <span style={{ color: this.highlightFE ? "blue" : "black" }}>
-                    React, HTML, CSS, Bootstrap, JavaScript,
-                  </span>
-                  <span style={{ color: this.highlightBE ? "blue" : "black" }}>
-                    Node,MongoDB, Mongoose, DataBases deployed on AWS, Express
-                    Server, jQuerry, D3, Passport, OAuth, Pug(Jade),
-                  </span>{" "}
-                  previously learned C++ and Java EE. <br />
-                  <span style={{ color: this.highlightFE ? "blue" : "black" }}>
-                    Built 2 sided eComerse site coding Razor pages with C#,
-                    using Azure Devops, and Postman to test/ build API
-                    connections
-                  </span>
-                  <span style={{ color: this.highlightBE ? "blue" : "black" }}>
-                    the back end team working on .Net with Azure and SQL.
-                  </span>
-                  <br />
-                  <br /> Currently in final stages of building out web App in
-                  JavaScript Vue3 with Nuxt 3 and Pinia state management.
+                  <div className="row">
+                    <span
+                      style={{
+                        color: this.state.highlightFE ? "blue" : "black",
+                      }}
+                    >
+                      React, HTML, CSS, Bootstrap, JavaScript, Vue3, .Net:
+                      RazorPages & RazorComponents c#
+                    </span>
+                    <span
+                      style={{
+                        color: this.state.highlightBE ? "purple" : "black",
+                      }}
+                    >
+                      Node,MongoDB, Mongoose, DataBases deployed on AWS, Express
+                      Server, jQuerry, D3, Passport, OAuth, Pug(Jade),
+                    </span>
+                    previously learned C++ and Java EE. <br />
+                    <span
+                      style={{
+                        color: this.state.highlightFE ? "blue" : "black",
+                      }}
+                    >
+                      Built 2 sided e-Commerce site coding Razor pages with C#,
+                      using Azure Devops, and Postman to test/ build API
+                      connections
+                    </span>
+                    <span
+                      style={{
+                        color: this.state.highlightBE ? "purple" : "black",
+                      }}
+                    >
+                      the back end team working on .Net with SQL and Azure
+                      devops.
+                    </span>
+                    <br />
+                    <span
+                      style={{
+                        color: this.state.highlightFE ? "blue" : "black",
+                      }}
+                    >
+                      Currently in final stages of building out web App in
+                      JavaScript Vue3 with Nuxt
+                    </span>
+                    with
+                    <span
+                      style={{
+                        color: this.state.highlightBE ? "purle" : "black",
+                      }}
+                    >
+                      Nuxt 3
+                    </span>
+                    and
+                    <span
+                      style={{
+                        color: this.state.highlightFE ? "blue" : "black",
+                      }}
+                    >
+                      Pinia state management
+                    </span>
+                    .
+                  </div>
                 </div>
               </div>
             </div>
