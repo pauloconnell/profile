@@ -113,10 +113,7 @@ class Profile extends React.Component {
                 style={{ display: hovering ? "block" : "none"  }}
                */}
             <div id="showOnHover" className=" width90 fade-in-info">
-              <div
-                className="wordSpace"
-                style={{ maxHeight: "300px", overflow: "auto" }}
-              >
+              <div className="wordSpace" style={{ minHeight: "300px" }}>
                 <div className="small readable container-fluid">
                   <div className="row ">
                     <div className="text-center fs-2">Tech Stack:</div>
@@ -144,67 +141,86 @@ class Profile extends React.Component {
                     </span>
                   </div>
                   <br />
-                  <div className="row">
-                    <span
-                      style={{
-                        color: this.state.highlightFE ? "blue" : "black",
-                      }}
-                    >
-                      React, HTML, CSS, Bootstrap, JavaScript, Vue3, .Net:
-                      RazorPages & RazorComponents c#
+                  <div className="row ">
+                    <span className="text-center">
+                      <span
+                        style={{
+                          color: this.state.highlightFE ? "blue" : "black",
+                          fontSize: this.state.highlightFE ? "125%" : " 100%",
+                        }}
+                      >
+                        React, HTML, CSS, Bootstrap, JavaScript, Vue3, .Net:
+                        RazorPages & RazorComponents c#
+                      </span>
+                      <br />
+                      <span
+                        style={{
+                          color: this.state.highlightBE ? "white" : "black",
+                          fontSize: this.state.highlightBE ? "125%" : " 100%",
+                        }}
+                      >
+                        Node,MongoDB, Mongoose, DataBases deployed on AWS,
+                        Express Server, jQuerry, D3, Passport, OAuth, Pug(Jade).
+                      </span>
+                      <br />
+                      At University, I learned bit manipulation assembly
+                      language, C++ and Java EE. <br />
+                      <span
+                        style={{
+                          color: this.state.highlightFE ? "blue" : "black",
+                          fontSize: this.state.highlightFE ? "125%" : " 100%",
+                        }}
+                      >
+                        Built 2 sided e-Commerce site coding Razor pages with
+                        C#, using Azure Devops, and Postman to test/ build API
+                        connections.
+                      </span>
+                      <br />
+                      <span
+                        style={{
+                          color: this.state.highlightBE ? "white" : "black",
+                          fontSize: this.state.highlightBE ? "125%" : " 100%",
+                        }}
+                      >
+                        The back end team works on .Net with SQL and
+                        <span
+                          style={{
+                            color: this.state.highlightFE ? "blue" : "black",
+                            fontSize: this.state.highlightFE ? "125%" : " 100%",
+                          }}
+                        >
+                          &nbsp; Azure devops.
+                        </span>
+                      </span>
+                      <br />
+                      <span
+                        style={{
+                          color: this.state.highlightFE ? "blue" : "black",
+                          fontSize: this.state.highlightFE ? "125%" : " 100%",
+                        }}
+                      >
+                        Currently in final stages of building out web App in
+                        JavaScript Vue3
+                      </span>
+                      &nbsp; with &nbsp;
+                      <span
+                        style={{
+                          color: this.state.highlightBE ? "white" : "black",
+                          fontSize: this.state.highlightBE ? "125%" : " 100%",
+                        }}
+                      >
+                        Nuxt 3
+                      </span>
+                      &nbsp; and &nbsp;
+                      <span
+                        style={{
+                          color: this.state.highlightFE ? "blue" : "black",
+                          fontSize: this.state.highlightFE ? "125%" : " 100%",
+                        }}
+                      >
+                        Pinia state management.
+                      </span>
                     </span>
-                    <span
-                      style={{
-                        color: this.state.highlightBE ? "purple" : "black",
-                      }}
-                    >
-                      Node,MongoDB, Mongoose, DataBases deployed on AWS, Express
-                      Server, jQuerry, D3, Passport, OAuth, Pug(Jade),
-                    </span>
-                    previously learned C++ and Java EE. <br />
-                    <span
-                      style={{
-                        color: this.state.highlightFE ? "blue" : "black",
-                      }}
-                    >
-                      Built 2 sided e-Commerce site coding Razor pages with C#,
-                      using Azure Devops, and Postman to test/ build API
-                      connections
-                    </span>
-                    <span
-                      style={{
-                        color: this.state.highlightBE ? "purple" : "black",
-                      }}
-                    >
-                      the back end team working on .Net with SQL and Azure
-                      devops.
-                    </span>
-                    <br />
-                    <span
-                      style={{
-                        color: this.state.highlightFE ? "blue" : "black",
-                      }}
-                    >
-                      Currently in final stages of building out web App in
-                      JavaScript Vue3 with Nuxt
-                    </span>
-                    with
-                    <span
-                      style={{
-                        color: this.state.highlightBE ? "purle" : "black",
-                      }}
-                    >
-                      Nuxt 3
-                    </span>
-                    and
-                    <span
-                      style={{
-                        color: this.state.highlightFE ? "blue" : "black",
-                      }}
-                    >
-                      Pinia state management
-                    </span>
-                    .
                   </div>
                 </div>
               </div>
