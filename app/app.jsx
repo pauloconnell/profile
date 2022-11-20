@@ -24,6 +24,7 @@ ReactDOM.render(
       <Route path="/fullStack" component={FullStack} />
       <Route path="/dataVisualization" component={DataVisualization} />
       <Route path="/WebApps" component={WebApps} />
+      
     </div>
   </BrowserRouter>,
   document.getElementById("main")
