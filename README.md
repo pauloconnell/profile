@@ -8,7 +8,7 @@ Using some bootstrap, but mostly just CSS
 
 -Footer is optionally rendered on each page based
 
-Structure:
+###### Structure:
 index.html contains the #'main' element where our react app will be.
 app.jsx uses React Router to serve the pages(components) into index.html
 the header is rendered in app, but the footer is only rendered on some pages directly
@@ -17,12 +17,16 @@ The home page is the component Profile.jsx
 
 I've added styles in /components/app.css and css loaders packages for webpack to run app.css
 
-Note:
+## Homepage:
 The homepage background photo was me on the best day of the season for me this year.
+Implement state to change color of frontend vs backend technologies inside of onHover MERN
 
-NEXT: Implement state to change color of frontend vs backend technologies inside of onHover
+#### NEXT: Animate state change onHover MERN
 Details:
+
 -Postman and devops should highlight to both frontend and backend colors on highlight, or default
 to black
 
-- on hover make text size increase as well as color change
+
+Future items:
+header fixed should have 

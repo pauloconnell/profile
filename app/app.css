@@ -33,6 +33,21 @@ ul {
 div.space {
   margin-top: 17px;
 }
+/**not used **/
+.animation {
+  transition: opacity 1s ease-out;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
+.animation.active {
+  opacity: 1;
+  height: auto;
+}
+
+.bgsolid {
+  background: rgb(12, 12, 12)!important;
+}
 
 .big {
   font-size: 17px;
@@ -54,21 +69,20 @@ div.space {
 
 .container {
   min-height: 300px;
-  display: grid;
-  grid-column-gap: 6%;
-  grid-row-gap: 6px;
-  grid-template-areas:
-    "left"
-    "right";
 }
 
 .fade-in-info {
-  opacity: 0%;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+
+  background: rgba(128, 128, 128, 0.8);
+  color: black;
+  border-radius: 5px;
+  padding: 6px;
 }
 
 .fade-in-info:hover {
-  opacity: 100%;
-  transition: opacity 1s;
+  opacity: 1;
 }
 
 .flexContainer {
@@ -151,18 +165,28 @@ div.space {
 }
 
 .readable {
-  background: rgba(128, 128, 128, 0.7);
+  background: rgba(128, 128, 128, 0.6);
   color: black;
   border-radius: 5px;
   padding: 6px;
+  transition: background 1.5s ease-in-out, font-size 1.5s ease-in-out;
+  font-size: 8px;
 }
 .readable:hover {
-  background: rgba(128, 128, 128, 0.9);
+  background: rgba(128, 128, 128, 0.95);
+  font-size: 16px;
+}
+
+.readable.fadeInInfo {
 }
 
 .responsive {
   width: 100%;
   height: auto;
+}
+
+.row {
+  flex-wrap: nowrap;
 }
 
 .small {
@@ -238,7 +262,11 @@ div.space {
 }
 
 #showOnHover {
-  transition: display 1.9s;
+  transition: font-size 3s ease-in-out;
+  font-weight: normal;
+}
+#showOnHover:hover {
+  font-weight: bold;
 }
 
 @media (max-width: 600px) {
@@ -247,10 +275,6 @@ div.space {
   }
 }
 @media (min-width: 601px) {
-  .container {
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "left right";
-  }
   .gridContainer {
     grid-template-columns: top middle bottom;
   }
