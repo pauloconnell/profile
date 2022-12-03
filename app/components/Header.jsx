@@ -12,15 +12,15 @@ class Header extends React.Component {
     return (
       <div className="textAlign mt-3">
         <div className="row flexContainer fixed-top">
-          <Link className="col link border" to="/about">
+          <Link className="col link border bgsolid" to="/about">
             About Me
           </Link>
 
-          <Link className="col link border" to="/Contact">
+          <Link className="col link border bgsolid" to="/Contact">
             Contact Me
           </Link>
 
-          <Link className="col link border" to="/">
+          <Link className="col link border bgsolid" to="/">
             Home
           </Link>
         </div>

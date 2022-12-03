@@ -87,149 +87,159 @@ class Profile extends React.Component {
     return (
       <div className="textAlign my-3">
         <div className="">
-          <div className="width90 readEasy wordSpace m-auto my-3 ">
+          <div className="width90 readEasy wordSpace m-auto my-3 animate">
             <i>
               <div className="lineHeight wordSpace ">
                 Keen problem solver interested in all aspects of Software
                 Development,
                 <br /> currently working full time as Senior Front End Developer
-                for a start up that could become huge!!! <br />I write clean
-                code and enjoy helping build quality software.
+                for a start up that could become huge - launching early 2023!!!
               </div>
             </i>
           </div>
-
-          <div className="readable width90 m-auto my-3 marginTop">
-            <p className="title inlineBlock text">
-              Certified M.E.R.N. Full Stack Software Developer
-            </p>
-          </div>
-          <div
-            onMouseEnter={this.handleHoverIn}
-            onMouseLeave={this.handleHoverOut}
-            style={{ minHeight: "10px" }}
-          >
-            {/* old hover method:  
+          <div className=" width90 fade-in-info">
+            <div className=" m-auto my-3 marginTop">
+              <p className="title inlineBlock text">
+                Certified M.E.R.N. Full Stack Software Developer
+              </p>
+            </div>
+            <div
+              onMouseEnter={this.handleHoverIn}
+              onMouseLeave={this.handleHoverOut}
+              style={{ minHeight: "10px" }}
+            >
+              {/* old hover method:  
                 style={{ display: hovering ? "block" : "none"  }}
                */}
-            <div id="showOnHover" className=" width90 fade-in-info">
-              <div className="wordSpace" style={{ minHeight: "300px" }}>
-                <div className="small readable container-fluid">
-                  <div className="row ">
-                    <div className="text-center fs-2">Tech Stack:</div>
-                  </div>
-                  <div className="row">
-                    <span
-                      className="col fs-3"
-                      onMouseEnter={this.handleHoverFE}
-                      onMouseLeave={this.handleHoverFE}
-                      style={{
-                        color: this.state.highlightFE ? "blue" : "black",
-                      }}
-                    >
-                      FrontEnd
-                    </span>
-                    <span
-                      className="col fs-3"
-                      onMouseEnter={this.handleHoverBE}
-                      onMouseLeave={this.handleHoverBE}
-                      style={{
-                        color: this.state.highlightBE ? "purple" : "black",
-                      }}
-                    >
-                      BackEnd
-                    </span>
-                  </div>
-                  <br />
-                  <div className="row ">
-                    <span className="text-center">
+              <div className=" width90 ">
+                <div className="wordSpace" style={{ minHeight: "300px" }}>
+                  <div className="small container-fluid">
+                    <div className="row ">
+                      <div className="text-center fs-2">Tech Stack:</div>
+                    </div>
+                    <div className="row">
                       <span
+                        className="col fs-3"
+                        onMouseEnter={this.handleHoverFE}
+                        onMouseLeave={this.handleHoverFE}
                         style={{
                           color: this.state.highlightFE ? "blue" : "black",
-                          fontSize: this.state.highlightFE ? "125%" : " 100%",
                         }}
                       >
-                        React, HTML, CSS, Bootstrap, JavaScript, Vue3, .Net:
-                        RazorPages & RazorComponents c#
+                        FrontEnd
                       </span>
-                      <br />
                       <span
+                        className="col fs-3"
+                        onMouseEnter={this.handleHoverBE}
+                        onMouseLeave={this.handleHoverBE}
                         style={{
-                          color: this.state.highlightBE ? "white" : "black",
-                          fontSize: this.state.highlightBE ? "125%" : " 100%",
+                          color: this.state.highlightBE ? "purple" : "black",
                         }}
                       >
-                        Node,MongoDB, Mongoose, DataBases deployed on AWS,
-                        Express Server, jQuerry, D3, Passport, OAuth, Pug(Jade).
+                        BackEnd
                       </span>
-                      <br />
-                      At University, I learned bit manipulation assembly
-                      language, C++ and Java EE. <br />
-                      <span
-                        style={{
-                          color: this.state.highlightFE ? "blue" : "black",
-                          fontSize: this.state.highlightFE ? "125%" : " 100%",
-                        }}
-                      >
-                        Built 2 sided e-Commerce site coding Razor pages with
-                        C#, using Azure Devops, and Postman to test/ build API
-                        connections.
-                      </span>
-                      <br />
-                      <span
-                        style={{
-                          color: this.state.highlightBE ? "white" : "black",
-                          fontSize: this.state.highlightBE ? "125%" : " 100%",
-                        }}
-                      >
-                        The back end team works on .Net with SQL and
+                    </div>
+                    <br />
+                    <div className="row ">
+                      <span className="text-center">
+                        <span
+                          style={{
+                            color: this.state.highlightFE ? "blue" : "black",
+                            fontWeight: this.state.highlightFE
+                              ? "bold"
+                              : " normal",
+                          }}
+                        >
+                          React, HTML, CSS, Bootstrap, JavaScript, Vue3, .Net:
+                          RazorPages & RazorComponents c#
+                        </span>
+                        <br />
+                        <span
+                          style={{
+                            color: this.state.highlightBE ? "white" : "black",
+                            fontWeight: this.state.highlightBE
+                              ? "bold"
+                              : " normal",
+                          }}
+                        >
+                          Node,MongoDB, Mongoose, DataBases deployed on AWS,
+                          Express Server, jQuerry, D3, Passport, OAuth,
+                          Pug(Jade).
+                        </span>
+                        <br />
+                        At University, I learned bit manipulation assembly
+                        language, C++ and Java EE. <br />
+                        <span
+                          style={{
+                            color: this.state.highlightFE ? "blue" : "black",
+                            fontWeight: this.state.highlightFE
+                              ? "bold"
+                              : " normal",
+                          }}
+                        >
+                          Built 2 sided e-Commerce site coding Razor pages with
+                          C#, using Azure Devops, and Postman to test/ build API
+                          connections.
+                        </span>
+                        <br />
+                        <span
+                          style={{
+                            color: this.state.highlightBE ? "white" : "black",
+                            fontWeight: this.state.highlightBE
+                              ? "bold"
+                              : " normal",
+                          }}
+                        >
+                          The back end team works on .Net with SQL and
+                          <span
+                            style={{
+                              color: this.state.highlightFE ? "blue" : "black",
+                              fontWeight: this.state.highlightFE
+                                ? "bold"
+                                : " normal",
+                            }}
+                          >
+                            &nbsp; Azure devops.
+                          </span>
+                        </span>
+                        <br />
                         <span
                           style={{
                             color: this.state.highlightFE ? "blue" : "black",
                             fontSize: this.state.highlightFE ? "125%" : " 100%",
                           }}
                         >
-                          &nbsp; Azure devops.
+                          Currently in final stages of building out web App in
+                          JavaScript Vue3
+                        </span>
+                        &nbsp; with &nbsp;
+                        <span
+                          style={{
+                            color: this.state.highlightBE ? "white" : "black",
+                            fontSize: this.state.highlightBE ? "125%" : " 100%",
+                          }}
+                        >
+                          Nuxt 3
+                        </span>
+                        &nbsp; and &nbsp;
+                        <span
+                          style={{
+                            color: this.state.highlightFE ? "blue" : "black",
+                            fontSize: this.state.highlightFE ? "125%" : " 100%",
+                          }}
+                        >
+                          Pinia state management.
                         </span>
                       </span>
-                      <br />
-                      <span
-                        style={{
-                          color: this.state.highlightFE ? "blue" : "black",
-                          fontSize: this.state.highlightFE ? "125%" : " 100%",
-                        }}
-                      >
-                        Currently in final stages of building out web App in
-                        JavaScript Vue3
-                      </span>
-                      &nbsp; with &nbsp;
-                      <span
-                        style={{
-                          color: this.state.highlightBE ? "white" : "black",
-                          fontSize: this.state.highlightBE ? "125%" : " 100%",
-                        }}
-                      >
-                        Nuxt 3
-                      </span>
-                      &nbsp; and &nbsp;
-                      <span
-                        style={{
-                          color: this.state.highlightFE ? "blue" : "black",
-                          fontSize: this.state.highlightFE ? "125%" : " 100%",
-                        }}
-                      >
-                        Pinia state management.
-                      </span>
-                    </span>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
           <p
             title="Click any of the options below:"
-            className="title readable text inlineBlock width marginTop"
+            className="title readEasy inlineBlock width marginTop"
           >
             See My work:
           </p>
@@ -237,42 +247,36 @@ class Profile extends React.Component {
         <br />
         <br />
         <div className="textAlign ">
-          <div className="gridContainer inlineBlock">
-            <span title="These applications use Express Server and MongoDB Database">
+          <div className="row ">
+            <div
+              class="ms-3 col link"
+              title="These applications use Express Server and MongoDB Database"
+            >
               <Link
-                className="link width inlineBlock top"
+                className=" width inlineBlock "
                 id="fullStack"
                 to="/fullStack"
               >
-                <span className="center">
-                  Full Stack <br />
-                  Applications
-                </span>
+                Full Stack Applications
               </Link>
-            </span>
-            <Link
+            </div>
+            <div
+              class="mx-2 col link"
               title="Data Visualization using javaScript D3 Library"
-              className="link width inlineBlock middle"
-              id="d3"
-              to="/DataVisualization"
             >
-              <span className="center">
-                Data <br />
-                Visualization
-              </span>
-            </Link>
-
-            <Link
-              title="Front End Web Applications"
-              className="link width inlineBlock bottom"
-              id="webApps"
-              to="/WebApps"
-            >
-              <span className="center">
-                Web <br />
-                Applications
-              </span>
-            </Link>
+              <Link
+                className="width inlineBlock middle"
+                id="d3"
+                to="/DataVisualization"
+              >
+                Data Visualization
+              </Link>
+            </div>
+            <div class="me-3 col link" title="Front End Web Applications">
+              <Link className=" width inlineBlock" id="webApps" to="/WebApps">
+                Web Applications
+              </Link>
+            </div>
           </div>
         </div>
 
