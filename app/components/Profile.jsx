@@ -32,7 +32,7 @@ class Profile extends React.Component {
     this.state = {
       showThis: false,
       hovering: false,
-      highlightFE: false,
+      highlightFE: true,
       highlightBE: false,
     };
     this.handleClick = this.handleClick.bind(this);
@@ -50,6 +50,8 @@ class Profile extends React.Component {
   }
 
   handleHoverFE() {
+    // not used because want frontend to show by default
+
     this.setState(
       {
         highlightFE: !this.state.highlightFE,
@@ -60,6 +62,7 @@ class Profile extends React.Component {
   handleHoverBE() {
     this.setState(
       {
+        highlightFE: !this.state.highlightFE,
         highlightBE: !this.state.highlightBE,
       },
       () => console.log("handled BE", this.state.highlightBE)
@@ -110,7 +113,36 @@ class Profile extends React.Component {
             >
               {/* old hover method:  
                 style={{ display: hovering ? "block" : "none"  }}
-               */}
+              
+              // could use bootstrap tabs here?
+              
+              
+              <ul class="nav nav-tabs justify-content-center">
+                <li class="nav-item">
+                  <span
+                    class="nav-link active"
+                    aria-current="page"
+                    onClick={() => {
+                      document.querySelector(".fe").style.display = "block";
+                      document.querySelector(".be").style.display = "none";
+                    }}
+                  >
+                    Front End
+                  </span>
+                </li>
+                <li class="nav-item">
+                  <span
+                    class="nav-link"
+                    onClick={() => {
+                      document.querySelector(".be").style.display = "block";
+                      document.querySelector(".fe").style.display = "none";
+                    }}
+                  >
+                    Back End
+                  </span>
+                </li>
+              </ul>
+ */}
               <div className=" width90 ">
                 <div className="wordSpace" style={{ minHeight: "300px" }}>
                   <div className="small container-fluid">
@@ -120,8 +152,6 @@ class Profile extends React.Component {
                     <div className="row">
                       <span
                         className="col fs-3"
-                        onMouseEnter={this.handleHoverFE}
-                        onMouseLeave={this.handleHoverFE}
                         style={{
                           color: this.state.highlightFE ? "blue" : "black",
                         }}
@@ -143,43 +173,49 @@ class Profile extends React.Component {
                     <div className="row ">
                       <span className="text-center">
                         <span
+                          id="fe"
                           style={{
                             color: this.state.highlightFE ? "blue" : "black",
                             fontWeight: this.state.highlightFE
                               ? "bold"
                               : " normal",
+                            visibility: this.state.highlightFE
+                              ? "visible"
+                              : "hidden",
                           }}
                         >
-                          React, HTML, CSS, Bootstrap, JavaScript, Vue3, .Net:
-                          RazorPages & RazorComponents c#
+                          React, HTML, CSS, Bootstrap, JavaScript, Vue3,  jQuerry, .Net:
+                          RazorPages & RazorComponents c#, C++ and Java EE.
                         </span>
                         <br />
                         <span
+                          id="be"
                           style={{
                             color: this.state.highlightBE ? "white" : "black",
                             fontWeight: this.state.highlightBE
                               ? "bold"
                               : " normal",
+                            display: this.state.highlightBE ? "block" : "none",
                           }}
                         >
-                          Node,MongoDB, Mongoose, DataBases deployed on AWS,
-                          Express Server, jQuerry, D3, Passport, OAuth,
+                          Certified on Node, MongoDB, Mongoose, DataBases deployed on AWS,
+                          Express Server, D3, Passport, OAuth, testing w/ Mocha,
                           Pug(Jade).
                         </span>
                         <br />
-                        At University, I learned bit manipulation assembly
-                        language, C++ and Java EE. <br />
                         <span
                           style={{
                             color: this.state.highlightFE ? "blue" : "black",
                             fontWeight: this.state.highlightFE
                               ? "bold"
                               : " normal",
+                            display: this.state.highlightFE ? "block" : "none",
                           }}
                         >
-                          Built 2 sided e-Commerce site coding Razor pages with
-                          C#, using Azure Devops, and Postman to test/ build API
-                          connections.
+                          Built pixel perfect prototype of 2 sided e-Commerce
+                          site, using HTML, CSS, and JavaScript on Razor pages
+                          with C# data interface, using Azure Devops, and
+                          Postman to build and test API connections.
                         </span>
                         <br />
                         <span
@@ -188,15 +224,19 @@ class Profile extends React.Component {
                             fontWeight: this.state.highlightBE
                               ? "bold"
                               : " normal",
+                            display: this.state.highlightBE ? "block" : "none",
                           }}
                         >
-                          The back end team works on .Net with SQL and
+                          Current project: The back end team works on .Net with SQL and
                           <span
                             style={{
                               color: this.state.highlightFE ? "blue" : "black",
                               fontWeight: this.state.highlightFE
                                 ? "bold"
                                 : " normal",
+                              display: this.state.highlightFE
+                                ? "block"
+                                : "none",
                             }}
                           >
                             &nbsp; Azure devops.
@@ -206,26 +246,35 @@ class Profile extends React.Component {
                         <span
                           style={{
                             color: this.state.highlightFE ? "blue" : "black",
-                            fontSize: this.state.highlightFE ? "125%" : " 100%",
+                            fontWeight: this.state.highlightFE
+                              ? "bold"
+                              : " normal",
+                            display: this.state.highlightFE ? "block" : "none",
                           }}
                         >
-                          Currently in final stages of building out web App in
-                          JavaScript Vue3
+                           Currently in final stages of building out full featured web App.  Note: Switched tech stacks from the slower .NET prototype, to fast
+                          JavaScript, using Vue3 with Nuxt 3, utilizing local Storage and
                         </span>
-                        &nbsp; with &nbsp;
+
                         <span
                           style={{
                             color: this.state.highlightBE ? "white" : "black",
-                            fontSize: this.state.highlightBE ? "125%" : " 100%",
+                            fontWeight: this.state.highlightBE
+                              ? "bold"
+                              : " normal",
+                            display: this.state.highlightBE ? "block" : "none",
                           }}
                         >
-                          Nuxt 3
+                          and Nuxt 3.
                         </span>
-                        &nbsp; and &nbsp;
+
                         <span
                           style={{
                             color: this.state.highlightFE ? "blue" : "black",
-                            fontSize: this.state.highlightFE ? "125%" : " 100%",
+                            fontWeight: this.state.highlightFE
+                              ? "bold"
+                              : " normal",
+                            display: this.state.highlightFE ? "block" : "none",
                           }}
                         >
                           Pinia state management.
