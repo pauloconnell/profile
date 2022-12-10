@@ -3,12 +3,12 @@ const Link = require("react-router-dom").Link;
 const UnorderedList = require("./UnorderedList");
 const Footer = require("./Footer");
 /* the main page for the index route of this app */
-const FullStack = function() {
+const FullStack = function () {
   return (
     <div>
       <center>
         <div className="textAlign">
-          <div className="gridContainer inlineBlock">
+          <div className="container inlineBlock">
             <Link
               className="link width inlineBlock"
               id="fullStack"
@@ -55,14 +55,13 @@ const FullStack = function() {
             <br />
             React, Express, MongoDB, Mongoose, Node.js, API MicroServices
           </h3>
-          <br />
+
           <h4 class="readEasy inlineBlock">
             HTML, JavaScript, Css, Bootstrap, jQuerry, GitHub
           </h4>
         </div>
-        <br />
-        <br />
-        <div className="container">
+
+        <div className="container mt-1">
           <a
             className="pos-one link"
             href="https://messageboard-anon.glitch.me/"
@@ -72,12 +71,11 @@ const FullStack = function() {
               className="border"
               title="This App allows anonymous users to set password protected content on database 'boards'"
             >
-              <span className="title text">
+              <span className="title text my-1">
                 <strong>Anonymous Message Board Web App</strong>
               </span>
 
               <span className="small"></span>
-              <br />
 
               <img
                 className="responsive"
@@ -113,8 +111,8 @@ const FullStack = function() {
             </div>
           </a>
         </div>
-        <br />
-        <div className="container">
+
+        <div className="container mt-1">
           <a
             className="pos-one link"
             href="https://QA-5-american-british-english-translator.pauloconnell.repl.co"
@@ -170,7 +168,7 @@ const FullStack = function() {
           </a>
         </div>
         <br />
-        <div className="container">
+        <div className="container mt-1">
           <a
             className="pos-one link"
             href="https://qa-4-suduko-solver.pauloconnell.repl.co/"

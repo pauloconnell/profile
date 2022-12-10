@@ -179,13 +179,12 @@ class Profile extends React.Component {
                             fontWeight: this.state.highlightFE
                               ? "bold"
                               : " normal",
-                            visibility: this.state.highlightFE
-                              ? "visible"
-                              : "hidden",
+                            display: this.state.highlightFE ? "block" : "none",
                           }}
                         >
-                          React, HTML, CSS, Bootstrap, JavaScript, Vue3,  jQuerry, .Net:
-                          RazorPages & RazorComponents c#, C++ and Java EE.
+                          React, HTML, CSS, JavaScript, Bootstrap, Vue3,
+                          TypeScript, jQuerry, .Net: RazorPages,
+                          RazorComponents, c#, C++ and Java EE.
                         </span>
                         <br />
                         <span
@@ -198,9 +197,9 @@ class Profile extends React.Component {
                             display: this.state.highlightBE ? "block" : "none",
                           }}
                         >
-                          Certified on Node, MongoDB, Mongoose, DataBases deployed on AWS,
-                          Express Server, D3, Passport, OAuth, testing w/ Mocha,
-                          Pug(Jade).
+                          Certified on Node, MongoDB, Mongoose, DataBases
+                          deployed on AWS, Express Server, D3, Passport, OAuth,
+                          testing w/ Mocha, Pug(Jade).
                         </span>
                         <br />
                         <span
@@ -227,7 +226,8 @@ class Profile extends React.Component {
                             display: this.state.highlightBE ? "block" : "none",
                           }}
                         >
-                          Current project: The back end team works on .Net with SQL and
+                          Current project: The back end team works on .Net with
+                          SQL and
                           <span
                             style={{
                               color: this.state.highlightFE ? "blue" : "black",
@@ -252,8 +252,10 @@ class Profile extends React.Component {
                             display: this.state.highlightFE ? "block" : "none",
                           }}
                         >
-                           Currently in final stages of building out full featured web App.  Note: Switched tech stacks from the slower .NET prototype, to fast
-                          JavaScript, using Vue3 with Nuxt 3, utilizing local Storage and
+                          Currently in final stages of building out full
+                          featured web App. Note: Switched tech stacks from the
+                          slower .NET prototype, to fast JavaScript, using Vue3
+                          with Nuxt 3, utilizing local Storage and
                         </span>
 
                         <span
@@ -297,6 +299,11 @@ class Profile extends React.Component {
         <br />
         <div className="textAlign ">
           <div className="row ">
+            <div class="me-3 col link" title="Front End Web Applications">
+              <Link className=" width inlineBlock" id="webApps" to="/WebApps">
+                Web Applications
+              </Link>
+            </div>
             <div
               class="ms-3 col link"
               title="These applications use Express Server and MongoDB Database"
@@ -319,11 +326,6 @@ class Profile extends React.Component {
                 to="/DataVisualization"
               >
                 Data Visualization
-              </Link>
-            </div>
-            <div class="me-3 col link" title="Front End Web Applications">
-              <Link className=" width inlineBlock" id="webApps" to="/WebApps">
-                Web Applications
               </Link>
             </div>
           </div>
