@@ -20,6 +20,16 @@ code {
 
 img {
   border-radius: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+section {
+  transition: all 1s ease-in-out;
+}
+section:hover {
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
 ul.readEasy li {
@@ -35,7 +45,7 @@ div.space {
 }
 /**not used **/
 .animation {
-  transition: opacity 1s ease-out;
+  transition: opacity 1s ease-in-out;
   opacity: 0;
   height: 0;
   overflow: hidden;
@@ -46,7 +56,7 @@ div.space {
 }
 
 .bgsolid {
-  background: rgb(12, 12, 12)!important;
+  background: rgb(12, 12, 12) !important;
 }
 
 .big {
@@ -73,7 +83,7 @@ div.space {
 
 .fade-in-info {
   opacity: 0;
-  transition: opacity 1.5s ease-in-out;
+  transition: all 1.2s ease-in-out;
 
   background: rgba(128, 128, 128, 0.8);
   color: black;
@@ -90,15 +100,6 @@ div.space {
   justify-content: space-around;
 }
 
-.gridContainer {
-  display: grid;
-  grid-gap: 6%;
-  grid-template-areas:
-    "top"
-    "middle"
-    "bottom";
-}
-
 .hidden {
   visibility: hidden;
 }
@@ -112,7 +113,7 @@ div.space {
   text-shadow: 1px 1px 3px white;
   font-size: 24px;
   background: rgba(12, 12, 12, 0.5);
-  border: 2px solid black;
+
   border-radius: 5px;
   font-weight: bold;
   margin: 2px;
@@ -146,13 +147,9 @@ div.space {
   text-shadow: none;
 }
 .pos-one {
-  background: rgba(255, 255, 255, 0.5);
-  grid-area: left;
 }
 
 .pos-two {
-  background: rgba(255, 255, 255, 0.5);
-  grid-area: right;
 }
 
 .readEasy {
@@ -181,12 +178,14 @@ div.space {
 }
 
 .responsive {
-  width: 100%;
+  width: 80%;
   height: auto;
+  display: block;
+  margin: auto;
 }
 
 .row {
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .small {
@@ -208,7 +207,7 @@ div.space {
 }
 
 .title {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: bold;
 }
 
@@ -286,7 +285,7 @@ div.space {
 
 @media (min-width: 992px) {
   .link {
-    font-size: 30px;
+    font-size: 24px;
   }
 
   span.small {
