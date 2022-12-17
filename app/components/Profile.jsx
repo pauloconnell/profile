@@ -1,6 +1,7 @@
 const React = require("react");
 const Link = require("react-router-dom").Link;
 const UnorderedList = require("./UnorderedList");
+const MyWork = require("./links/MyWork");
 const styles = require("../app.css");
 const ReactTooltip = require("react-tooltip");
 
@@ -50,11 +51,10 @@ class Profile extends React.Component {
   }
 
   handleHoverFE() {
-    // not used because want frontend to show by default
-
     this.setState(
       {
-        highlightFE: !this.state.highlightFE,
+        highlightFE: true,
+        highlightBE: false,
       },
       () => console.log("handled FE", this.state.highlightFE)
     );
@@ -62,12 +62,14 @@ class Profile extends React.Component {
   handleHoverBE() {
     this.setState(
       {
-        highlightFE: !this.state.highlightFE,
-        highlightBE: !this.state.highlightBE,
+        highlightFE: false,
+        highlightBE: true,
       },
       () => console.log("handled BE", this.state.highlightBE)
     );
   }
+
+  // this shows/hides details on home page PROFILE
   handleHoverIn() {
     this.setState({
       hovering: true,
@@ -109,7 +111,7 @@ class Profile extends React.Component {
             <div
               onMouseEnter={this.handleHoverIn}
               onMouseLeave={this.handleHoverOut}
-              style={{ minHeight: "10px" }}
+              style={{ minHeight: "420px" }}
             >
               {/* old hover method:  
                 style={{ display: hovering ? "block" : "none"  }}
@@ -151,20 +153,20 @@ class Profile extends React.Component {
                     </div>
                     <div className="row">
                       <span
-                        className="col fs-3"
+                        className="col fs-3 link"
                         style={{
                           color: this.state.highlightFE ? "blue" : "black",
                         }}
+                        onClick={this.handleHoverFE}
                       >
                         FrontEnd
                       </span>
                       <span
-                        className="col fs-3"
-                        onMouseEnter={this.handleHoverBE}
-                        onMouseLeave={this.handleHoverBE}
+                        className="col fs-3 link"
                         style={{
-                          color: this.state.highlightBE ? "purple" : "black",
+                          color: this.state.highlightBE ? "white" : "black",
                         }}
+                        onClick={this.handleHoverBE}
                       >
                         BackEnd
                       </span>
@@ -212,8 +214,8 @@ class Profile extends React.Component {
                           }}
                         >
                           Built pixel perfect prototype of 2 sided e-Commerce
-                          site, using HTML, CSS, and JavaScript on Razor pages
-                          with C# data interface, using Azure Devops, and
+                          site in .NET, using HTML, CSS, and JavaScript on Razor
+                          pages with C# data interface, using Azure Devops, and
                           Postman to build and test API connections.
                         </span>
                         <br />
@@ -226,8 +228,8 @@ class Profile extends React.Component {
                             display: this.state.highlightBE ? "block" : "none",
                           }}
                         >
-                          Current project: The back end team works on .Net with
-                          SQL and
+                          Current project: The back end team works on .Net Azure
+                          functions using both SQL and Cosmo DB.
                           <span
                             style={{
                               color: this.state.highlightFE ? "blue" : "black",
@@ -295,44 +297,8 @@ class Profile extends React.Component {
             See My work:
           </p>
         </div>
-        <br />
-        <br />
-        <div className="textAlign ">
-          <div className="row ">
-            <div class="me-3 col link" title="Front End Web Applications">
-              <Link className=" width inlineBlock" id="webApps" to="/WebApps">
-                Web Applications
-              </Link>
-            </div>
-            <div
-              class="ms-3 col link"
-              title="These applications use Express Server and MongoDB Database"
-            >
-              <Link
-                className=" width inlineBlock "
-                id="fullStack"
-                to="/fullStack"
-              >
-                Full Stack Applications
-              </Link>
-            </div>
-            <div
-              class="mx-2 col link"
-              title="Data Visualization using javaScript D3 Library"
-            >
-              <Link
-                className="width inlineBlock middle"
-                id="d3"
-                to="/DataVisualization"
-              >
-                Data Visualization
-              </Link>
-            </div>
-          </div>
-        </div>
+        <MyWork />
 
-        <br />
-        <br />
         <div className="textAlign">
           <span className="inlineBlock">
             <button

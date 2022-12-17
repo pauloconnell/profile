@@ -33,4 +33,10 @@ to black
 Future items:
 -Web Apps => bottom links should be links to webapps fullstack and ...
 -add padding to above links
+-these above links should be a component
 -Update layout fullStack and d3
+-generate new link to tic tac toe game
+
+- refactor to get rid of space bigspace class and use bootstrap
+            
+        

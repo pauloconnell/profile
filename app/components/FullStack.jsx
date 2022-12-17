@@ -2,61 +2,27 @@ const React = require("react");
 const Link = require("react-router-dom").Link;
 const UnorderedList = require("./UnorderedList");
 const Footer = require("./Footer");
+const MyWork = require("./links/MyWork");
+
 /* the main page for the index route of this app */
 const FullStack = function () {
   return (
     <div>
       <center>
-        <div className="textAlign">
-          <div className="container inlineBlock">
-            <Link
-              className="link width inlineBlock"
-              id="fullStack"
-              to="/fullStack"
-            >
-              <span className="center">
-                Full Stack <br />
-                Applications
-              </span>
-            </Link>
-
-            <Link
-              className="link width inlineBlock"
-              id="d3"
-              to="/DataVisualization"
-            >
-              <span className="center">
-                Data <br />
-                Visualization
-              </span>
-            </Link>
-
-            <Link
-              style={{ display: "inline-block" }}
-              className="link width"
-              id="webApps"
-              to="/WebApps"
-            >
-              <span className="center">
-                Web <br />
-                Applications
-              </span>
-            </Link>
-          </div>
-        </div>
+        <MyWork />
         <hr></hr>
         <div className="">
           <h2>
             <span className="readEasy title">Full Stack MERN Applications</span>
           </h2>
           <br />
-          <h3 class="readEasy inlineBlock">
+          <h3 className="readEasy inlineBlock">
             Deployed in the cloud using:
             <br />
             React, Express, MongoDB, Mongoose, Node.js, API MicroServices
           </h3>
 
-          <h4 class="readEasy inlineBlock">
+          <h4 className="readEasy inlineBlock">
             HTML, JavaScript, Css, Bootstrap, jQuerry, GitHub
           </h4>
         </div>
@@ -119,7 +85,7 @@ const FullStack = function () {
             target="_blank"
           >
             <div
-              class="border"
+              className="border"
               title="This app converts from British spelling/slang to US and Vise-Versa"
             >
               <span className="title text">
