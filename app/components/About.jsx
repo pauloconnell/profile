@@ -4,9 +4,12 @@ const Link = require("react-router-dom").Link;
 /* the main page for the about route of this app */
 const About = function () {
   return (
-    <div class="textAlign">
+    <div className="textAlign">
       <p>
-        <div className="readable title text lineHeight width90">
+        <div
+          className="readable title text lineHeight width90"
+          style={{ fontSize: "initial" }}
+        >
           <b>
             Skilled in all aspects of software development, client relations,
             collaboration, project and team management.
@@ -17,7 +20,7 @@ const About = function () {
           </b>
         </div>
       </p>
-      <div className="readEasy big lineHeight width80 mx-auto my-5 p-4">
+      <div className="readEasy big lineHeight width80 mx-auto my-5 p-4 hoverDark">
         <u className="title">FULLSTACK M.E.R.N. CERTIFICATION:</u>
         <br />
         <br />
@@ -41,7 +44,7 @@ const About = function () {
           <br />
           <li>
             <br />
-            <div className="space">
+            <div className="space hoverDark">
               <div className="big space">
                 Responsive Web Design Certification
               </div>
@@ -61,7 +64,7 @@ const About = function () {
           <hr></hr>
 
           <li>
-            <div className="space">
+            <div className="space hoverDark">
               <div className="big space">
                 JavaScript Algorithms and Data Structures Certification
               </div>
@@ -80,7 +83,7 @@ const About = function () {
           </li>
           <hr></hr>
           <li>
-            <div className="space">
+            <div className="space hoverDark">
               <div className="big space">
                 Front End Development Libraries Certification
               </div>
@@ -94,11 +97,11 @@ const About = function () {
               <a href="https://www.freecodecamp.org/certification/fccd9e19c59/front-end-libraries">
                 View Certificate
               </a>
-              <hr></hr>
             </div>
           </li>
+          <hr></hr>
           <li>
-            <div className="space">
+            <div className="space hoverDark">
               <div className="big space">Data Visualization Certification</div>
 
               <code>
@@ -110,12 +113,11 @@ const About = function () {
               <a href="https://www.freecodecamp.org/certification/fccd9e19c59/data-visualization">
                 View Certificate
               </a>
-              <hr></hr>
             </div>
           </li>
-
+          <hr></hr>
           <li>
-            <div className="space">
+            <div className="space hoverDark">
               <div className="big space">
                 APIs and MicroServices Certification
               </div>
@@ -129,12 +131,11 @@ const About = function () {
               <a href="https://www.freecodecamp.org/certification/fccd9e19c59/apis-and-microservices">
                 View Certificate
               </a>
-              <hr></hr>
             </div>
           </li>
-
+          <hr></hr>
           <li>
-            <div className="space">
+            <div className="space hoverDark">
               <span className="big space">Quality Assurance Certification</span>
 
               <code>
@@ -156,23 +157,16 @@ const About = function () {
             >
               View Certificate
             </a>
-            <hr></hr>
           </li>
         </ul>
-        <br />
-        <div className="space">
+        <hr></hr>
+
+        <div className="space mb-5">
           <span className="readEasy title">
             Full Stack Certification: 1800 hours
           </span>
         </div>
-        <br />
       </div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
     </div>
   );
 };

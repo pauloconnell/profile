@@ -1,48 +1,14 @@
 const React = require("react");
 const Link = require("react-router-dom").Link;
 const UnorderedList = require("./UnorderedList");
-const Footer = require("./Footer");
+
+const MyWork = require("./links/MyWork");
+
 /* the main page for the index route of this app */
 const WebApps = function () {
   return (
     <div className="container-fluid">
-      <div className="textAlign">
-        <div className="gridContainer inlineBlock">
-          <Link
-            className="link width inlineBlock"
-            id="fullStack"
-            to="/fullStack"
-          >
-            <span className="center">
-              Full Stack <br />
-              Applications
-            </span>
-          </Link>
-
-          <Link
-            className="link width inlineBlock"
-            id="d3"
-            to="/DataVisualization"
-          >
-            <span className="center">
-              Data <br />
-              Visualization
-            </span>
-          </Link>
-
-          <Link
-            style={{ display: "inline-block" }}
-            className="link width"
-            id="webApps"
-            to="/WebApps"
-          >
-            <span className="center">
-              Web <br />
-              Applications
-            </span>
-          </Link>
-        </div>
-      </div>
+      <MyWork />
       <hr></hr>
       <h2 className=" mb-3 textAlign">
         <span className="readEasy title">Web Applications</span>
@@ -230,8 +196,7 @@ const WebApps = function () {
           </a>
         </section>
       </div>
-
-      <Footer />
+      <MyWork />
     </div>
   );
 };

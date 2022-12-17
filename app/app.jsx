@@ -7,6 +7,7 @@ const bootstrap = require("bootstrap/dist/css/bootstrap.css");
 
 /* Import Components */
 const Header = require("./components/Header");
+
 const Profile = require("./components/Profile");
 const About = require("./components/About");
 const Contact = require("./components/Contact");
