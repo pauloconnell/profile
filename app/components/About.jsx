@@ -39,13 +39,13 @@ const About = function () {
       <br /> <br />
       <br />
       <br />
-      <div className="center width80">
+      <div className="center width80 p-4">
         <ul className="readEasy inlineBlock">
           <br />
           <li>
             <br />
-            <div className="space hoverDark">
-              <div className="big space">
+            <div className="hoverDark">
+              <div className="big py-3">
                 Responsive Web Design Certification
               </div>
 
@@ -64,8 +64,8 @@ const About = function () {
           <hr></hr>
 
           <li>
-            <div className="space hoverDark">
-              <div className="big space">
+            <div className="hoverDark">
+              <div className="big py-3">
                 JavaScript Algorithms and Data Structures Certification
               </div>
 
@@ -83,8 +83,8 @@ const About = function () {
           </li>
           <hr></hr>
           <li>
-            <div className="space hoverDark">
-              <div className="big space">
+            <div className="hoverDark">
+              <div className="big py-3">
                 Front End Development Libraries Certification
               </div>
 
@@ -101,8 +101,8 @@ const About = function () {
           </li>
           <hr></hr>
           <li>
-            <div className="space hoverDark">
-              <div className="big space">Data Visualization Certification</div>
+            <div className=" hoverDark">
+              <div className="big py-3">Data Visualization Certification</div>
 
               <code>
                 Using data to create different charts, graphs, hover elements,
@@ -117,8 +117,8 @@ const About = function () {
           </li>
           <hr></hr>
           <li>
-            <div className="space hoverDark">
-              <div className="big space">
+            <div className="hoverDark">
+              <div className="big py-3">
                 APIs and MicroServices Certification
               </div>
 
@@ -135,8 +135,8 @@ const About = function () {
           </li>
           <hr></hr>
           <li>
-            <div className="space hoverDark">
-              <span className="big space">Quality Assurance Certification</span>
+            <div className=" hoverDark">
+              <div className="big py-3">Quality Assurance Certification</div>
 
               <code>
                 Advanced Node.js, Authentication with Passport, Social
@@ -161,7 +161,7 @@ const About = function () {
         </ul>
         <hr></hr>
 
-        <div className="space mb-5">
+        <div className=" my-5">
           <span className="readEasy title">
             Full Stack Certification: 1800 hours
           </span>

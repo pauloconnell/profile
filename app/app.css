@@ -41,10 +41,11 @@ ul {
   list-style: upper-roman;
   list-style-position: inside;
 }
+/**not used 
 div.space {
   margin-top: 17px;
 }
-/**not used **/
+**/
 .animation {
   transition: opacity 1s ease-in-out;
   opacity: 0;
@@ -55,6 +56,7 @@ div.space {
   opacity: 1;
   height: auto;
 }
+
 
 .bgsolid {
   background: rgb(12, 12, 12) !important;

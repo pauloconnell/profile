@@ -92,7 +92,7 @@ class Profile extends React.Component {
     return (
       <div className="textAlign my-3">
         <div className="">
-          <div className="width90 readEasy wordSpace m-auto my-3 animate">
+          <div className="width90 readEasy word    m-auto my-3 animate">
             <i>
               <div className="lineHeight wordSpace ">
                 Keen problem solver interested in all aspects of Software
