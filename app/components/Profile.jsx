@@ -2,6 +2,7 @@ const React = require("react");
 const Link = require("react-router-dom").Link;
 const UnorderedList = require("./UnorderedList");
 const MyWork = require("./links/MyWork");
+const DynamicData = require("./DynamicData");
 const styles = require("../app.css");
 const ReactTooltip = require("react-tooltip");
 
@@ -297,7 +298,10 @@ class Profile extends React.Component {
             See My work:
           </p>
         </div>
+
         <MyWork />
+
+        <dynamicData data="isHere" />
 
         <div className="textAlign">
           <span className="inlineBlock">
