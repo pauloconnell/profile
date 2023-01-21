@@ -27,7 +27,7 @@ const About = function () {
         The MERN Stack is: MongoDB, Express(server) React, Node.js 1800 Hours
         Certification awarded after completion of 6 Certifications:
         <br />
-        <ul className="readEasy textAlignLeft">
+        <ul className="textAlignLeft">
           <li>Quality Assurance and Information Security Certification </li>
           <li>Data Visualization with D3 Certification </li>
           <li>APIs and MicroServices Certification </li>

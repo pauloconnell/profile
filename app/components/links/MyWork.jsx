@@ -35,6 +35,16 @@ const MyWork = function () {
             Visualization
           </span>
         </Link>
+
+        <Link className="link width inlineBlock" id="data" to="/DynamicData">
+          <span className="center">
+            Dynamic
+            <br />
+            Data
+          </span>
+        </Link>
+        
+        
       </div>
     </div>
   );
