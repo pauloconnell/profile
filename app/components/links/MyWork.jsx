@@ -5,7 +5,7 @@ const Link = require("react-router-dom").Link;
 const MyWork = function () {
   return (
     <div className="textAlign">
-      <div className="gridContainer inlineBlock">
+      <div className="gridContainer width90">
         <Link
           style={{ display: "inline-block" }}
           className="link width"
@@ -43,8 +43,6 @@ const MyWork = function () {
             Data
           </span>
         </Link>
-        
-        
       </div>
     </div>
   );

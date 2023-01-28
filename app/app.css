@@ -57,7 +57,6 @@ div.space {
   height: auto;
 }
 
-
 .bgsolid {
   background: rgb(12, 12, 12) !important;
 }
@@ -103,6 +102,12 @@ div.space {
   justify-content: space-around;
 }
 
+.gridContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 .hidden {
   visibility: hidden;
 }
@@ -123,9 +128,7 @@ div.space {
   color: DodgerBlue;
   text-shadow: 1px 1px 3px white;
   font-size: 24px;
-
   padding-bottom: 6px;
-  padding: 0px 6px 6px 6px;
   border-radius: 5px;
   font-weight: bold;
   margin: 2px;
@@ -290,10 +293,6 @@ div.space {
   }
 }
 @media (min-width: 601px) {
-  .gridContainer {
-    grid-template-columns: top middle bottom;
-  }
-
   span.small {
     font-size: 16px;
   }
