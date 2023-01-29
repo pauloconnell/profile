@@ -28,7 +28,7 @@ const MyWork = function () {
         <Link
           className="link width inlineBlock"
           id="d3"
-          to="/DataVisualization"
+          to="/DataVisualization2"
         >
           <span className="center">
             Data <br />
