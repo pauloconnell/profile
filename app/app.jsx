@@ -12,7 +12,7 @@ const Profile = require("./components/Profile");
 const About = require("./components/About");
 const Contact = require("./components/Contact");
 const FullStack = require("./components/FullStack");
-const DataVisualization = require("./components/DataVisualization");
+const DataVisualization2 = require("./components/DataVisualization2");
 const WebApps = require("./components/WebApps");
 
 ReactDOM.render(
@@ -23,9 +23,8 @@ ReactDOM.render(
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
       <Route path="/fullStack" component={FullStack} />
-      <Route path="/dataVisualization" component={DataVisualization} />
+      <Route path="/dataVisualization2" component={DataVisualization2} />
       <Route path="/WebApps" component={WebApps} />
-      
     </div>
   </BrowserRouter>,
   document.getElementById("main")

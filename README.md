@@ -23,17 +23,13 @@ I've added styles in /components/app.css and css loaders packages for webpack to
 The homepage background photo was me on the best day of the season for me this year.
 Implement state to change color of frontend vs backend technologies inside of onHover MERN
 
-#### NEXT: Animate state change onHover MERN
+#### NEXT: Update myWork sections WebApps and Data Visualization = prototypes
 
 Details:
 
--Postman and devops should highlight to both frontend and backend colors on highlight, or default
-to black
-
 Future items:
 
--these above links should be a component
--Update layout fullStack and d3
+-Update layout d3 complete and push to others
 -generate new link to tic tac toe game
 
 - refactor to get rid of space bigspace class and use bootstrap
