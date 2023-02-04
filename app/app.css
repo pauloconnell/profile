@@ -83,6 +83,20 @@ div.space {
   min-height: 300px;
 }
 
+.expandingReadable {
+  background: rgba(128, 128, 128, 0.6);
+  color: black;
+  border-radius: 5px;
+  padding: 6px;
+  transition: background 1.5s ease-in-out, font-size 1.5s ease-in-out;
+  font-size: 8px;
+}
+.expandingReadable:hover {
+  background: rgba(128, 128, 128, 0.95);
+  font-size: 16px;
+  
+}
+
 .fade-in-info {
   opacity: 0;
   transition: all 1.2s ease-in-out;
@@ -165,7 +179,6 @@ div.space {
 }
 
 .pos-two {
-
 }
 
 .readEasy {
@@ -175,22 +188,6 @@ div.space {
   border-radius: 5px;
   padding: 5px 6px;
   line-height: 1.5em;
-}
-
-.readable {
-  background: rgba(128, 128, 128, 0.6);
-  color: black;
-  border-radius: 5px;
-  padding: 6px;
-  transition: background 1.5s ease-in-out, font-size 1.5s ease-in-out;
-  font-size: 8px;
-}
-.readable:hover {
-  background: rgba(128, 128, 128, 0.95);
-  font-size: 16px;
-}
-
-.readable.fadeInInfo {
 }
 
 .responsive {
