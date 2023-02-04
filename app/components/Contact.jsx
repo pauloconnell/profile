@@ -1,8 +1,9 @@
 const React = require("react");
 const Link = require("react-router-dom").Link;
+const MyWork = require("./links/MyWork");
 
 /* the main page for the about route of this app */
-const Contact = function() {
+const Contact = function () {
   return (
     <div>
       <div className="textAlign">
@@ -51,12 +52,7 @@ const Contact = function() {
             </a>
           </div>
         </p>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
+        <MyWork class="mt-5" />
       </div>
     </div>
   );

@@ -299,7 +299,7 @@ class Profile extends React.Component {
           </p>
         </div>
 
-        <MyWork />
+        <MyWork class="mb-3" />
 
         <dynamicData data="isHere" />
 
@@ -308,7 +308,7 @@ class Profile extends React.Component {
             <button
               title="Click button to show details"
               type="button"
-              className="btn btn-success"
+              className="btn btn-success my-3"
               onClick={(e) => this.handleClick(e)}
             >
               about this app
@@ -316,14 +316,16 @@ class Profile extends React.Component {
             <br />
 
             {this.state.showThis ? (
-              <div className="readable">
+              <div className="expandingReadable">
                 This profile app was built by Paul O'Connell using React and
                 node.js <br />
                 It uses a few dependencies, including React router and:
                 <UnorderedList items={dependenciesArray} />
               </div>
             ) : (
-              <span className="readable">`Click button to show details`</span>
+              <span className="expandingReadable fade-in-info">
+                `Click above button to show details about this app.`
+              </span>
             )}
           </span>
         </div>
