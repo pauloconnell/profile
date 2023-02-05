@@ -33,3 +33,6 @@ Future items:
 -generate new link to tic tac toe game
 
 - refactor to get rid of space bigspace class and use bootstrap
+
+
+NEXT: refactor Full stack to standard of Data Visualization, then update web apps to dataVis standard
