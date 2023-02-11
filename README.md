@@ -35,4 +35,4 @@ Future items:
 - refactor to get rid of space bigspace class and use bootstrap
 
 
-NEXT: refactor Full stack to standard of Data Visualization, then update web apps to dataVis standard
+NEXT: refactor Full stack to tweak layout to perfection , then update web apps to dataVis standard
