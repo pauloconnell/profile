@@ -21,7 +21,7 @@ const WebApps = function () {
       </h3>
 
       <div className="row mx-1">
-        <section className="col-12 col-sm-6 ">
+        <section className="col-12 col-sm-6 py-1">
           <a
             className="link d-block"
             title="Delivers specific information for every item on sales floor and organizes similar models to increase sales conversions"
@@ -45,13 +45,13 @@ const WebApps = function () {
           </a>
         </section>
 
-        <section className="col-12 col-sm-6  ">
+        <section className="col-12 col-sm-6 my-1 ">
           <a
             className="link d-block"
             href="https://ianbunburydogschool.glitch.me"
             target="_blank"
           >
-            <div className=" text-align my-3">
+            <div className=" text-align ">
               <span className="title inlineBlock text">
                 <strong>
                   <u>
@@ -74,14 +74,14 @@ const WebApps = function () {
       </div>
 
       <div className="row mx-1">
-        <section className="col-12 col-sm-6 ">
+        <section className="col-12 col-sm-6 my-1">
           <a
             className="link d-block"
             title="Profile developed with pure HTML and CSS"
             href="https://codepen.io/p_ollie/full/ayJXyZ"
             target="_blank"
           >
-            <div className=" text-align my-3">
+            <div className=" text-align">
               <span className="title text inlineBlock">
                 <strong>Web Developer Profile </strong>
               </span>
@@ -94,7 +94,7 @@ const WebApps = function () {
             </div>
           </a>
         </section>
-        <section className="col-12 col-sm-6 ">
+        <section className="col-12 col-sm-6 my-1 ">
           <a
             className="link d-block"
             href="https://codepen.io/p_ollie/full/VMVeQw"
@@ -116,7 +116,7 @@ const WebApps = function () {
       </div>
 
       <div className="row mx-1">
-        <section className="col-12 col-sm-6">
+        <section className="col-12 col-sm-6 my-1">
           <a
             className="link d-block"
             title="Detects GeoLocation then hits weather forcast API to display weather in your area"
@@ -136,7 +136,7 @@ const WebApps = function () {
             </div>
           </a>
         </section>
-        <section className="col-12 col-sm-6 ">
+        <section className="col-12 col-sm-6 my-1">
           <a
             className="link d-block"
             href="https://codepen.io/p_ollie/full/ZEzNJWo"
@@ -158,7 +158,7 @@ const WebApps = function () {
       </div>
 
       <div className="row mx-1">
-        <section className="col-12 col-sm-6 ">
+        <section className="col-12 col-sm-6 my-1 ">
           <a
             className="link d-block"
             href="https://cdpn.io/p_ollie/debug/xyRRyq/yPAJjKXXWKQA"
@@ -177,13 +177,13 @@ const WebApps = function () {
             </div>
           </a>
         </section>
-        <section className="col-12 col-sm-6">
+        <section className="col-12 col-sm-6 my-1">
           <a
             className=" link d-block"
             href="https://codepen.io/p_ollie/full/RLrxPr"
             target="_blank"
           >
-            <div className="mt-3 text-align">
+            <div className=" text-align">
               <span className="title text inlineBlock">
                 <strong>
                   <u>API Quote Generator</u>
