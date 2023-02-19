@@ -4,7 +4,7 @@ const UnorderedList = require("./UnorderedList");
 const Footer = require("./Footer");
 const MyWork = require("./links/MyWork");
 
-/* the main page for the index route of this app */
+/* Refactored Feb 2023 */
 const FullStack = function () {
   return (
     <div>
