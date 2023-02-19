@@ -1,4 +1,4 @@
-# React Router App on Glitch
+1# React Router App on Glitch
 
 ## Profile: Paul O'Connell
 
@@ -27,7 +27,7 @@ Implement state to change color of frontend vs backend technologies inside of on
 
 Details:
 
-Future items:
+Near Future items:
 
 -Update layout d3 complete and push to others
 -generate new link to tic tac toe game
@@ -35,4 +35,10 @@ Future items:
 - refactor to get rid of space bigspace class and use bootstrap
 
 
-NEXT: refactor Full stack to tweak layout to perfection , then update web apps to dataVis standard
+
+Future: 
+1) store 'card' data in object, then have single implementaion of a row & dynamicly populate row as it iterates over the data
+2) implement paralax scroll on main page
+
+
+NEXT: refactor web aps and dataVis to Full stack standard
