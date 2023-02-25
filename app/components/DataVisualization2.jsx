@@ -21,7 +21,7 @@ const DataVisualization2 = function () {
       <div className="row mx-1">
         <section className="col-12 col-sm-6 text-center py-1 ">
           <a
-            className="link pos-one d-block h-100"
+            className="link d-block h-100"
             href="https://d3-challenge-4.pauloconnell.repl.co/"
             target="_blank"
           >
@@ -31,7 +31,7 @@ const DataVisualization2 = function () {
                   Data Visualization: Population Education by Location
                 </strong>
               </span>
-              <div class=" h-100 d-flex align-items-start ">
+              <div class=" d-flex align-items-center my-3 ">
                 <img
                   className="img-fluid "
                   src="https://res.cloudinary.com/pollie/image/upload/v1598897252/d3_US_Education_cq6fpz.png"
@@ -44,7 +44,7 @@ const DataVisualization2 = function () {
 
         <section className="col-12 col-sm-6 text-center py-1">
           <a
-            className="link pos-two d-block h-100"
+            className="link  d-block h-100"
             href="https://d3-challenge-2-New.pauloconnell.repl.co"
             target="_blank"
           >
@@ -52,7 +52,7 @@ const DataVisualization2 = function () {
               <span className="title text">
                 <strong>Data Visualization: Doping in Biking</strong>
               </span>
-              <div class=" h-100 d-flex align-items-center">
+              <div class="d-flex align-items-center my-3">
                 <img
                   className="img-fluid "
                   src="https://res.cloudinary.com/pollie/image/upload/v1622334690/d3_doping_in_biking_mtl8lk.png"
@@ -76,7 +76,7 @@ const DataVisualization2 = function () {
                 <strong>Data Visualization: Global Temperature History </strong>
               </span>
               <br />
-              <div class="d-flex align-items-start h-100">
+              <div class="d-flex align-items-center my-3">
                 <img
                   className="img-fluid "
                   src="https://res.cloudinary.com/pollie/image/upload/v1598905005/d3_global_warming_250years_reknwq.png"
@@ -98,7 +98,7 @@ const DataVisualization2 = function () {
                 <strong>Data Visualization: Historical US GDP </strong>
               </span>
               <br />
-              <div class="d-flex align-items-center h-100">
+              <div class="d-flex align-items-center my-3">
                 <img
                   className="img-fluid "
                   src="https://res.cloudinary.com/pollie/image/upload/v1622334021/d3_Us_GDP_nushwx.png"
@@ -109,6 +109,9 @@ const DataVisualization2 = function () {
           </a>
         </section>
       </div>
+      <div class="my-3">
+      <MyWork />
+        </div>
     </div>
   );
 };

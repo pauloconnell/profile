@@ -23,7 +23,7 @@ I've added styles in /components/app.css and css loaders packages for webpack to
 The homepage background photo was me on the best day of the season for me this year.
 Implement state to change color of frontend vs backend technologies inside of onHover MERN
 
-#### NEXT: Update myWork sections WebApps and Data Visualization = prototypes
+
 
 Details:
 
@@ -41,4 +41,4 @@ Future:
 2) implement paralax scroll on main page
 
 
-NEXT: refactor web aps and dataVis to Full stack standard
+## NEXT: refactor dataVis to Full stack standard

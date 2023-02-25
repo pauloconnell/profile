@@ -39,7 +39,7 @@ const FullStack = function () {
               </span>
               <br />
               <div
-                class="py-3"
+                class="my-3"
                 title="This App allows anonymous users to set password protected content on database 'boards'"
               >
                 <img
