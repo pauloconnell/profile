@@ -201,7 +201,9 @@ const WebApps = function () {
           </a>
         </section>
       </div>
-      <MyWork />
+      <div class="my-3">
+        <MyWork />
+      </div>
     </div>
   );
 };
