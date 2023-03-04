@@ -27,9 +27,7 @@ const DataVisualization2 = function () {
           >
             <div className=" h-100">
               <span className="title text">
-                <strong>
-                  Data Visualization: Population Education by Location
-                </strong>
+                <strong>Population Education by Location</strong>
               </span>
               <div class=" d-flex align-items-center my-3 ">
                 <img
@@ -50,7 +48,7 @@ const DataVisualization2 = function () {
           >
             <div className=" h-100">
               <span className="title text">
-                <strong>Data Visualization: Doping in Biking</strong>
+                <strong>Doping in Biking</strong>
               </span>
               <div class="d-flex align-items-center my-3">
                 <img
@@ -73,7 +71,7 @@ const DataVisualization2 = function () {
           >
             <div className=" h-100">
               <span className="title text">
-                <strong>Data Visualization: Global Temperature History </strong>
+                <strong>Global Temperature History </strong>
               </span>
               <br />
               <div class="d-flex align-items-center my-3">
@@ -95,7 +93,7 @@ const DataVisualization2 = function () {
           >
             <div className=" h-100">
               <span className="title text">
-                <strong>Data Visualization: Historical US GDP </strong>
+                <strong>Historical US GDP </strong>
               </span>
               <br />
               <div class="d-flex align-items-center my-3">
@@ -110,8 +108,8 @@ const DataVisualization2 = function () {
         </section>
       </div>
       <div class="my-3">
-      <MyWork />
-        </div>
+        <MyWork />
+      </div>
     </div>
   );
 };
