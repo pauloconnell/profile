@@ -23,8 +23,6 @@ I've added styles in /components/app.css and css loaders packages for webpack to
 The homepage background photo was me on the best day of the season for me this year.
 Implement state to change color of frontend vs backend technologies inside of onHover MERN
 
-
-
 Details:
 
 Near Future items:
@@ -34,11 +32,9 @@ Near Future items:
 
 - refactor to get rid of space bigspace class and use bootstrap
 
+Future:
 
+1. implement paralax scroll on main page
+2. store 'card' data in object, then have single implementaion of a row & dynamicly populate row as it iterates over the data
 
-Future: 
-1) store 'card' data in object, then have single implementaion of a row & dynamicly populate row as it iterates over the data
-2) implement paralax scroll on main page
-
-
-## NEXT: refactor dataVis to Full stack standard
+## NEXT: Media querry to add opacity to fade-in-info for mobile screen, and replace background image with centered version
