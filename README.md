@@ -37,4 +37,7 @@ Future:
 1. implement paralax scroll on main page
 2. store 'card' data in object, then have single implementaion of a row & dynamicly populate row as it iterates over the data
 
-## NEXT: Media querry to add opacity to fade-in-info for mobile screen, and replace background image with centered version
+## NEXT:
+
+a) Media querry to replace background image with centered version for mobile screens
+b) Horizontal overflow on mobile, get rid of it
