@@ -94,7 +94,6 @@ div.space {
 .expandingReadable:hover {
   background: rgba(128, 128, 128, 0.95);
   font-size: 16px;
-  
 }
 
 .fade-in-info {
@@ -285,18 +284,27 @@ div.space {
   font-weight: bold;
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 455px) {
+  .fade-in-info {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 600px) {
   span.small {
     font-size: 14px;
   }
+  .fade-in-info {
+    opacity: 1;
+  }
 }
-@media (min-width: 601px) {
+@media only screen and (min-width: 601px) {
   span.small {
     font-size: 16px;
   }
 }
 
-@media (min-width: 992px) {
+@media only screen and (min-width: 992px) {
   .link {
     font-size: 24px;
   }

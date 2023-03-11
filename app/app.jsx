@@ -8,7 +8,7 @@ const bootstrap = require("bootstrap/dist/css/bootstrap.css");
 /* Import Components */
 const Header = require("./components/Header");
 
-const Profile = require("./components/Profile");
+const Home = require("./components/Home");
 const About = require("./components/About");
 const Contact = require("./components/Contact");
 const FullStack = require("./components/FullStack");
@@ -19,7 +19,7 @@ ReactDOM.render(
   <BrowserRouter>
     <div>
       <Header />
-      <Route exact path="/" component={Profile} />
+      <Route exact path="/" component={Home} />
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
       <Route path="/fullStack" component={FullStack} />
