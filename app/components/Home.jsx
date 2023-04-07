@@ -98,8 +98,9 @@ class Profile extends React.Component {
               <div className="lineHeight wordSpace ">
                 Keen problem solver interested in all aspects of Software
                 Development,
-                <br /> currently working full time as Senior Front End Developer
-                for a start up that could become huge - launching early 2023!!!
+                <br /> currently working full time as Front End Software
+                Developer for a start up that could become huge - launching
+                early June 2023!!!
               </div>
             </i>
           </div>
@@ -185,9 +186,11 @@ class Profile extends React.Component {
                             display: this.state.highlightFE ? "block" : "none",
                           }}
                         >
-                          React, HTML, CSS, JavaScript, Bootstrap, Vue3,
-                          TypeScript, jQuerry, .Net: RazorPages,
-                          RazorComponents, c#, C++ and Java EE.
+                          Certified: React, HTML, CSS, JavaScript, Bootstrap,
+                          jQuerry, C++, Java EE and automated testing w/ Mocha
+                          PlayWright and TestIms. Currently using Vue3, Nuxt3,
+                          TypeScript, and built prototype in .Net using
+                          RazorPages, RazorComponents, c#.
                         </span>
                         <br />
                         <span
@@ -202,7 +205,8 @@ class Profile extends React.Component {
                         >
                           Certified on Node, MongoDB, Mongoose, DataBases
                           deployed on AWS, Express Server, D3, Passport, OAuth,
-                          testing w/ Mocha, Pug(Jade).
+                          Pug(Jade) template engine, testing w/ Mocha PlayWright
+                          and TestIms. Currently using Nuxt 3 to support Vue 3.
                         </span>
                         <br />
                         <span
@@ -269,9 +273,7 @@ class Profile extends React.Component {
                               : " normal",
                             display: this.state.highlightBE ? "block" : "none",
                           }}
-                        >
-                          and Nuxt 3.
-                        </span>
+                        ></span>
 
                         <span
                           style={{
