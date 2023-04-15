@@ -12,10 +12,18 @@ const Link = require("react-router-dom").Link;
 
 
 /* the main page for the about route of this app */
+
+const goToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+};
+
 const MyWork = function () {
   return (
     <div className="textAlign">
-      <div className="gridContainer width90">
+      <div className="gridContainer width90" onClick={goToTop}>
         <Link
           style={{ display: "inline-block" }}
           className="link width"
