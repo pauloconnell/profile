@@ -88,6 +88,10 @@ class Profile extends React.Component {
     // document.getElementById("showOnHover").classList.add("hidden");
   }
 
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
   render() {
     const { hovering } = this.state;
     return (
@@ -205,8 +209,9 @@ class Profile extends React.Component {
                         >
                           Certified on Node, MongoDB, Mongoose, DataBases
                           deployed on AWS, Express Server, D3, Passport, OAuth,
-                          Pug(Jade) template engine, testing w/ Mocha PlayWright
-                          and TestIms. Currently using Nuxt 3 to support Vue 3.
+                          Pug(Jade) template engine, testing w/ Mocha Chai
+                          PlayWright and TestIms. Currently using Nuxt 3 to
+                          support Vue 3.
                         </span>
                         <br />
                         <span

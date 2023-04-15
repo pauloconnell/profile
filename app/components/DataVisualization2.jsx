@@ -5,6 +5,9 @@ const UnorderedList = require("./UnorderedList");
 const Footer = require("./Footer");
 /* the main page for the index route of this app */
 const DataVisualization2 = function () {
+  
+  
+  
   return (
     <div className="container-fluid">
       <MyWork />
