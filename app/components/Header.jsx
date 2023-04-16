@@ -11,7 +11,7 @@ class Header extends React.Component {
   render() {
     return (
       <div className="textAlign mt-3">
-        <div className="row flexContainer fixed-top">
+        <div className="flexContainer fixed-top">
           <Link className="col link border bgsolid" to="/about">
             About Me
           </Link>
@@ -24,7 +24,7 @@ class Header extends React.Component {
             Home
           </Link>
         </div>
-        <h1 className="text  mt-5" id="name">
+        <h1 className="text" id="name">
           Paul O'Connell
         </h1>
 
