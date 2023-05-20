@@ -19,7 +19,6 @@ const dependenciesArray = [
 ];
 
 const componentsMade = [
-  "Delete- this will be deleted...but kindof good idea to render all components veiwable 'onclick' on one page...",
   "Profile- which is the view you are seeing now",
   'UnorderedList - which takes an array of "items" and returns a <ul> element with <li>, elements of each of those items within it',
   "About -About Me",
@@ -103,8 +102,8 @@ class Profile extends React.Component {
                 Keen problem solver interested in all aspects of Software
                 Development,
                 <br /> currently working full time as Front End Software
-                Developer for a start up that could become huge - launching
-                early June 2023!!!
+                Developer for a start up that could become huge - launching June
+                2023!!!
               </div>
             </i>
           </div>
@@ -119,38 +118,6 @@ class Profile extends React.Component {
               onMouseLeave={this.handleHoverOut}
               style={{ minHeight: "420px" }}
             >
-              {/* old hover method:  
-                style={{ display: hovering ? "block" : "none"  }}
-              
-              // could use bootstrap tabs here?
-              
-              
-              <ul class="nav nav-tabs justify-content-center">
-                <li class="nav-item">
-                  <span
-                    class="nav-link active"
-                    aria-current="page"
-                    onClick={() => {
-                      document.querySelector(".fe").style.display = "block";
-                      document.querySelector(".be").style.display = "none";
-                    }}
-                  >
-                    Front End
-                  </span>
-                </li>
-                <li class="nav-item">
-                  <span
-                    class="nav-link"
-                    onClick={() => {
-                      document.querySelector(".be").style.display = "block";
-                      document.querySelector(".fe").style.display = "none";
-                    }}
-                  >
-                    Back End
-                  </span>
-                </li>
-              </ul>
- */}
               <div className=" width90 ">
                 <div className="wordSpace" style={{ minHeight: "300px" }}>
                   <div className="small container-fluid">
