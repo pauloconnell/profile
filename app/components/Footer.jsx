@@ -23,7 +23,7 @@ class Footer extends React.Component {
 
   render() {
     return (
-      <div>
+      <footer>
         <MyWork />
 
         <div className="row textAlign">
@@ -39,7 +39,7 @@ class Footer extends React.Component {
             Home
           </Link>
         </div>
-      </div>
+      </footer>
     );
   }
 }
