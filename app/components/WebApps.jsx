@@ -11,11 +11,11 @@ const WebApps = function () {
   return (
     <div className="container-fluid">
       <MyWork />
-      <hr></hr>
+      
       <h2 className=" mb-3 textAlign">
-        <span className="readEasy title">Web Applications</span>
+        <span className="readEasy title text text-dark">Web Applications</span>
       </h2>
-      <h3 className="mb-5 textAlign">
+      <h3 className="mb-5 pt-3 textAlign">
         <span className="readEasy">
           Modern responsive custom Web Applications <br />
           built using javaScript and React, deployed in the cloud.

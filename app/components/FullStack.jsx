@@ -9,13 +9,15 @@ const FullStack = function () {
   return (
     <div>
       <MyWork />
-      <hr></hr>
+
       <div className="text-center">
         <h2>
-          <span className="readEasy title">Full Stack MERN Applications</span>
+          <span className="readEasy title text text-dark">
+            Full Stack MERN Applications
+          </span>
         </h2>
-        <br />
-        <h3 className="readEasy inlineBlock">
+
+        <h3 className="readEasy inlineBlock pt-3">
           Deployed in the cloud using:
           <br />
           React, Express, MongoDB, Mongoose, Node.js, API MicroServices
