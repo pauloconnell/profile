@@ -120,7 +120,7 @@ class Profile extends React.Component {
             >
               <div className=" width90 ">
                 <div className="wordSpace" style={{ minHeight: "300px" }}>
-                  <div className="small container-fluid">
+                  <div className="container-fluid">
                     <div className="row ">
                       <div className="text-center fs-2">Tech Stack:</div>
                     </div>
