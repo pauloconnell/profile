@@ -27,15 +27,15 @@ class Footer extends React.Component {
         <MyWork />
 
         <div className="row textAlign">
-          <Link className="col link border" to="/about">
+          <Link className="col link border p-1" to="/about">
             About Me
           </Link>
           <br />
-          <Link className="col link border" to="/contact">
+          <Link className="col link border p-1" to="/contact">
             Contact Me
           </Link>
           <br />
-          <Link className="col link border" to="/">
+          <Link className="col link border p-1" to="/">
             Home
           </Link>
         </div>

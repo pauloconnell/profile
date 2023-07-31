@@ -9,7 +9,7 @@ const DataVisualization2 = function () {
     <div className="container-fluid">
       <MyWork />
       
-      <h2 className=" mb-3 textAlign">
+      <h2 className=" my-3 textAlign">
         <span className="readEasy title text text-dark">
           Data Visualization D3
         </span>

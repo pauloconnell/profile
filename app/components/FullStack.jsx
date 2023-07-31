@@ -10,8 +10,8 @@ const FullStack = function () {
     <div>
       <MyWork />
 
-      <div className="text-center">
-        <h2>
+      <div>
+        <h2 className=" my-3 textAlign">
           <span className="readEasy title text text-dark">
             Full Stack MERN Applications
           </span>

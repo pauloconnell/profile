@@ -12,7 +12,7 @@ const WebApps = function () {
     <div className="container-fluid">
       <MyWork />
       
-      <h2 className=" mb-3 textAlign">
+      <h2 className=" my-3 textAlign">
         <span className="readEasy title text text-dark">Web Applications</span>
       </h2>
       <h3 className="mb-5 pt-3 textAlign">
