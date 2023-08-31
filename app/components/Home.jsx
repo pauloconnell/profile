@@ -102,8 +102,8 @@ class Profile extends React.Component {
                 Keen problem solver interested in all aspects of Software
                 Development,
                 <br /> currently working full time as Front End Software
-                Developer for a start up that could become huge - launching June
-                2023!!!
+                Developer for a green field start up where we are building a 
+                peer-to-peer e-commerce platform.
               </div>
             </i>
           </div>
@@ -120,7 +120,7 @@ class Profile extends React.Component {
             >
               <div className=" width90 ">
                 <div className="wordSpace" style={{ minHeight: "300px" }}>
-                  <div className="small container-fluid">
+                  <div className="container-fluid">
                     <div className="row ">
                       <div className="text-center fs-2">Tech Stack:</div>
                     </div>
@@ -157,11 +157,11 @@ class Profile extends React.Component {
                             display: this.state.highlightFE ? "block" : "none",
                           }}
                         >
-                          Certified: React, HTML, CSS, JavaScript, Bootstrap,
-                          jQuerry, C++, Java EE and automated testing w/ Mocha
+                          Certified Developer in: React, HTML, CSS, JavaScript, Bootstrap,
+                          jQuerry, automated testing w/ Mocha
                           PlayWright and TestIms. Currently using Vue3, Nuxt3,
-                          TypeScript, and built prototype in .Net using
-                          RazorPages, RazorComponents, c#.
+                          TypeScript on Node.js.  I have also built an application in .net using
+                          RazorPages, RazorComponents and c# - but the JavaScript tech stack is my specialty.
                         </span>
                         <br />
                         <span
@@ -190,9 +190,8 @@ class Profile extends React.Component {
                             display: this.state.highlightFE ? "block" : "none",
                           }}
                         >
-                          Built pixel perfect prototype of 2 sided e-Commerce
-                          site in .NET, using HTML, CSS, and JavaScript on Razor
-                          pages with C# data interface, using Azure Devops, and
+                          Experience using Azure Devops, sprint planning and daily standup using Azure kanban board.
+                          Interfacing with backend team using
                           Postman to build and test API connections.
                         </span>
                         <br />
@@ -205,7 +204,7 @@ class Profile extends React.Component {
                             display: this.state.highlightBE ? "block" : "none",
                           }}
                         >
-                          Current project: The back end team works on .Net Azure
+                          Current project: Using Node.js, the back end team works on .Net Azure
                           functions using both SQL and Cosmo DB.
                           <span
                             style={{
@@ -232,11 +231,11 @@ class Profile extends React.Component {
                           }}
                         >
                           Currently in final stages of building out full
-                          featured web App. Note: Switched tech stacks from the
+                          featured peer to peer e-commerce platformp. Note: Switched tech stacks from the
                           slower .NET prototype, to fast JavaScript, using Vue3
                           with Nuxt 3, utilizing local Storage and
                         </span>
-
+                        {/**
                         <span
                           style={{
                             color: this.state.highlightBE ? "white" : "black",
@@ -256,8 +255,11 @@ class Profile extends React.Component {
                             display: this.state.highlightFE ? "block" : "none",
                           }}
                         >
+
+
                           Pinia state management.
                         </span>
+                        **/}
                       </span>
                     </div>
                   </div>

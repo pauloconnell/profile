@@ -12,7 +12,7 @@ const WebApps = function () {
     <div className="container-fluid">
       <MyWork />
       
-      <h2 className=" mb-3 textAlign">
+      <h2 className=" my-3 textAlign">
         <span className="readEasy title text text-dark">Web Applications</span>
       </h2>
       <h3 className="mb-5 pt-3 textAlign">
@@ -21,101 +21,8 @@ const WebApps = function () {
           built using javaScript and React, deployed in the cloud.
         </span>
       </h3>
+      
 
-      <div className="row mx-1">
-        <section className="col-12 col-sm-6 py-1">
-          <a
-            className="link d-block"
-            title="Delivers specific information for every item on sales floor and organizes similar models to increase sales conversions"
-            href="https://codepen.io/p_ollie/full/qJjVgR"
-            target="_blank"
-          >
-            <div className=" text-align">
-              <span className="title inlineBlock text">
-                <strong>
-                  <u>Test Center</u>
-                  <div>Product Knowledge App</div>
-                </strong>
-              </span>
-            </div>
-            <div className="my-3">
-              <img
-                className="responsive"
-                src="https://res.cloudinary.com/pollie/image/upload/v1610401628/Test_Center_ue5srv.png"
-              />
-            </div>
-          </a>
-        </section>
-
-        <section className="col-12 col-sm-6 my-1 ">
-          <a
-            className="link d-block"
-            href="https://ianbunburydogschool.glitch.me"
-            target="_blank"
-          >
-            <div className=" text-align ">
-              <span className="title inlineBlock text">
-                <strong>
-                  <u>
-                    {" "}
-                    Ian Bunbury
-                    <br />
-                    Dog Training
-                  </u>
-                </strong>
-              </span>
-
-              <img
-                className="responsive"
-                src="https://res.cloudinary.com/pollie/image/upload/v1615410052/profileBunbury_pcfb8t.png"
-                alt="Ian Bunbury Dog School"
-              />
-            </div>
-          </a>
-        </section>
-      </div>
-
-      <div className="row mx-1">
-        <section className="col-12 col-sm-6 my-1">
-          <a
-            className="link d-block"
-            title="Profile developed with pure HTML and CSS"
-            href="https://codepen.io/p_ollie/full/ayJXyZ"
-            target="_blank"
-          >
-            <div className=" text-align">
-              <span className="title text inlineBlock">
-                <strong>Web Developer Profile </strong>
-              </span>
-
-              <img
-                className="responsive  mt-md-3 "
-                src="https://res.cloudinary.com/pollie/image/upload/v1631908054/profile_v31u4b.png"
-                alt="Web Developer"
-              />
-            </div>
-          </a>
-        </section>
-        <section className="col-12 col-sm-6 my-1 ">
-          <a
-            className="link d-block"
-            href="https://codepen.io/p_ollie/full/VMVeQw"
-            target="_blank"
-          >
-            <div className="text-align">
-              <span className="title text inlineBlock">
-                <strong>Wiki Search via API</strong>
-              </span>
-
-              <img
-                className="responsive"
-                src="https://res.cloudinary.com/pollie/image/upload/v1598909611/Wiki_search_avfb5n.png"
-                alt="wiki search"
-              />
-            </div>
-          </a>
-        </section>
-      </div>
 
       <div className="row mx-1">
         <section className="col-12 col-sm-6 my-1">
@@ -202,6 +109,110 @@ const WebApps = function () {
             </div>
           </a>
         </section>
+        
+              <div className="row mx-1">
+        <section className="col-12 col-sm-6 py-1">
+          <a
+            className="link d-block"
+            title="Delivers specific information for every item on sales floor and organizes similar models to increase sales conversions"
+            href="https://codepen.io/p_ollie/full/qJjVgR"
+            target="_blank"
+          >
+            <div className=" text-align">
+              <span className="title inlineBlock text">
+                <strong>
+                  <u>Test Center</u>
+                  <div>Product Knowledge App</div>
+                </strong>
+              </span>
+            </div>
+            <div className="my-3">
+              <img
+                className="responsive"
+                src="https://res.cloudinary.com/pollie/image/upload/v1610401628/Test_Center_ue5srv.png"
+              />
+            </div>
+          </a>
+        </section>
+        
+        
+        
+        
+        
+        
+        
+        
+
+        <section className="col-12 col-sm-6 my-1 ">
+          <a
+            className="link d-block"
+            href="https://ianbunburydogschool.glitch.me"
+            target="_blank"
+          >
+            <div className=" text-align ">
+              <span className="title inlineBlock text">
+                <strong>
+                  <u>
+                    {" "}
+                    Ian Bunbury
+                    <br />
+                    Dog Training
+                  </u>
+                </strong>
+              </span>
+
+              <img
+                className="responsive"
+                src="https://res.cloudinary.com/pollie/image/upload/v1615410052/profileBunbury_pcfb8t.png"
+                alt="Ian Bunbury Dog School"
+              />
+            </div>
+          </a>
+        </section>
+      </div>
+
+      <div className="row mx-1">
+        <section className="col-12 col-sm-6 my-1">
+          <a
+            className="link d-block"
+            title="Profile developed with pure HTML and CSS"
+            href="https://codepen.io/p_ollie/full/ayJXyZ"
+            target="_blank"
+          >
+            <div className=" text-align">
+              <span className="title text inlineBlock">
+                <strong>Web Developer Profile </strong>
+              </span>
+
+              <img
+                className="responsive  mt-md-3 "
+                src="https://res.cloudinary.com/pollie/image/upload/v1631908054/profile_v31u4b.png"
+                alt="Web Developer"
+              />
+            </div>
+          </a>
+        </section>
+        <section className="col-12 col-sm-6 my-1 ">
+          <a
+            className="link d-block"
+            href="https://codepen.io/p_ollie/full/VMVeQw"
+            target="_blank"
+          >
+            <div className="text-align">
+              <span className="title text inlineBlock">
+                <strong>Wiki Search via API</strong>
+              </span>
+
+              <img
+                className="responsive"
+                src="https://res.cloudinary.com/pollie/image/upload/v1598909611/Wiki_search_avfb5n.png"
+                alt="wiki search"
+              />
+            </div>
+          </a>
+        </section>
+      </div>
+
       </div>
       <div class="my-3">
         <MyWork />

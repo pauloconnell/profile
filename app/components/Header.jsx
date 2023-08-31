@@ -10,7 +10,7 @@ class Header extends React.Component {
 
   render() {
     return (
-      <header className="textAlign mt-3">
+      <header className="textAlign my-3">
         <div className="flexContainer fixed-top">
           <Link className="col link border bgsolid" to="/">
             Home

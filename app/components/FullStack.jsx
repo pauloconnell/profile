@@ -10,8 +10,8 @@ const FullStack = function () {
     <div>
       <MyWork />
 
-      <div className="text-center">
-        <h2>
+      <div>
+        <h2 className=" my-3 textAlign">
           <span className="readEasy title text text-dark">
             Full Stack MERN Applications
           </span>
@@ -26,6 +26,58 @@ const FullStack = function () {
         <h4 className="readEasy inlineBlock">
           HTML, JavaScript, Css, Bootstrap, jQuerry, GitHub
         </h4>
+      </div>
+
+      <div className="row mx-1">
+        <section className="col-12 col-sm-6 text-center py-1">
+          <a
+            className="link  d-block"
+            href="https://qa-4-suduko-solver.pauloconnell.repl.co/"
+            target="_blank"
+          >
+            <div
+              className=" "
+              title="This app implements suduko logic and solves any board using recursion"
+            >
+              <span className="title text">
+                <strong>Suduko Solver Game</strong>
+              </span>
+              <br />
+              <div class="d-flex align-items-start my-3">
+                <img
+                  className="responsive"
+                  src="https://res.cloudinary.com/pollie/image/upload/v1610747577/suduko_e2wjgi.png"
+                  alt="Full Stack Suduko Solver"
+                />
+              </div>
+            </div>
+          </a>
+        </section>
+
+        <section className="col-12 col-sm-6 text-center py-1">
+          <a
+            className="link  d-block"
+            href="https://stock-price-checker-paul.glitch.me/"
+            target="_blank"
+          >
+            <div
+              className=""
+              title="This app takes user input, hits API to get stock price, hits Database to store likes for each stock from unique IP addresses, and shows comparision of likes."
+            >
+              <span className="title text">
+                <strong>API Stock Price Checker</strong>
+              </span>
+              <br />
+              <div class="d-flex align-items-center my-3">
+                <img
+                  className="responsive"
+                  src="https://res.cloudinary.com/pollie/image/upload/v1610734887/StockPriceChecker_h0yedt.png"
+                  alt="Full Stack Web App"
+                />
+              </div>
+            </div>
+          </a>
+        </section>
       </div>
 
       <div className="row mx-1">
@@ -137,57 +189,6 @@ const FullStack = function () {
         </section>
       </div>
 
-      <div className="row mx-1">
-        <section className="col-12 col-sm-6 text-center py-1">
-          <a
-            className="link  d-block"
-            href="https://qa-4-suduko-solver.pauloconnell.repl.co/"
-            target="_blank"
-          >
-            <div
-              className=" "
-              title="This app implements suduko logic and solves any board using recursion"
-            >
-              <span className="title text">
-                <strong>Suduko Solver Game</strong>
-              </span>
-              <br />
-              <div class="d-flex align-items-start my-3">
-                <img
-                  className="responsive"
-                  src="https://res.cloudinary.com/pollie/image/upload/v1610747577/suduko_e2wjgi.png"
-                  alt="Full Stack Suduko Solver"
-                />
-              </div>
-            </div>
-          </a>
-        </section>
-
-        <section className="col-12 col-sm-6 text-center py-1">
-          <a
-            className="link  d-block"
-            href="https://stock-price-checker-paul.glitch.me/"
-            target="_blank"
-          >
-            <div
-              className=""
-              title="This app takes user input, hits API to get stock price, hits Database to store likes for each stock from unique IP addresses, and shows comparision of likes."
-            >
-              <span className="title text">
-                <strong>API Stock Price Checker</strong>
-              </span>
-              <br />
-              <div class="d-flex align-items-center my-3">
-                <img
-                  className="responsive"
-                  src="https://res.cloudinary.com/pollie/image/upload/v1610734887/StockPriceChecker_h0yedt.png"
-                  alt="Full Stack Web App"
-                />
-              </div>
-            </div>
-          </a>
-        </section>
-      </div>
       <div className="my-3">
         <MyWork />
       </div>

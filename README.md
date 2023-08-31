@@ -41,3 +41,7 @@ Future:
 
 a) Media querry to replace background image with centered version for mobile screens
 b) Horizontal overflow on mobile, get rid of it
+
+c) Update above items
+d) About Me MERN section needs to be centered on full screen
+e) Full Stack => move Suduko to top
