@@ -52,7 +52,11 @@ const Contact = function () {
             </a>
           </div>
         </p>
-        <MyWork class="mt-5" />
+        <div
+          style={{ position: "fixed", bottom: 0, width: "100%", height: 100 }}
+        >
+          <MyWork className="mt-auto" />
+        </div>
       </div>
     </div>
   );

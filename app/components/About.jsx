@@ -25,10 +25,11 @@ const About = function () {
         <u className="title">FULLSTACK M.E.R.N. CERTIFICATION:</u>
         <br />
         <br />
-        The MERN Stack is: MongoDB, Express(server) React, Node.js 1800 Hours
-        Certification awarded after completion of 6 Certifications:
+        The MERN Stack is: MongoDB, Express(server) React, Node.js
+        <br /> 1800 Hours Certification awarded after completion of 6
+        Certifications:
         <br />
-        <ul className="textAlignLeft">
+        <ul className="textAlign">
           <li>Quality Assurance and Information Security Certification </li>
           <li>Data Visualization with D3 Certification </li>
           <li>APIs and MicroServices Certification </li>
