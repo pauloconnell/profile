@@ -28,8 +28,8 @@ const FullStack = function () {
         </h4>
       </div>
 
-      <div className="row mx-1">
-        <section className="col-12 col-sm-6 text-center py-1">
+      <div className="row mx-1 justify-content-center">
+        <section className="col-12 col-sm-5 text-center py-1 px-0 link">
           <a
             className="link  d-block"
             href="https://qa-4-suduko-solver.pauloconnell.repl.co/"
@@ -53,8 +53,8 @@ const FullStack = function () {
             </div>
           </a>
         </section>
-
-        <section className="col-12 col-sm-6 text-center py-1">
+        <div className="col-sm-auto"></div >
+        <section className="col-12 col-sm-5 text-center py-1 px-0 link">
           <a
             className="link  d-block"
             href="https://stock-price-checker-paul.glitch.me/"
@@ -80,8 +80,8 @@ const FullStack = function () {
         </section>
       </div>
 
-      <div className="row mx-1">
-        <section className="col-12 col-sm-6 text-center py-1 ">
+      <div className="row mx-1 justify-content-center">
+        <section className="col-12 col-sm-5 text-center py-1 px-0 link">
           <a
             className=" link d-block"
             href="https://messageboard-anon.glitch.me/"
@@ -105,8 +105,8 @@ const FullStack = function () {
             </div>
           </a>
         </section>
-
-        <section className="col-12 col-sm-6 text-center py-1 ">
+        <div className="col-sm-auto"></div>
+        <section className="col-12 col-sm-5 text-center py-1 px-0 link">
           <a
             className=" link d-block"
             href="https://exercisetrackerapi.glitch.me"
@@ -134,8 +134,8 @@ const FullStack = function () {
         </section>
       </div>
 
-      <div className="row mx-1">
-        <section className="col-12 col-sm-6 text-center py-1">
+      <div className="row mx-1 justify-content-center">
+        <section className="col-12 col-sm-5 text-center py-1 px-0 link">
           <a
             className="link  d-block "
             href="https://QA-5-american-british-english-translator.pauloconnell.repl.co"
@@ -159,8 +159,8 @@ const FullStack = function () {
             </div>
           </a>
         </section>
-
-        <section className="col-12 col-sm-6 text-center py-1">
+        <div className="col-sm-auto"></div>
+        <section className="col-12 col-sm-5 text-center py-1 px-0 link">
           <a
             className="link  d-block "
             href="https://authentication-pug.glitch.me/"

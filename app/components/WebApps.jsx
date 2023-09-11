@@ -4,14 +4,12 @@ const UnorderedList = require("./UnorderedList");
 
 const MyWork = require("./links/MyWork");
 
-
-
 /* the main page for the index route of this app */
 const WebApps = function () {
   return (
     <div className="container-fluid">
       <MyWork />
-      
+
       <h2 className=" my-3 textAlign">
         <span className="readEasy title text text-dark">Web Applications</span>
       </h2>
@@ -21,11 +19,9 @@ const WebApps = function () {
           built using javaScript and React, deployed in the cloud.
         </span>
       </h3>
-      
 
-
-      <div className="row mx-1">
-        <section className="col-12 col-sm-6 my-1">
+      <div className="row mx-1 justify-content-center">
+        <section className="col-12 col-sm-5 my-1 px-0 link">
           <a
             className="link d-block"
             title="Detects GeoLocation then hits weather forcast API to display weather in your area"
@@ -45,7 +41,8 @@ const WebApps = function () {
             </div>
           </a>
         </section>
-        <section className="col-12 col-sm-6 my-1">
+        <div className="col-sm-auto"></div>
+        <section className="col-12 col-sm-5 my-1 px-0 link">
           <a
             className="link d-block"
             href="https://codepen.io/p_ollie/full/ZEzNJWo"
@@ -66,8 +63,8 @@ const WebApps = function () {
         </section>
       </div>
 
-      <div className="row mx-1">
-        <section className="col-12 col-sm-6 my-1 ">
+      <div className="row mx-1 justify-content-center">
+        <section className="col-12 col-sm-5 my-1 px-0 link">
           <a
             className="link d-block"
             href="https://cdpn.io/p_ollie/debug/xyRRyq/yPAJjKXXWKQA"
@@ -86,7 +83,8 @@ const WebApps = function () {
             </div>
           </a>
         </section>
-        <section className="col-12 col-sm-6 my-1">
+        <div className="col-sm-auto"></div>
+        <section className="col-12 col-sm-5 my-1 px-0 link">
           <a
             className=" link d-block"
             href="https://codepen.io/p_ollie/full/RLrxPr"
@@ -109,9 +107,9 @@ const WebApps = function () {
             </div>
           </a>
         </section>
-        
-              <div className="row mx-1">
-        <section className="col-12 col-sm-6 py-1">
+      </div>
+      <div className="row mx-1 justify-content-center">
+        <section className="col-12 col-sm-5 py-1 px-0 link">
           <a
             className="link d-block"
             title="Delivers specific information for every item on sales floor and organizes similar models to increase sales conversions"
@@ -134,16 +132,9 @@ const WebApps = function () {
             </div>
           </a>
         </section>
-        
-        
-        
-        
-        
-        
-        
-        
 
-        <section className="col-12 col-sm-6 my-1 ">
+        <div className="col-sm-auto"></div>
+        <section className="col-12 col-sm-5 my-1 px-0 link">
           <a
             className="link d-block"
             href="https://ianbunburydogschool.glitch.me"
@@ -171,8 +162,8 @@ const WebApps = function () {
         </section>
       </div>
 
-      <div className="row mx-1">
-        <section className="col-12 col-sm-6 my-1">
+      <div className="row mx-1 justify-content-center">
+        <section className="col-12 col-sm-5 my-1 px-0 link">
           <a
             className="link d-block"
             title="Profile developed with pure HTML and CSS"
@@ -192,7 +183,8 @@ const WebApps = function () {
             </div>
           </a>
         </section>
-        <section className="col-12 col-sm-6 my-1 ">
+        <div className="col-sm-auto"></div>
+        <section className="col-12 col-sm-5 my-1 px-0 link">
           <a
             className="link d-block"
             href="https://codepen.io/p_ollie/full/VMVeQw"
@@ -213,7 +205,6 @@ const WebApps = function () {
         </section>
       </div>
 
-      </div>
       <div class="my-3">
         <MyWork />
       </div>

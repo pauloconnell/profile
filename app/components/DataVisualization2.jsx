@@ -20,8 +20,8 @@ const DataVisualization2 = function () {
         </span>
       </h3>
 
-      <div className="row mx-1">
-        <section className="col-12 col-sm-6 text-center py-1 ">
+      <div className="row mx-1 justify-content-center">
+        <section className="col-12 col-sm-5 text-center py-1 px-0 link">
           <a
             className="link d-block h-100"
             href="https://d3-challenge-4.pauloconnell.repl.co/"
@@ -41,8 +41,8 @@ const DataVisualization2 = function () {
             </div>
           </a>
         </section>
-
-        <section className="col-12 col-sm-6 text-center py-1">
+        <div className="col-sm-auto"></div>
+        <section className="col-12 col-sm-5 text-center py-1 px-0 link">
           <a
             className="link  d-block h-100"
             href="https://d3-challenge-2-New.pauloconnell.repl.co"
@@ -64,8 +64,8 @@ const DataVisualization2 = function () {
         </section>
       </div>
 
-      <div className="row mx-1">
-        <section className="col-12 col-sm-6 text-center py-1">
+      <div className="row mx-1 justify-content-center">
+        <section className="col-12 col-sm-5 text-center py-1 px-0 link">
           <a
             className="link pos-one d-block h-100"
             href="https://d3-Challenge-3.pauloconnell.repl.co"
@@ -86,8 +86,10 @@ const DataVisualization2 = function () {
             </div>
           </a>
         </section>
+        <div className="col-sm-auto"></div>
+        <section className="col-12 col-sm-5 text-center py-1 px-0 link">
 
-        <section className="col-12 col-sm-6 text-center py-1">
+        
           <a
             className="link pos-two d-block h-100"
             href="https://codepen.io/p_ollie/full/GRZjQJJ"
