@@ -28,7 +28,7 @@ img {
 section {
   transition: all 1s ease-in-out;
 }
-section:hover {
+.row section.link:hover {
   border: 2px solid black;
   border-radius: 5px;
 }
@@ -83,6 +83,10 @@ div.space {
   min-height: 300px;
 }
 
+.contactCard {
+  display: inline-block;
+  height: 100%;
+}
 .expandingReadable {
   background: rgba(128, 128, 128, 0.6);
   color: black;
@@ -318,5 +322,32 @@ div.space {
 
   span.small {
     font-size: 18px;
+  }
+}
+.animationContact {
+  padding: 5px;
+  margin: 5px;
+  max-height: 240px;
+  box-sizing: border-box;
+  border: 5px white solid;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    transform: translatey(0px);
   }
 }
