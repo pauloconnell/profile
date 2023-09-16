@@ -24,7 +24,7 @@
     "react-tooltip": "^4.2.20"
   },
   "engines": {
-    "node": "8.x"
+    "node": "^8.x"
   },
   "repository": {
     "url": "https://glitch.com/edit/#!/starter-react-router"
