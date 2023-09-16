@@ -47,4 +47,8 @@ d) About Me MERN section needs to be centered on full screen
 e) Full Stack => move Suduko to top
 
 new:
-Contact Me page - set space at bottom of page
+Contact Me page - set space at bottom of page - added animations
+
+Next:  
+Conditionally render text in contact me page - show on state 'showContactText'
+Home page - change frontend code from blue to white- too hard to see

@@ -100,8 +100,9 @@ class Profile extends React.Component {
             <i>
               <div className="lineHeight wordSpace ">
                 Keen problem solver interested in all aspects of Software
-                Development,
-                <br /> currently working full time as Front End Software
+                Development, specializing Web Technologies.
+              </div>
+              <div className="fade-in-info ">I am currently working full time as Front End Software
                 Developer for a green field start up where we are building a 
                 peer-to-peer e-commerce platform.
               </div>

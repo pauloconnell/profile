@@ -44,7 +44,7 @@ const Contact = function () {
           <div className="col-auto"></div>
           <div className=" col-10 me-4 me-sm-0 col-sm-5 col-md-3 pt-3 animationContact link">
             <a
-              className="link contactCard "
+              className="link contactCard mb-4 mb-sm-1 mt-sm-5 pt-4"
               href="mailto:p_ollie@hotmail.com?Subject=FromProfile"
               target="_blank"
               title="p_ollie@hotmail.com"
