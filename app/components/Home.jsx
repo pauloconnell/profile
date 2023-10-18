@@ -102,9 +102,10 @@ class Profile extends React.Component {
                 Keen problem solver interested in all aspects of Software
                 Development, specializing Web Technologies.
               </div>
-              <div className="fade-in-info ">I am currently working full time as Front End Software
-                Developer for a green field start up where we are building a 
-                peer-to-peer e-commerce platform.
+              <div className="fade-in-info ">
+                I am currently working full time as Front End Software Developer
+                for a green field start up where we are building a peer-to-peer
+                e-commerce platform.
               </div>
             </i>
           </div>
@@ -151,18 +152,20 @@ class Profile extends React.Component {
                         <span
                           id="fe"
                           style={{
-                            color: this.state.highlightFE ? "blue" : "black",
+                            color: this.state.highlightFE ? "white" : "black",
                             fontWeight: this.state.highlightFE
                               ? "bold"
                               : " normal",
                             display: this.state.highlightFE ? "block" : "none",
                           }}
                         >
-                          Certified Developer in: React, HTML, CSS, JavaScript, Bootstrap,
-                          jQuerry, automated testing w/ Mocha
+                          Certified Developer in: React, HTML, CSS, JavaScript,
+                          Bootstrap, jQuerry, automated testing w/ Mocha
                           PlayWright and TestIms. Currently using Vue3, Nuxt3,
-                          TypeScript on Node.js.  I have also built an application in .net using
-                          RazorPages, RazorComponents and c# - but the JavaScript tech stack is my specialty.
+                          TypeScript on Node.js. I have also built an
+                          application in .net using RazorPages, RazorComponents
+                          and c# - but the JavaScript tech stack is my
+                          specialty.
                         </span>
                         <br />
                         <span
@@ -184,16 +187,17 @@ class Profile extends React.Component {
                         <br />
                         <span
                           style={{
-                            color: this.state.highlightFE ? "blue" : "black",
+                            color: this.state.highlightFE ? "white" : "black",
                             fontWeight: this.state.highlightFE
                               ? "bold"
                               : " normal",
                             display: this.state.highlightFE ? "block" : "none",
                           }}
                         >
-                          Experience using Azure Devops, sprint planning and daily standup using Azure kanban board.
-                          Interfacing with backend team using
-                          Postman to build and test API connections.
+                          Experience using Azure Devops, sprint planning and
+                          daily standup using Azure kanban board. Interfacing
+                          with backend team using Postman to build and test API
+                          connections.
                         </span>
                         <br />
                         <span
@@ -205,8 +209,9 @@ class Profile extends React.Component {
                             display: this.state.highlightBE ? "block" : "none",
                           }}
                         >
-                          Current project: Using Node.js, the back end team works on .Net Azure
-                          functions using both SQL and Cosmo DB.
+                          Current project: Using Node.js, the back end team
+                          works on .Net Azure functions using both SQL and Cosmo
+                          DB.
                           <span
                             style={{
                               color: this.state.highlightFE ? "blue" : "black",
@@ -224,7 +229,7 @@ class Profile extends React.Component {
                         <br />
                         <span
                           style={{
-                            color: this.state.highlightFE ? "blue" : "black",
+                            color: this.state.highlightFE ? "white" : "black",
                             fontWeight: this.state.highlightFE
                               ? "bold"
                               : " normal",
@@ -232,9 +237,10 @@ class Profile extends React.Component {
                           }}
                         >
                           Currently in final stages of building out full
-                          featured peer to peer e-commerce platformp. Note: Switched tech stacks from the
-                          slower .NET prototype, to fast JavaScript, using Vue3
-                          with Nuxt 3, utilizing local Storage and
+                          featured peer to peer e-commerce platformp. Note:
+                          Switched tech stacks from the slower .NET prototype,
+                          to fast JavaScript, using Vue3 with Nuxt 3, utilizing
+                          local Storage and Pinia State management.
                         </span>
                         {/**
                         <span
