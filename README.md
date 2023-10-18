@@ -6,7 +6,7 @@ React app with class/Stateless Functional Components being rendered via React Ro
 
 Using some bootstrap, but mostly just CSS
 
--Footer is optionally rendered on each page based
+-Footer is optionally rendered on most pages
 
 ###### Structure:
 
