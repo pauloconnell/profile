@@ -24,7 +24,9 @@ const Contact = function () {
             >
               <img src="https://res.cloudinary.com/pollie/image/upload/c_thumb,h_102,w_131/v1622842617/linked-inLogo_arbzyw.webp" />
               <br />
-              www.linkedin.com/in/paul-o-connell-604
+              <span class="text-break">
+                www.linkedin.com/in/paul-o-connell-604
+              </span>
             </a>
           </div>
           <div className="col-auto"></div>
@@ -38,7 +40,7 @@ const Contact = function () {
             >
               <img src="https://res.cloudinary.com/pollie/image/upload/c_thumb,g_face,w_118/v1622847396/GitHub-Mark_hnhn3m.png" />
               <br />
-              https://github.com/pauloconnell
+              <span class="text-break">https://github.com/pauloconnell</span>
             </a>
           </div>
           <div className="col-auto"></div>
